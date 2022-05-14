@@ -1,0 +1,294 @@
+@prefix beo: <https://pi.pauwel.be/voc/buildingelement#> .
+@prefix bot: <https://w3id.org/bot#> .
+@prefix plum: <https://example.org/ms_plum#> .
+@prefix props: <http://lbd.arch.rwth-aachen.de/props#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+plum:site_8f31bec7-ddeb-47ae-8d68-9236ae5db7be a bot:Site ;
+    props:globalIdIfcRoot_attribute_simple "2FCRx7tUj7hereaZQkNRU_" ;
+    props:nameIfcRoot_attribute_simple "Default" ;
+    props:refElevationIfcSite_attribute_simple 0e+00 ;
+    props:reference_simple "Project Information" ;
+    bot:hasBuilding plum:building_8f31bec7-ddeb-47ae-8d68-9236ae5db7bd .
+
+plum:building_8f31bec7-ddeb-47ae-8d68-9236ae5db7bd a bot:Building ;
+    props:aboveGround_simple <https://w3id.org/express#UNKNOWN> ;
+    props:globalIdIfcRoot_attribute_simple "2FCRx7tUj7hereaZQkNRUz" ;
+    props:isExternal_simple false ;
+    props:isLandmarked_simple <https://w3id.org/express#UNKNOWN> ;
+    props:numberOfStoreys_simple 2 ;
+    props:reference_simple "Project Information" ;
+    bot:hasStorey plum:storey_8f31bec7-ddeb-47ae-8d68-923651a2497b,
+        plum:storey_8f31bec7-ddeb-47ae-8d68-923651a24afa .
+
+plum:buildingelement_c762f2b8-16ac-409f-bef0-2a08c5f1a4dd a beo:BuildingElement,
+        beo:BuildingElement-NOTDEFINED,
+        bot:Element ;
+    props:batid_attribute_simple "819597" ;
+    props:globalIdIfcRoot_attribute_simple "37OlAu5gn0dxxmAWZ5yQJT" ;
+    props:isExternal_simple false ;
+    props:nameIfcRoot_attribute_simple "fam_planting:fam_planting:819597" ;
+    props:objectTypeIfcObject_attribute_simple "fam_planting:fam_planting" ;
+    props:reference_simple "fam_planting" ;
+    bot:has3DModel "ms_plum/c762f2b8-16ac-409f-bef0-2a08c5f1a4dd.ply" ;
+    bot:hasSimple3DModel "13449.0, -10505.0, 7208.0, 53.0, 110.0, 62.0" .
+
+plum:firesuppressionterminal_397b69ac-dd77-4b16-9979-28af0722ccc5 a <https://pi.pauwel.be/voc/distributionelement#FireSuppressionTerminal>,
+        <https://pi.pauwel.be/voc/distributionelement#FireSuppressionTerminal-NOTDEFINED>,
+        bot:Element ;
+    props:batid_attribute_simple "761951" ;
+    props:globalIdIfcRoot_attribute_simple "0vUscitNTB5fbvAAy78ip5" ;
+    props:nameIfcRoot_attribute_simple "SG_SPK_Horizontal_Sidewall:D25_E.C:761951" ;
+    props:objectTypeIfcObject_attribute_simple "SG_SPK_Horizontal_Sidewall:D25_E.C" ;
+    props:reference_simple "D25_E.C" ;
+    bot:has3DModel "ms_plum/397b69ac-dd77-4b16-9979-28af0722ccc5.ply" ;
+    bot:hasSimple3DModel "13450.0, -10506.0, 3215.0, 50.0, 100.0, 50.0" .
+
+plum:pipefitting_3dbaf968-1b47-4184-a73a-00a3bebcdca5 a <https://pi.pauwel.be/voc/distributionelement#PipeFitting>,
+        <https://pi.pauwel.be/voc/distributionelement#PipeFitting-NOTDEFINED>,
+        bot:Element ;
+    props:batid_attribute_simple "817270" ;
+    props:globalIdIfcRoot_attribute_simple "0zklbe6qT1XASw0AE_lDob" ;
+    props:nameIfcRoot_attribute_simple "Tee Stainless Steel Press:Standard:817270" ;
+    props:objectTypeIfcObject_attribute_simple "Tee Stainless Steel Press:Standard" ;
+    props:reference_simple "Standard" ;
+    bot:has3DModel "ms_plum/3dbaf968-1b47-4184-a73a-00a3bebcdca5.ply" ;
+    bot:hasSimple3DModel "14720.0, -11090.0, 7207.0, 111.0, 158.0, 65.0" .
+
+plum:pipefitting_3dbaf968-1b47-4184-a73a-00a3bebcdce2 a <https://pi.pauwel.be/voc/distributionelement#PipeFitting>,
+        <https://pi.pauwel.be/voc/distributionelement#PipeFitting-NOTDEFINED>,
+        bot:Element ;
+    props:batid_attribute_simple "817201" ;
+    props:globalIdIfcRoot_attribute_simple "0zklbe6qT1XASw0AE_lDpY" ;
+    props:nameIfcRoot_attribute_simple "Cross Steel:Standard:817201" ;
+    props:objectTypeIfcObject_attribute_simple "Cross Steel:Standard" ;
+    props:reference_simple "Standard" ;
+    bot:has3DModel "ms_plum/3dbaf968-1b47-4184-a73a-00a3bebcdce2.ply" ;
+    bot:hasSimple3DModel "14751.0, -9267.0, 7151.0, 94.0, 133.0, 177.0" .
+
+plum:pipefitting_3dbaf968-1b47-4184-a73a-00a3bebcde1f a <https://pi.pauwel.be/voc/distributionelement#PipeFitting>,
+        <https://pi.pauwel.be/voc/distributionelement#PipeFitting-NOTDEFINED>,
+        bot:Element ;
+    props:batid_attribute_simple "817868" ;
+    props:globalIdIfcRoot_attribute_simple "0zklbe6qT1XASw0AE_lDuV" ;
+    props:nameIfcRoot_attribute_simple "M_Elbow - Welded - Generic:Standard:817868" ;
+    props:objectTypeIfcObject_attribute_simple "M_Elbow - Welded - Generic:Standard" ;
+    props:reference_simple "Standard" ;
+    bot:has3DModel "ms_plum/3dbaf968-1b47-4184-a73a-00a3bebcde1f.ply" ;
+    bot:hasSimple3DModel "13475.0, -11011.0, 3240.0, 60.0, 60.0, 60.0" .
+
+plum:pipefitting_3dbaf968-1b47-4184-a73a-00a3bebcde85 a <https://pi.pauwel.be/voc/distributionelement#PipeFitting>,
+        <https://pi.pauwel.be/voc/distributionelement#PipeFitting-NOTDEFINED>,
+        bot:Element ;
+    props:batid_attribute_simple "817750" ;
+    props:globalIdIfcRoot_attribute_simple "0zklbe6qT1XASw0AE_lDw5" ;
+    props:nameIfcRoot_attribute_simple "Tee Stainless Steel Press:Standard:817750" ;
+    props:objectTypeIfcObject_attribute_simple "Tee Stainless Steel Press:Standard" ;
+    props:reference_simple "Standard" ;
+    bot:has3DModel "ms_plum/3dbaf968-1b47-4184-a73a-00a3bebcde85.ply" ;
+    bot:hasSimple3DModel "14720.0, -11090.0, 3207.0, 111.0, 158.0, 65.0" .
+
+plum:pipefitting_3dbaf968-1b47-4184-a73a-00a3bebcde98 a <https://pi.pauwel.be/voc/distributionelement#PipeFitting>,
+        <https://pi.pauwel.be/voc/distributionelement#PipeFitting-NOTDEFINED>,
+        bot:Element ;
+    props:batid_attribute_simple "817739" ;
+    props:globalIdIfcRoot_attribute_simple "0zklbe6qT1XASw0AE_lDwO" ;
+    props:nameIfcRoot_attribute_simple "Cross Steel:Standard:817739" ;
+    props:objectTypeIfcObject_attribute_simple "Cross Steel:Standard" ;
+    props:reference_simple "Standard" ;
+    bot:has3DModel "ms_plum/3dbaf968-1b47-4184-a73a-00a3bebcde98.ply" ;
+    bot:hasSimple3DModel "14751.0, -9267.0, 3151.0, 94.0, 133.0, 177.0" .
+
+plum:pipefitting_c762f2b8-16ac-409f-bef0-2a08c5f15ed6 a <https://pi.pauwel.be/voc/distributionelement#PipeFitting>,
+        <https://pi.pauwel.be/voc/distributionelement#PipeFitting-NOTDEFINED>,
+        bot:Element ;
+    props:batid_attribute_simple "818054" ;
+    props:globalIdIfcRoot_attribute_simple "37OlAu5gn0dxxmAWZ5yLxM" ;
+    props:nameIfcRoot_attribute_simple "Elbow Stainless Steel Press:Standard:818054" ;
+    props:objectTypeIfcObject_attribute_simple "Elbow Stainless Steel Press:Standard" ;
+    props:reference_simple "Standard" ;
+    bot:has3DModel "ms_plum/c762f2b8-16ac-409f-bef0-2a08c5f15ed6.ply" ;
+    bot:hasSimple3DModel "13442.0, -11044.0, 7207.0, 137.0, 137.0, 65.0" .
+
+plum:pipesegment_397b69ac-dd77-4b16-9979-28af0722ccfa a <https://pi.pauwel.be/voc/distributionelement#PipeSegment>,
+        <https://pi.pauwel.be/voc/distributionelement#PipeSegment-NOTDEFINED>,
+        bot:Element ;
+    props:batid_attribute_simple "761952" ;
+    props:globalIdIfcRoot_attribute_simple "0vUscitNTB5fbvAAy78ipw" ;
+    props:invertElevation_simple 3.216e+02 ;
+    props:nameIfcRoot_attribute_simple "Pipe Types:SPR:761952" ;
+    props:objectTypeIfcObject_attribute_simple "Pipe Types:SPR" ;
+    props:reference_simple "SPR" ;
+    bot:has3DModel "ms_plum/397b69ac-dd77-4b16-9979-28af0722ccfa.ply" ;
+    bot:hasSimple3DModel "13450.0, -10960.0, 3215.0, 50.0, 454.0, 50.0" .
+
+plum:pipesegment_397b69ac-dd77-4b16-9979-28af0722d114 a <https://pi.pauwel.be/voc/distributionelement#PipeSegment>,
+        <https://pi.pauwel.be/voc/distributionelement#PipeSegment-NOTDEFINED>,
+        bot:Element ;
+    props:batid_attribute_simple "769422" ;
+    props:globalIdIfcRoot_attribute_simple "0vUscitNTB5fbvAAy78j4K" ;
+    props:invertElevation_simple 3.216e+02 ;
+    props:nameIfcRoot_attribute_simple "Pipe Types:SPR:769422" ;
+    props:objectTypeIfcObject_attribute_simple "Pipe Types:SPR" ;
+    props:reference_simple "SPR" ;
+    bot:has3DModel "ms_plum/397b69ac-dd77-4b16-9979-28af0722d114.ply" ;
+    bot:hasSimple3DModel "13526.0, -11036.0, 3215.0, 1194.0, 50.0, 50.0" .
+
+plum:pipesegment_3dbaf968-1b47-4184-a73a-00a3bebcdca4 a <https://pi.pauwel.be/voc/distributionelement#PipeSegment>,
+        <https://pi.pauwel.be/voc/distributionelement#PipeSegment-NOTDEFINED>,
+        bot:Element ;
+    props:batid_attribute_simple "817271" ;
+    props:globalIdIfcRoot_attribute_simple "0zklbe6qT1XASw0AE_lDoa" ;
+    props:invertElevation_simple 7.216e+02 ;
+    props:nameIfcRoot_attribute_simple "Pipe Types:SPR:817271" ;
+    props:objectTypeIfcObject_attribute_simple "Pipe Types:SPR" ;
+    props:reference_simple "SPR" ;
+    bot:has3DModel "ms_plum/3dbaf968-1b47-4184-a73a-00a3bebcdca4.ply" ;
+    bot:hasSimple3DModel "14774.0, -17867.0, 7215.0, 50.0, 8600.0, 50.0" .
+
+plum:pipesegment_3dbaf968-1b47-4184-a73a-00a3bebcdcd9 a <https://pi.pauwel.be/voc/distributionelement#PipeSegment>,
+        <https://pi.pauwel.be/voc/distributionelement#PipeSegment-NOTDEFINED>,
+        bot:Element ;
+    props:batid_attribute_simple "817162" ;
+    props:globalIdIfcRoot_attribute_simple "0zklbe6qT1XASw0AE_lDpP" ;
+    props:invertElevation_simple 7.216e+02 ;
+    props:nameIfcRoot_attribute_simple "Pipe Types:SPR:817162" ;
+    props:objectTypeIfcObject_attribute_simple "Pipe Types:SPR" ;
+    props:reference_simple "SPR" ;
+    bot:has3DModel "ms_plum/3dbaf968-1b47-4184-a73a-00a3bebcdcd9.ply" ;
+    bot:hasSimple3DModel "14774.0, -9131.0, 7215.0, 50.0, 8600.0, 50.0" .
+
+plum:pipesegment_3dbaf968-1b47-4184-a73a-00a3bebcdda7 a <https://pi.pauwel.be/voc/distributionelement#PipeSegment>,
+        <https://pi.pauwel.be/voc/distributionelement#PipeSegment-NOTDEFINED>,
+        bot:Element ;
+    props:batid_attribute_simple "817524" ;
+    props:globalIdIfcRoot_attribute_simple "0zklbe6qT1XASw0AE_lDsd" ;
+    props:invertElevation_simple 3.216e+02 ;
+    props:nameIfcRoot_attribute_simple "Pipe Types:SPR:817524" ;
+    props:objectTypeIfcObject_attribute_simple "Pipe Types:SPR" ;
+    props:reference_simple "SPR" ;
+    bot:has3DModel "ms_plum/3dbaf968-1b47-4184-a73a-00a3bebcdda7.ply" ;
+    bot:hasSimple3DModel "14774.0, -17867.0, 3215.0, 50.0, 6777.0, 50.0" .
+
+plum:pipesegment_3dbaf968-1b47-4184-a73a-00a3bebcde84 a <https://pi.pauwel.be/voc/distributionelement#PipeSegment>,
+        <https://pi.pauwel.be/voc/distributionelement#PipeSegment-NOTDEFINED>,
+        bot:Element ;
+    props:batid_attribute_simple "817751" ;
+    props:globalIdIfcRoot_attribute_simple "0zklbe6qT1XASw0AE_lDw4" ;
+    props:invertElevation_simple 3.216e+02 ;
+    props:nameIfcRoot_attribute_simple "Pipe Types:SPR:817751" ;
+    props:objectTypeIfcObject_attribute_simple "Pipe Types:SPR" ;
+    props:reference_simple "SPR" ;
+    bot:has3DModel "ms_plum/3dbaf968-1b47-4184-a73a-00a3bebcde84.ply" ;
+    bot:hasSimple3DModel "14774.0, -10932.0, 3215.0, 50.0, 1665.0, 50.0" .
+
+plum:pipesegment_3dbaf968-1b47-4184-a73a-00a3bebcde94 a <https://pi.pauwel.be/voc/distributionelement#PipeSegment>,
+        <https://pi.pauwel.be/voc/distributionelement#PipeSegment-NOTDEFINED>,
+        bot:Element ;
+    props:batid_attribute_simple "817735" ;
+    props:globalIdIfcRoot_attribute_simple "0zklbe6qT1XASw0AE_lDwK" ;
+    props:invertElevation_simple 3.32858e+02 ;
+    props:nameIfcRoot_attribute_simple "Pipe Types:SPR:817735" ;
+    props:objectTypeIfcObject_attribute_simple "Pipe Types:SPR" ;
+    props:reference_simple "SPR" ;
+    bot:has3DModel "ms_plum/3dbaf968-1b47-4184-a73a-00a3bebcde94.ply" ;
+    bot:hasSimple3DModel "14758.0, -9241.0, 3329.0, 82.0, 81.0, 3823.0" .
+
+plum:pipesegment_3dbaf968-1b47-4184-a73a-00a3bebcde9a a <https://pi.pauwel.be/voc/distributionelement#PipeSegment>,
+        <https://pi.pauwel.be/voc/distributionelement#PipeSegment-NOTDEFINED>,
+        bot:Element ;
+    props:batid_attribute_simple "817737" ;
+    props:globalIdIfcRoot_attribute_simple "0zklbe6qT1XASw0AE_lDwQ" ;
+    props:invertElevation_simple 3.216e+02 ;
+    props:nameIfcRoot_attribute_simple "Pipe Types:SPR:817737" ;
+    props:objectTypeIfcObject_attribute_simple "Pipe Types:SPR" ;
+    props:reference_simple "SPR" ;
+    bot:has3DModel "ms_plum/3dbaf968-1b47-4184-a73a-00a3bebcde9a.ply" ;
+    bot:hasSimple3DModel "14774.0, -9134.0, 3215.0, 50.0, 8603.0, 50.0" .
+
+plum:pipesegment_3dbaf968-1b47-4184-a73a-00a3bebcded3 a <https://pi.pauwel.be/voc/distributionelement#PipeSegment>,
+        <https://pi.pauwel.be/voc/distributionelement#PipeSegment-NOTDEFINED>,
+        bot:Element ;
+    props:batid_attribute_simple "817664" ;
+    props:globalIdIfcRoot_attribute_simple "0zklbe6qT1XASw0AE_lDxJ" ;
+    props:invertElevation_simple 0e+00 ;
+    props:nameIfcRoot_attribute_simple "Pipe Types:SPR:817664" ;
+    props:objectTypeIfcObject_attribute_simple "Pipe Types:SPR" ;
+    props:reference_simple "SPR" ;
+    bot:has3DModel "ms_plum/3dbaf968-1b47-4184-a73a-00a3bebcded3.ply" ;
+    bot:hasSimple3DModel "14758.0, -9241.0, 0.0, 82.0, 81.0, 3151.0" .
+
+plum:pipesegment_6704a581-5533-4ab5-aa6a-5067cf62b87b a <https://pi.pauwel.be/voc/distributionelement#PipeSegment>,
+        <https://pi.pauwel.be/voc/distributionelement#PipeSegment-NOTDEFINED>,
+        bot:Element ;
+    props:batid_attribute_simple "770852" ;
+    props:globalIdIfcRoot_attribute_simple "1d1AM1LJDAjQfgK6VFOhXx" ;
+    props:invertElevation_simple 7.32858e+02 ;
+    props:nameIfcRoot_attribute_simple "Pipe Types:SPR:770852" ;
+    props:objectTypeIfcObject_attribute_simple "Pipe Types:SPR" ;
+    props:reference_simple "SPR" ;
+    bot:has3DModel "ms_plum/6704a581-5533-4ab5-aa6a-5067cf62b87b.ply" ;
+    bot:hasSimple3DModel "14758.0, -9241.0, 7329.0, 82.0, 81.0, 681.0" .
+
+plum:pipesegment_910a2281-c242-48ea-ba92-2bd2066705e1 a <https://pi.pauwel.be/voc/distributionelement#PipeSegment>,
+        <https://pi.pauwel.be/voc/distributionelement#PipeSegment-NOTDEFINED>,
+        bot:Element ;
+    props:batid_attribute_simple "770572" ;
+    props:globalIdIfcRoot_attribute_simple "2H2YA1ma98whgIAz86PmNX" ;
+    props:invertElevation_simple 7.216e+02 ;
+    props:nameIfcRoot_attribute_simple "Pipe Types:SPR:770572" ;
+    props:objectTypeIfcObject_attribute_simple "Pipe Types:SPR" ;
+    props:reference_simple "SPR" ;
+    bot:has3DModel "ms_plum/910a2281-c242-48ea-ba92-2bd2066705e1.ply" ;
+    bot:hasSimple3DModel "13450.0, -10906.0, 7215.0, 50.0, 400.0, 50.0" .
+
+plum:pipesegment_910a2281-c242-48ea-ba92-2bd2066705e3 a <https://pi.pauwel.be/voc/distributionelement#PipeSegment>,
+        <https://pi.pauwel.be/voc/distributionelement#PipeSegment-NOTDEFINED>,
+        bot:Element ;
+    props:batid_attribute_simple "770574" ;
+    props:globalIdIfcRoot_attribute_simple "2H2YA1ma98whgIAz86PmNZ" ;
+    props:invertElevation_simple 7.216e+02 ;
+    props:nameIfcRoot_attribute_simple "Pipe Types:SPR:770574" ;
+    props:objectTypeIfcObject_attribute_simple "Pipe Types:SPR" ;
+    props:reference_simple "SPR" ;
+    bot:has3DModel "ms_plum/910a2281-c242-48ea-ba92-2bd2066705e3.ply" ;
+    bot:hasSimple3DModel "13579.0, -11036.0, 7215.0, 1141.0, 50.0, 50.0" .
+
+plum:storey_8f31bec7-ddeb-47ae-8d68-923651a2497b a bot:Storey ;
+    props:aboveGround_simple <https://w3id.org/express#UNKNOWN> ;
+    props:elevationIfcBuildingStorey_attribute_simple 0e+00 ;
+    props:globalIdIfcRoot_attribute_simple "2FCRx7tUj7hereaZPHeabx" ;
+    props:longNameIfcSpatialElement_attribute_simple "Level 1" ;
+    props:nameIfcRoot_attribute_simple "Level 1" ;
+    props:objectTypeIfcObject_attribute_simple "Level:8mm Head" ;
+    props:reference_simple "8mm Head" ;
+    bot:containsElement plum:firesuppressionterminal_397b69ac-dd77-4b16-9979-28af0722ccc5,
+        plum:pipefitting_3dbaf968-1b47-4184-a73a-00a3bebcdce2,
+        plum:pipefitting_3dbaf968-1b47-4184-a73a-00a3bebcde1f,
+        plum:pipefitting_3dbaf968-1b47-4184-a73a-00a3bebcde85,
+        plum:pipefitting_3dbaf968-1b47-4184-a73a-00a3bebcde98,
+        plum:pipesegment_397b69ac-dd77-4b16-9979-28af0722ccfa,
+        plum:pipesegment_397b69ac-dd77-4b16-9979-28af0722d114,
+        plum:pipesegment_3dbaf968-1b47-4184-a73a-00a3bebcdca4,
+        plum:pipesegment_3dbaf968-1b47-4184-a73a-00a3bebcdcd9,
+        plum:pipesegment_3dbaf968-1b47-4184-a73a-00a3bebcdda7,
+        plum:pipesegment_3dbaf968-1b47-4184-a73a-00a3bebcde84,
+        plum:pipesegment_3dbaf968-1b47-4184-a73a-00a3bebcde94,
+        plum:pipesegment_3dbaf968-1b47-4184-a73a-00a3bebcde9a,
+        plum:pipesegment_3dbaf968-1b47-4184-a73a-00a3bebcded3,
+        plum:pipesegment_6704a581-5533-4ab5-aa6a-5067cf62b87b .
+
+plum:storey_8f31bec7-ddeb-47ae-8d68-923651a24afa a bot:Storey ;
+    props:aboveGround_simple <https://w3id.org/express#UNKNOWN> ;
+    props:elevationIfcBuildingStorey_attribute_simple 4e+02 ;
+    props:globalIdIfcRoot_attribute_simple "2FCRx7tUj7hereaZPHeahw" ;
+    props:longNameIfcSpatialElement_attribute_simple "Level 2" ;
+    props:nameIfcRoot_attribute_simple "Level 2" ;
+    props:objectTypeIfcObject_attribute_simple "Level:8mm Head" ;
+    props:reference_simple "8mm Head" ;
+    bot:containsElement plum:buildingelement_c762f2b8-16ac-409f-bef0-2a08c5f1a4dd,
+        plum:pipefitting_3dbaf968-1b47-4184-a73a-00a3bebcdca5,
+        plum:pipefitting_c762f2b8-16ac-409f-bef0-2a08c5f15ed6,
+        plum:pipesegment_910a2281-c242-48ea-ba92-2bd2066705e1,
+        plum:pipesegment_910a2281-c242-48ea-ba92-2bd2066705e3 .
+

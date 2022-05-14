@@ -1,0 +1,288 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix bot: <https://w3id.org/bot#> .
+@prefix ifc: <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix beo: <https://pi.pauwel.be/voc/buildingelement#> .
+@prefix lbd: <https://linkebuildingdata.org/LBD#> .
+@prefix props: <http://lbd.arch.rwth-aachen.de/props#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix unit: <http://qudt.org/vocab/unit/> .
+@prefix IFC4-PSD: <https://www.linkedbuildingdata.net/IFC4-PSD#> .
+@prefix smls: <https://w3id.org/def/smls-owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix inst: <https://example.org/ms_plum#> .
+@prefix mep: <http://pi.pauwel.be/voc/distributionelement#> .
+@prefix furn: <http://pi.pauwel.be/voc/furniture#> .
+
+inst:pipesegment_3dbaf968-1b47-4184-a73a-00a3bebcdca4
+        rdf:type                      <https://pi.pauwel.be/voc/distributionelement#PipeSegment-NOTDEFINED> ;
+        rdf:type                      <https://pi.pauwel.be/voc/distributionelement#PipeSegment> ;
+        props:globalIdIfcRoot_attribute_simple  "0zklbe6qT1XASw0AE_lDoa" ;
+        props:nameIfcRoot_attribute_simple  "Pipe Types:SPR:817271" ;
+        props:objectTypeIfcObject_attribute_simple  "Pipe Types:SPR" ;
+        props:batid_attribute_simple  "817271" ;
+        props:invertElevation_simple  "721.5999999999658"^^xsd:double ;
+        props:reference_simple        "SPR" ;
+        rdf:type                      bot:Element .
+
+inst:site_8f31bec7-ddeb-47ae-8d68-9236ae5db7be
+        bot:hasBuilding         inst:building_8f31bec7-ddeb-47ae-8d68-9236ae5db7bd ;
+        props:reference_simple  "Project Information" ;
+        rdf:type                bot:Site ;
+        props:globalIdIfcRoot_attribute_simple  "2FCRx7tUj7hereaZQkNRU_" ;
+        props:nameIfcRoot_attribute_simple  "Default" ;
+        props:refElevationIfcSite_attribute_simple  "0."^^xsd:double .
+
+inst:storey_8f31bec7-ddeb-47ae-8d68-923651a2497b
+        bot:containsElement       inst:pipesegment_3dbaf968-1b47-4184-a73a-00a3bebcdda7 ;
+        bot:containsElement       inst:pipesegment_397b69ac-dd77-4b16-9979-28af0722d114 ;
+        props:objectTypeIfcObject_attribute_simple  "Level:8mm Head" ;
+        bot:containsElement       inst:pipefitting_3dbaf968-1b47-4184-a73a-00a3bebcdce2 ;
+        bot:containsElement       inst:pipefitting_3dbaf968-1b47-4184-a73a-00a3bebcde85 ;
+        bot:containsElement       inst:pipefitting_3dbaf968-1b47-4184-a73a-00a3bebcde98 ;
+        bot:containsElement       inst:pipesegment_3dbaf968-1b47-4184-a73a-00a3bebcdcd9 ;
+        props:nameIfcRoot_attribute_simple  "Level 1" ;
+        bot:containsElement       inst:pipesegment_3dbaf968-1b47-4184-a73a-00a3bebcdca4 ;
+        props:aboveGround_simple  <https://w3id.org/express#UNKNOWN> ;
+        bot:containsElement       inst:pipesegment_3dbaf968-1b47-4184-a73a-00a3bebcde94 ;
+        bot:containsElement       inst:pipesegment_3dbaf968-1b47-4184-a73a-00a3bebcde9a ;
+        bot:containsElement       inst:pipesegment_3dbaf968-1b47-4184-a73a-00a3bebcde84 ;
+        props:globalIdIfcRoot_attribute_simple  "2FCRx7tUj7hereaZPHeabx" ;
+        props:elevationIfcBuildingStorey_attribute_simple  "0."^^xsd:double ;
+        props:longNameIfcSpatialElement_attribute_simple  "Level 1" ;
+        bot:containsElement       inst:pipesegment_6704a581-5533-4ab5-aa6a-5067cf62b87b ;
+        bot:containsElement       inst:pipesegment_3dbaf968-1b47-4184-a73a-00a3bebcded3 ;
+        bot:containsElement       inst:firesuppressionterminal_397b69ac-dd77-4b16-9979-28af0722ccc5 ;
+        props:reference_simple    "8mm Head" ;
+        bot:containsElement       inst:pipefitting_3dbaf968-1b47-4184-a73a-00a3bebcde1f ;
+        bot:containsElement       inst:pipesegment_397b69ac-dd77-4b16-9979-28af0722ccfa ;
+        rdf:type                  bot:Storey .
+
+inst:pipesegment_397b69ac-dd77-4b16-9979-28af0722ccfa
+        rdf:type                      <https://pi.pauwel.be/voc/distributionelement#PipeSegment-NOTDEFINED> ;
+        rdf:type                      <https://pi.pauwel.be/voc/distributionelement#PipeSegment> ;
+        props:globalIdIfcRoot_attribute_simple  "0vUscitNTB5fbvAAy78ipw" ;
+        props:nameIfcRoot_attribute_simple  "Pipe Types:SPR:761952" ;
+        props:objectTypeIfcObject_attribute_simple  "Pipe Types:SPR" ;
+        props:batid_attribute_simple  "761952" ;
+        props:invertElevation_simple  "321.59999999999951"^^xsd:double ;
+        props:reference_simple        "SPR" ;
+        rdf:type                      bot:Element .
+
+inst:pipefitting_3dbaf968-1b47-4184-a73a-00a3bebcde85
+        rdf:type                      <https://pi.pauwel.be/voc/distributionelement#PipeFitting-NOTDEFINED> ;
+        rdf:type                      <https://pi.pauwel.be/voc/distributionelement#PipeFitting> ;
+        props:globalIdIfcRoot_attribute_simple  "0zklbe6qT1XASw0AE_lDw5" ;
+        props:nameIfcRoot_attribute_simple  "Tee Stainless Steel Press:Standard:817750" ;
+        props:objectTypeIfcObject_attribute_simple  "Tee Stainless Steel Press:Standard" ;
+        props:batid_attribute_simple  "817750" ;
+        props:reference_simple        "Standard" ;
+        rdf:type                      bot:Element .
+
+inst:building_8f31bec7-ddeb-47ae-8d68-9236ae5db7bd
+        bot:hasStorey                 inst:storey_8f31bec7-ddeb-47ae-8d68-923651a2497b ;
+        bot:hasStorey                 inst:storey_8f31bec7-ddeb-47ae-8d68-923651a24afa ;
+        props:numberOfStoreys_simple  2 ;
+        props:isLandmarked_simple     <https://w3id.org/express#UNKNOWN> ;
+        props:isExternal_simple       false ;
+        props:aboveGround_simple      <https://w3id.org/express#UNKNOWN> ;
+        props:reference_simple        "Project Information" ;
+        rdf:type                      bot:Building ;
+        props:globalIdIfcRoot_attribute_simple  "2FCRx7tUj7hereaZQkNRUz" .
+
+inst:pipefitting_3dbaf968-1b47-4184-a73a-00a3bebcdca5
+        rdf:type                      <https://pi.pauwel.be/voc/distributionelement#PipeFitting-NOTDEFINED> ;
+        rdf:type                      <https://pi.pauwel.be/voc/distributionelement#PipeFitting> ;
+        props:globalIdIfcRoot_attribute_simple  "0zklbe6qT1XASw0AE_lDob" ;
+        props:nameIfcRoot_attribute_simple  "Tee Stainless Steel Press:Standard:817270" ;
+        props:objectTypeIfcObject_attribute_simple  "Tee Stainless Steel Press:Standard" ;
+        props:batid_attribute_simple  "817270" ;
+        props:reference_simple        "Standard" ;
+        rdf:type                      bot:Element .
+
+inst:pipesegment_3dbaf968-1b47-4184-a73a-00a3bebcdda7
+        rdf:type                      <https://pi.pauwel.be/voc/distributionelement#PipeSegment-NOTDEFINED> ;
+        rdf:type                      <https://pi.pauwel.be/voc/distributionelement#PipeSegment> ;
+        props:globalIdIfcRoot_attribute_simple  "0zklbe6qT1XASw0AE_lDsd" ;
+        props:nameIfcRoot_attribute_simple  "Pipe Types:SPR:817524" ;
+        props:objectTypeIfcObject_attribute_simple  "Pipe Types:SPR" ;
+        props:batid_attribute_simple  "817524" ;
+        props:invertElevation_simple  "321.5999999999309"^^xsd:double ;
+        props:reference_simple        "SPR" ;
+        rdf:type                      bot:Element .
+
+inst:pipesegment_3dbaf968-1b47-4184-a73a-00a3bebcde9a
+        rdf:type                      <https://pi.pauwel.be/voc/distributionelement#PipeSegment-NOTDEFINED> ;
+        rdf:type                      <https://pi.pauwel.be/voc/distributionelement#PipeSegment> ;
+        props:globalIdIfcRoot_attribute_simple  "0zklbe6qT1XASw0AE_lDwQ" ;
+        props:nameIfcRoot_attribute_simple  "Pipe Types:SPR:817737" ;
+        props:objectTypeIfcObject_attribute_simple  "Pipe Types:SPR" ;
+        props:batid_attribute_simple  "817737" ;
+        props:invertElevation_simple  "321.59999999996427"^^xsd:double ;
+        props:reference_simple        "SPR" ;
+        rdf:type                      bot:Element .
+
+inst:pipefitting_3dbaf968-1b47-4184-a73a-00a3bebcdce2
+        rdf:type                      <https://pi.pauwel.be/voc/distributionelement#PipeFitting-NOTDEFINED> ;
+        rdf:type                      <https://pi.pauwel.be/voc/distributionelement#PipeFitting> ;
+        props:globalIdIfcRoot_attribute_simple  "0zklbe6qT1XASw0AE_lDpY" ;
+        props:nameIfcRoot_attribute_simple  "Cross Steel:Standard:817201" ;
+        props:objectTypeIfcObject_attribute_simple  "Cross Steel:Standard" ;
+        props:batid_attribute_simple  "817201" ;
+        props:reference_simple        "Standard" ;
+        rdf:type                      bot:Element .
+
+inst:pipesegment_910a2281-c242-48ea-ba92-2bd2066705e3
+        rdf:type                      <https://pi.pauwel.be/voc/distributionelement#PipeSegment-NOTDEFINED> ;
+        rdf:type                      <https://pi.pauwel.be/voc/distributionelement#PipeSegment> ;
+        props:globalIdIfcRoot_attribute_simple  "2H2YA1ma98whgIAz86PmNZ" ;
+        props:nameIfcRoot_attribute_simple  "Pipe Types:SPR:770574" ;
+        props:objectTypeIfcObject_attribute_simple  "Pipe Types:SPR" ;
+        props:batid_attribute_simple  "770574" ;
+        props:invertElevation_simple  "721.59999999996683"^^xsd:double ;
+        props:reference_simple        "SPR" ;
+        rdf:type                      bot:Element .
+
+inst:pipesegment_397b69ac-dd77-4b16-9979-28af0722d114
+        rdf:type                      <https://pi.pauwel.be/voc/distributionelement#PipeSegment-NOTDEFINED> ;
+        rdf:type                      <https://pi.pauwel.be/voc/distributionelement#PipeSegment> ;
+        props:globalIdIfcRoot_attribute_simple  "0vUscitNTB5fbvAAy78j4K" ;
+        props:nameIfcRoot_attribute_simple  "Pipe Types:SPR:769422" ;
+        props:objectTypeIfcObject_attribute_simple  "Pipe Types:SPR" ;
+        props:batid_attribute_simple  "769422" ;
+        props:invertElevation_simple  "321.59999999996512"^^xsd:double ;
+        props:reference_simple        "SPR" ;
+        rdf:type                      bot:Element .
+
+inst:pipesegment_3dbaf968-1b47-4184-a73a-00a3bebcded3
+        rdf:type                      <https://pi.pauwel.be/voc/distributionelement#PipeSegment-NOTDEFINED> ;
+        rdf:type                      <https://pi.pauwel.be/voc/distributionelement#PipeSegment> ;
+        props:globalIdIfcRoot_attribute_simple  "0zklbe6qT1XASw0AE_lDxJ" ;
+        props:nameIfcRoot_attribute_simple  "Pipe Types:SPR:817664" ;
+        props:objectTypeIfcObject_attribute_simple  "Pipe Types:SPR" ;
+        props:batid_attribute_simple  "817664" ;
+        props:invertElevation_simple  "0."^^xsd:double ;
+        props:reference_simple        "SPR" ;
+        rdf:type                      bot:Element .
+
+inst:pipefitting_3dbaf968-1b47-4184-a73a-00a3bebcde98
+        rdf:type                      <https://pi.pauwel.be/voc/distributionelement#PipeFitting-NOTDEFINED> ;
+        rdf:type                      <https://pi.pauwel.be/voc/distributionelement#PipeFitting> ;
+        props:globalIdIfcRoot_attribute_simple  "0zklbe6qT1XASw0AE_lDwO" ;
+        props:nameIfcRoot_attribute_simple  "Cross Steel:Standard:817739" ;
+        props:objectTypeIfcObject_attribute_simple  "Cross Steel:Standard" ;
+        props:batid_attribute_simple  "817739" ;
+        props:reference_simple        "Standard" ;
+        rdf:type                      bot:Element .
+
+inst:pipesegment_910a2281-c242-48ea-ba92-2bd2066705e1
+        rdf:type                      <https://pi.pauwel.be/voc/distributionelement#PipeSegment-NOTDEFINED> ;
+        rdf:type                      <https://pi.pauwel.be/voc/distributionelement#PipeSegment> ;
+        props:globalIdIfcRoot_attribute_simple  "2H2YA1ma98whgIAz86PmNX" ;
+        props:nameIfcRoot_attribute_simple  "Pipe Types:SPR:770572" ;
+        props:objectTypeIfcObject_attribute_simple  "Pipe Types:SPR" ;
+        props:batid_attribute_simple  "770572" ;
+        props:invertElevation_simple  "721.59999999996683"^^xsd:double ;
+        props:reference_simple        "SPR" ;
+        rdf:type                      bot:Element .
+
+inst:buildingelement_c762f2b8-16ac-409f-bef0-2a08c5f1a4dd
+        rdf:type                      beo:BuildingElement-NOTDEFINED ;
+        rdf:type                      beo:BuildingElement ;
+        props:globalIdIfcRoot_attribute_simple  "37OlAu5gn0dxxmAWZ5yQJT" ;
+        props:nameIfcRoot_attribute_simple  "fam_planting:fam_planting:819597" ;
+        props:objectTypeIfcObject_attribute_simple  "fam_planting:fam_planting" ;
+        props:batid_attribute_simple  "819597" ;
+        props:isExternal_simple       false ;
+        props:reference_simple        "fam_planting" ;
+        rdf:type                      bot:Element .
+
+inst:pipesegment_3dbaf968-1b47-4184-a73a-00a3bebcde94
+        rdf:type                      <https://pi.pauwel.be/voc/distributionelement#PipeSegment-NOTDEFINED> ;
+        rdf:type                      <https://pi.pauwel.be/voc/distributionelement#PipeSegment> ;
+        props:globalIdIfcRoot_attribute_simple  "0zklbe6qT1XASw0AE_lDwK" ;
+        props:nameIfcRoot_attribute_simple  "Pipe Types:SPR:817735" ;
+        props:objectTypeIfcObject_attribute_simple  "Pipe Types:SPR" ;
+        props:batid_attribute_simple  "817735" ;
+        props:invertElevation_simple  "332.85799999996578"^^xsd:double ;
+        props:reference_simple        "SPR" ;
+        rdf:type                      bot:Element .
+
+inst:pipefitting_3dbaf968-1b47-4184-a73a-00a3bebcde1f
+        rdf:type                      <https://pi.pauwel.be/voc/distributionelement#PipeFitting-NOTDEFINED> ;
+        rdf:type                      <https://pi.pauwel.be/voc/distributionelement#PipeFitting> ;
+        props:globalIdIfcRoot_attribute_simple  "0zklbe6qT1XASw0AE_lDuV" ;
+        props:nameIfcRoot_attribute_simple  "M_Elbow - Welded - Generic:Standard:817868" ;
+        props:objectTypeIfcObject_attribute_simple  "M_Elbow - Welded - Generic:Standard" ;
+        props:batid_attribute_simple  "817868" ;
+        props:reference_simple        "Standard" ;
+        rdf:type                      bot:Element .
+
+inst:pipefitting_c762f2b8-16ac-409f-bef0-2a08c5f15ed6
+        rdf:type                      <https://pi.pauwel.be/voc/distributionelement#PipeFitting-NOTDEFINED> ;
+        rdf:type                      <https://pi.pauwel.be/voc/distributionelement#PipeFitting> ;
+        props:globalIdIfcRoot_attribute_simple  "37OlAu5gn0dxxmAWZ5yLxM" ;
+        props:nameIfcRoot_attribute_simple  "Elbow Stainless Steel Press:Standard:818054" ;
+        props:objectTypeIfcObject_attribute_simple  "Elbow Stainless Steel Press:Standard" ;
+        props:batid_attribute_simple  "818054" ;
+        props:reference_simple        "Standard" ;
+        rdf:type                      bot:Element .
+
+inst:pipesegment_3dbaf968-1b47-4184-a73a-00a3bebcdcd9
+        rdf:type                      <https://pi.pauwel.be/voc/distributionelement#PipeSegment-NOTDEFINED> ;
+        rdf:type                      <https://pi.pauwel.be/voc/distributionelement#PipeSegment> ;
+        props:globalIdIfcRoot_attribute_simple  "0zklbe6qT1XASw0AE_lDpP" ;
+        props:nameIfcRoot_attribute_simple  "Pipe Types:SPR:817162" ;
+        props:objectTypeIfcObject_attribute_simple  "Pipe Types:SPR" ;
+        props:batid_attribute_simple  "817162" ;
+        props:invertElevation_simple  "721.59999999996421"^^xsd:double ;
+        props:reference_simple        "SPR" ;
+        rdf:type                      bot:Element .
+
+inst:pipesegment_3dbaf968-1b47-4184-a73a-00a3bebcde84
+        rdf:type                      <https://pi.pauwel.be/voc/distributionelement#PipeSegment-NOTDEFINED> ;
+        rdf:type                      <https://pi.pauwel.be/voc/distributionelement#PipeSegment> ;
+        props:globalIdIfcRoot_attribute_simple  "0zklbe6qT1XASw0AE_lDw4" ;
+        props:nameIfcRoot_attribute_simple  "Pipe Types:SPR:817751" ;
+        props:objectTypeIfcObject_attribute_simple  "Pipe Types:SPR" ;
+        props:batid_attribute_simple  "817751" ;
+        props:invertElevation_simple  "321.59999999996506"^^xsd:double ;
+        props:reference_simple        "SPR" ;
+        rdf:type                      bot:Element .
+
+inst:firesuppressionterminal_397b69ac-dd77-4b16-9979-28af0722ccc5
+        rdf:type                      <https://pi.pauwel.be/voc/distributionelement#FireSuppressionTerminal-NOTDEFINED> ;
+        rdf:type                      <https://pi.pauwel.be/voc/distributionelement#FireSuppressionTerminal> ;
+        props:globalIdIfcRoot_attribute_simple  "0vUscitNTB5fbvAAy78ip5" ;
+        props:nameIfcRoot_attribute_simple  "SG_SPK_Horizontal_Sidewall:D25_E.C:761951" ;
+        props:objectTypeIfcObject_attribute_simple  "SG_SPK_Horizontal_Sidewall:D25_E.C" ;
+        props:batid_attribute_simple  "761951" ;
+        props:reference_simple        "D25_E.C" ;
+        rdf:type                      bot:Element .
+
+inst:pipesegment_6704a581-5533-4ab5-aa6a-5067cf62b87b
+        rdf:type                      <https://pi.pauwel.be/voc/distributionelement#PipeSegment-NOTDEFINED> ;
+        rdf:type                      <https://pi.pauwel.be/voc/distributionelement#PipeSegment> ;
+        props:globalIdIfcRoot_attribute_simple  "1d1AM1LJDAjQfgK6VFOhXx" ;
+        props:nameIfcRoot_attribute_simple  "Pipe Types:SPR:770852" ;
+        props:objectTypeIfcObject_attribute_simple  "Pipe Types:SPR" ;
+        props:batid_attribute_simple  "770852" ;
+        props:invertElevation_simple  "732.85799999996766"^^xsd:double ;
+        props:reference_simple        "SPR" ;
+        rdf:type                      bot:Element .
+
+inst:storey_8f31bec7-ddeb-47ae-8d68-923651a24afa
+        bot:containsElement       inst:pipesegment_910a2281-c242-48ea-ba92-2bd2066705e3 ;
+        props:reference_simple    "8mm Head" ;
+        bot:containsElement       inst:pipefitting_c762f2b8-16ac-409f-bef0-2a08c5f15ed6 ;
+        bot:containsElement       inst:pipefitting_3dbaf968-1b47-4184-a73a-00a3bebcdca5 ;
+        props:nameIfcRoot_attribute_simple  "Level 2" ;
+        rdf:type                  bot:Storey ;
+        bot:containsElement       inst:buildingelement_c762f2b8-16ac-409f-bef0-2a08c5f1a4dd ;
+        props:objectTypeIfcObject_attribute_simple  "Level:8mm Head" ;
+        bot:containsElement       inst:pipesegment_910a2281-c242-48ea-ba92-2bd2066705e1 ;
+        props:longNameIfcSpatialElement_attribute_simple  "Level 2" ;
+        props:elevationIfcBuildingStorey_attribute_simple  "399.99999999996686"^^xsd:double ;
+        props:globalIdIfcRoot_attribute_simple  "2FCRx7tUj7hereaZPHeahw" ;
+        props:aboveGround_simple  <https://w3id.org/express#UNKNOWN> .

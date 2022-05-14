@@ -1,0 +1,444 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix bot: <https://w3id.org/bot#> .
+@prefix ifc: <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix beo: <https://pi.pauwel.be/voc/buildingelement#> .
+@prefix lbd: <https://linkebuildingdata.org/LBD#> .
+@prefix props: <http://lbd.arch.rwth-aachen.de/props#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix unit: <http://qudt.org/vocab/unit/> .
+@prefix IFC4-PSD: <https://www.linkedbuildingdata.net/IFC4-PSD#> .
+@prefix smls: <https://w3id.org/def/smls-owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix inst: <https://example.org/ms_arc#> .
+@prefix mep: <http://pi.pauwel.be/voc/distributionelement#> .
+@prefix furn: <http://pi.pauwel.be/voc/furniture#> .
+
+inst:storey_99d77533-88b7-477d-a021-163cd07b199f
+        bot:containsElement       inst:wall_69d19b99-7258-4d69-8af0-c79422b77868 ;
+        bot:hasSpace              inst:space_69d19b99-7258-4d69-8af0-c79422b77870 ;
+        bot:containsElement       inst:window_69d19b99-7258-4d69-8af0-c79422b77bb9 ;
+        bot:containsElement       inst:wall_5cdebead-fad4-43ab-a7bb-45ba5e612ba8 ;
+        props:aboveGround_simple  <https://w3id.org/express#UNKNOWN> ;
+        bot:containsElement       inst:wall_4d99d014-285e-49e0-99bd-fabe9b164603 ;
+        bot:containsElement       inst:wall_63fce307-79e4-4db6-a098-ecb90d2207f0 ;
+        bot:containsElement       inst:door_69d19b99-7258-4d69-8af0-c79422b7787d ;
+        bot:containsElement       inst:slab_69d19b99-7258-4d69-8af0-c79422b555d3 ;
+        bot:containsElement       inst:wall_69d19b99-7258-4d69-8af0-c79422b77872 ;
+        bot:containsElement       inst:door_69d19b99-7258-4d69-8af0-c79422b77843 ;
+        bot:containsElement       inst:stair_69d19b99-7258-4d69-8af0-c79422b54c15 ;
+        props:objectTypeIfcObject_attribute_simple  "Level:8mm Head" ;
+        bot:containsElement       inst:wall_69d19b99-7258-4d69-8af0-c79422b55ba1 ;
+        props:reference_simple    "8mm Head" ;
+        bot:containsElement       inst:wall_69d19b99-7258-4d69-8af0-c79422b55b21 ;
+        bot:containsElement       inst:wall_69d19b99-7258-4d69-8af0-c79422b77877 ;
+        bot:containsElement       inst:wall_c010b479-3cd5-43bc-89fa-0451c1f9bb3f ;
+        bot:containsElement       inst:wall_69d19b99-7258-4d69-8af0-c79422b5580b ;
+        props:globalIdIfcRoot_attribute_simple  "2PrtKpYBT7VQ0X5ZpGUncV" ;
+        bot:containsElement       inst:wall_69d19b99-7258-4d69-8af0-c79422b77871 ;
+        props:longNameIfcSpatialElement_attribute_simple  "Level 1" ;
+        rdf:type                  bot:Storey ;
+        props:nameIfcRoot_attribute_simple  "Level 1" ;
+        bot:containsElement       inst:wall_69d19b99-7258-4d69-8af0-c79422b7786c ;
+        bot:containsElement       inst:wall_e9b9157d-8429-40fc-a08b-4e510e1f7db1 ;
+        bot:hasSpace              inst:space_69d19b99-7258-4d69-8af0-c79422b77847 ;
+        props:elevationIfcBuildingStorey_attribute_simple  4.0945913326595473E-13 ;
+        bot:containsElement       inst:wall_fbb9641b-1d0a-4990-8e00-3611062163f6 .
+
+inst:railing_4c35a2e4-de2e-4015-bf04-beea04d6892e
+        props:objectTypeIfcObject_attribute_simple  "Railing:YA - Stair Side Railing - Metal net 2" ;
+        props:globalIdIfcRoot_attribute_simple  "1CDQBatYv05Ry4lke4reak" ;
+        props:height_simple           "90."^^xsd:double ;
+        rdf:type                      bot:Element ;
+        props:reference_simple        "YA - Stair Side Railing - Metal net 2" ;
+        rdf:type                      beo:Railing ;
+        rdf:type                      beo:Railing-NOTDEFINED ;
+        props:batid_attribute_simple  "504902" ;
+        props:nameIfcRoot_attribute_simple  "Railing:YA - Stair Side Railing - Metal net 2:504902" ;
+        props:isExternal_simple       false .
+
+inst:wall_69d19b99-7258-4d69-8af0-c79422b77872
+        props:isExternal_simple         true ;
+        props:extendToStructure_simple  false ;
+        rdf:type                        beo:Wall-NOTDEFINED ;
+        props:loadBearing_simple        false ;
+        props:reference_simple          "05D105D805D505DF 40" ;
+        props:nameIfcRoot_attribute_simple  "Basic Wall:05D105D805D505DF 40:346577" ;
+        bot:hasSubElement               inst:door_69d19b99-7258-4d69-8af0-c79422b7787d ;
+        props:globalIdIfcRoot_attribute_simple  "1fqPkPSbXDQOhmnvGYjtXo" ;
+        rdf:type                        bot:Element ;
+        props:batid_attribute_simple    "346577" ;
+        props:objectTypeIfcObject_attribute_simple  "Basic Wall:05D105D805D505DF 40" ;
+        bot:hasSubElement               inst:door_69d19b99-7258-4d69-8af0-c79422b5404b ;
+        rdf:type                        beo:Wall .
+
+inst:wall_69d19b99-7258-4d69-8af0-c79422b55b21
+        rdf:type                        beo:Wall ;
+        rdf:type                        beo:Wall-NOTDEFINED ;
+        props:nameIfcRoot_attribute_simple  "Basic Wall:05D105D805D505DF 40:486018" ;
+        props:isExternal_simple         true ;
+        props:reference_simple          "05D105D805D505DF 40" ;
+        props:loadBearing_simple        false ;
+        props:extendToStructure_simple  false ;
+        props:batid_attribute_simple    "486018" ;
+        props:globalIdIfcRoot_attribute_simple  "1fqPkPSbXDQOhmnvGYjLiX" ;
+        rdf:type                        bot:Element ;
+        props:objectTypeIfcObject_attribute_simple  "Basic Wall:05D105D805D505DF 40" .
+
+inst:wall_69d19b99-7258-4d69-8af0-c79422b7786c
+        props:globalIdIfcRoot_attribute_simple  "1fqPkPSbXDQOhmnvGYjtXi" ;
+        props:loadBearing_simple        false ;
+        rdf:type                        bot:Element ;
+        rdf:type                        beo:Wall ;
+        props:reference_simple          "05D105D805D505DF 40" ;
+        props:isExternal_simple         true ;
+        props:nameIfcRoot_attribute_simple  "Basic Wall:05D105D805D505DF 40:346575" ;
+        rdf:type                        beo:Wall-NOTDEFINED ;
+        props:extendToStructure_simple  false ;
+        props:batid_attribute_simple    "346575" ;
+        props:objectTypeIfcObject_attribute_simple  "Basic Wall:05D105D805D505DF 40" .
+
+inst:space_69d19b99-7258-4d69-8af0-c79422b77870
+        props:name_simple        "C19- Stairwell pressurization" ;
+        props:isExternal_simple  false ;
+        props:reference_simple   "C19- Stairwell pressurization C19" ;
+        rdf:type                 bot:Space ;
+        props:globalIdIfcRoot_attribute_simple  "1fqPkPSbXDQOhmnvGYjtXm" ;
+        props:nameIfcRoot_attribute_simple  "C19" ;
+        props:longNameIfcSpatialElement_attribute_simple  "C19- Stairwell pressurization" .
+
+inst:door_69d19b99-7258-4d69-8af0-c79422b77843
+        rdf:type                      beo:Door-DOOR ;
+        props:overallWidthIfcDoor_attribute_simple  "89.999999999999901"^^xsd:double ;
+        props:objectTypeIfcObject_attribute_simple  "YA_Masgerut Door Single Wing (Ver2):F.D.H-30/30 -90*210" ;
+        props:thermalTransmittance_simple  "3.7021000000000002"^^xsd:double ;
+        props:reference_simple        "F.D.H-30/30 -90*210" ;
+        props:frameDepth_simple       "40."^^xsd:double ;
+        props:fireRating_simple       "F 30/30" ;
+        rdf:type                      beo:Door ;
+        rdf:type                      bot:Element ;
+        props:manufacturer_simple     "05E805D905E005D205DC 05D005D5 05E905D5\"05E2" ;
+        props:isExternal_simple       false ;
+        props:batid_attribute_simple  "346592" ;
+        props:globalIdIfcRoot_attribute_simple  "1fqPkPSbXDQOhmnvGYjtX3" ;
+        props:nameIfcRoot_attribute_simple  "YA_Masgerut Door Single Wing (Ver2):F.D.H-30/30 -90*210:346592" ;
+        props:overallHeightIfcDoor_attribute_simple  "224.99999999999983"^^xsd:double .
+
+inst:wall_69d19b99-7258-4d69-8af0-c79422b77868
+        rdf:type                        beo:Wall ;
+        props:reference_simple          "05D105D805D505DF 40" ;
+        props:loadBearing_simple        false ;
+        props:objectTypeIfcObject_attribute_simple  "Basic Wall:05D105D805D505DF 40" ;
+        rdf:type                        beo:Wall-NOTDEFINED ;
+        rdf:type                        bot:Element ;
+        bot:hasSubElement               inst:door_69d19b99-7258-4d69-8af0-c79422b543fe ;
+        props:extendToStructure_simple  false ;
+        props:nameIfcRoot_attribute_simple  "Basic Wall:05D105D805D505DF 40:346571" ;
+        props:batid_attribute_simple    "346571" ;
+        bot:hasSubElement               inst:door_69d19b99-7258-4d69-8af0-c79422b77843 ;
+        props:isExternal_simple         true ;
+        props:globalIdIfcRoot_attribute_simple  "1fqPkPSbXDQOhmnvGYjtXe" .
+
+inst:wall_69d19b99-7258-4d69-8af0-c79422b77871
+        props:loadBearing_simple        false ;
+        props:reference_simple          "05D105D805D505DF 40" ;
+        rdf:type                        beo:Wall-NOTDEFINED ;
+        props:extendToStructure_simple  false ;
+        props:objectTypeIfcObject_attribute_simple  "Basic Wall:05D105D805D505DF 40" ;
+        props:nameIfcRoot_attribute_simple  "Basic Wall:05D105D805D505DF 40:346578" ;
+        props:batid_attribute_simple    "346578" ;
+        props:globalIdIfcRoot_attribute_simple  "1fqPkPSbXDQOhmnvGYjtXn" ;
+        rdf:type                        beo:Wall ;
+        rdf:type                        bot:Element ;
+        props:isExternal_simple         true .
+
+inst:wall_69d19b99-7258-4d69-8af0-c79422b77877
+        rdf:type                        beo:Wall-NOTDEFINED ;
+        props:reference_simple          "05E405E005D905DD 05D105DC05D505E7 10" ;
+        props:extendToStructure_simple  false ;
+        props:isExternal_simple         false ;
+        props:description_simple        "05E705D905E8 05D105DC05D505E705D905DD 10" ;
+        props:objectTypeIfcObject_attribute_simple  "Basic Wall:05E405E005D905DD 05D105DC05D505E7 10" ;
+        rdf:type                        beo:Wall ;
+        props:nameIfcRoot_attribute_simple  "Basic Wall:05E405E005D905DD 05D105DC05D505E7 10:346580" ;
+        rdf:type                        bot:Element ;
+        props:loadBearing_simple        false ;
+        props:globalIdIfcRoot_attribute_simple  "1fqPkPSbXDQOhmnvGYjtXt" ;
+        bot:hasSubElement               inst:window_69d19b99-7258-4d69-8af0-c79422b77bb9 ;
+        props:batid_attribute_simple    "346580" .
+
+inst:wall_63fce307-79e4-4db6-a098-ecb90d2207f0
+        props:globalIdIfcRoot_attribute_simple  "1Z$EC7UUHDjg2OxBaD8WVm" ;
+        rdf:type                        bot:Element ;
+        props:extendToStructure_simple  false ;
+        props:nameIfcRoot_attribute_simple  "Basic Wall:05D105D805D505DF 40:503460" ;
+        rdf:type                        beo:Wall-NOTDEFINED ;
+        props:reference_simple          "05D105D805D505DF 40" ;
+        rdf:type                        beo:Wall ;
+        props:batid_attribute_simple    "503460" ;
+        props:objectTypeIfcObject_attribute_simple  "Basic Wall:05D105D805D505DF 40" ;
+        props:isExternal_simple         true ;
+        props:loadBearing_simple        false .
+
+inst:space_69d19b99-7258-4d69-8af0-c79422b77847
+        props:name_simple        "C5- Distribution Board" ;
+        props:isExternal_simple  false ;
+        props:reference_simple   "C5- Distribution Board C5" ;
+        rdf:type                 bot:Space ;
+        props:globalIdIfcRoot_attribute_simple  "1fqPkPSbXDQOhmnvGYjtX7" ;
+        props:nameIfcRoot_attribute_simple  "C5" ;
+        props:longNameIfcSpatialElement_attribute_simple  "C5- Distribution Board" .
+
+inst:wall_69d19b99-7258-4d69-8af0-c79422b55ba1
+        rdf:type                        beo:Wall ;
+        props:isExternal_simple         true ;
+        props:extendToStructure_simple  false ;
+        rdf:type                        bot:Element ;
+        props:batid_attribute_simple    "485890" ;
+        props:objectTypeIfcObject_attribute_simple  "Basic Wall:05D105D805D505DF 40" ;
+        props:nameIfcRoot_attribute_simple  "Basic Wall:05D105D805D505DF 40:485890" ;
+        props:loadBearing_simple        false ;
+        props:globalIdIfcRoot_attribute_simple  "1fqPkPSbXDQOhmnvGYjLkX" ;
+        props:reference_simple          "05D105D805D505DF 40" ;
+        rdf:type                        beo:Wall-NOTDEFINED .
+
+inst:storey_99d77533-88b7-477d-a021-163cd07b1a1e
+        props:objectTypeIfcObject_attribute_simple  "Level:8mm Head" ;
+        bot:containsElement       inst:door_69d19b99-7258-4d69-8af0-c79422b543fe ;
+        props:longNameIfcSpatialElement_attribute_simple  "Level 2" ;
+        props:elevationIfcBuildingStorey_attribute_simple  "400.00000000000045"^^xsd:double ;
+        bot:containsElement       inst:door_69d19b99-7258-4d69-8af0-c79422b5404b ;
+        props:nameIfcRoot_attribute_simple  "Level 2" ;
+        bot:containsElement       inst:railing_4c35a2e4-de2e-4015-bf04-beea04d6892e ;
+        bot:containsElement       inst:window_69d19b99-7258-4d69-8af0-c79422b54106 ;
+        props:reference_simple    "8mm Head" ;
+        props:aboveGround_simple  <https://w3id.org/express#UNKNOWN> ;
+        rdf:type                  bot:Storey ;
+        props:globalIdIfcRoot_attribute_simple  "2PrtKpYBT7VQ0X5ZpGUneU" ;
+        bot:containsElement       inst:slab_69d19b99-7258-4d69-8af0-c79422b54192 .
+
+inst:wall_69d19b99-7258-4d69-8af0-c79422b5580b
+        props:objectTypeIfcObject_attribute_simple  "Basic Wall:05D105D805D505DF 40" ;
+        props:reference_simple          "05D105D805D505DF 40" ;
+        props:batid_attribute_simple    "485800" ;
+        props:nameIfcRoot_attribute_simple  "Basic Wall:05D105D805D505DF 40:485800" ;
+        rdf:type                        beo:Wall ;
+        rdf:type                        bot:Element ;
+        props:globalIdIfcRoot_attribute_simple  "1fqPkPSbXDQOhmnvGYjLWB" ;
+        props:isExternal_simple         true ;
+        props:extendToStructure_simple  false ;
+        props:loadBearing_simple        false ;
+        rdf:type                        beo:Wall-NOTDEFINED .
+
+inst:door_69d19b99-7258-4d69-8af0-c79422b5404b
+        props:thermalTransmittance_simple  "3.7021000000000002"^^xsd:double ;
+        props:overallWidthIfcDoor_attribute_simple  "89.999999999999901"^^xsd:double ;
+        rdf:type                      beo:Door ;
+        rdf:type                      bot:Element ;
+        props:objectTypeIfcObject_attribute_simple  "YA_Masgerut Door Single Wing (Ver2):F.D.H-30/30 -110*210" ;
+        rdf:type                      beo:Door-DOOR ;
+        props:isExternal_simple       false ;
+        props:overallHeightIfcDoor_attribute_simple  "224.9999999999998"^^xsd:double ;
+        props:nameIfcRoot_attribute_simple  "YA_Masgerut Door Single Wing (Ver2):F.D.H-30/30 -110*210:487912" ;
+        props:manufacturer_simple     "05E805D905E005D205DC 05D005D5 05E905D5\"05E2" ;
+        props:frameDepth_simple       "40."^^xsd:double ;
+        props:globalIdIfcRoot_attribute_simple  "1fqPkPSbXDQOhmnvGYjK1B" ;
+        props:batid_attribute_simple  "487912" ;
+        props:fireRating_simple       "F 30/30" ;
+        props:reference_simple        "F.D.H-30/30 -110*210" .
+
+inst:door_69d19b99-7258-4d69-8af0-c79422b543fe
+        props:overallWidthIfcDoor_attribute_simple  "89.999999999999901"^^xsd:double ;
+        props:reference_simple        "F.D.H-30/30 -90*210" ;
+        rdf:type                      bot:Element ;
+        props:objectTypeIfcObject_attribute_simple  "YA_Masgerut Door Single Wing (Ver2):F.D.H-30/30 -90*210" ;
+        props:globalIdIfcRoot_attribute_simple  "1fqPkPSbXDQOhmnvGYjKF_" ;
+        props:thermalTransmittance_simple  "3.7021000000000002"^^xsd:double ;
+        rdf:type                      beo:Door ;
+        props:overallHeightIfcDoor_attribute_simple  "224.9999999999998"^^xsd:double ;
+        props:fireRating_simple       "F 30/30" ;
+        props:frameDepth_simple       "40."^^xsd:double ;
+        props:batid_attribute_simple  "488029" ;
+        props:isExternal_simple       false ;
+        props:nameIfcRoot_attribute_simple  "YA_Masgerut Door Single Wing (Ver2):F.D.H-30/30 -90*210:488029" ;
+        props:manufacturer_simple     "05E805D905E005D205DC 05D005D5 05E905D5\"05E2" ;
+        rdf:type                      beo:Door-DOOR .
+
+inst:slab_69d19b99-7258-4d69-8af0-c79422b555d3
+        rdf:type                      beo:Slab-FLOOR ;
+        props:objectTypeIfcObject_attribute_simple  "Floor:200mm-Concrete" ;
+        props:reference_simple        "200mm-Concrete" ;
+        props:nameIfcRoot_attribute_simple  "Floor:200mm-Concrete:484464" ;
+        props:batid_attribute_simple  "484464" ;
+        props:globalIdIfcRoot_attribute_simple  "1fqPkPSbXDQOhmnvGYjLNJ" ;
+        rdf:type                      beo:Slab ;
+        props:loadBearing_simple      false ;
+        rdf:type                      bot:Element ;
+        props:thermalTransmittance_simple  "6.5"^^xsd:double ;
+        props:pitchAngle_simple       "0."^^xsd:double ;
+        props:isExternal_simple       false .
+
+inst:stair_69d19b99-7258-4d69-8af0-c79422b54c15
+        props:nameIfcRoot_attribute_simple  "Cast-In-Place Stair:Stair:490934" ;
+        props:walkingLineOffset_simple  "1.9685039370078741"^^xsd:double ;
+        props:objectTypeIfcObject_attribute_simple  "Cast-In-Place Stair:YA 05DE05D305E805D205D505EA 05D105D805D505DF 05DE05D705D505E405D505EA 05D005D105DF" ;
+        props:riserHeight_simple        "16.666666666666668"^^xsd:double ;
+        props:numberOfTreads_simple     "22."^^xsd:double ;
+        props:treadLengthAtInnerSide_simple  "28."^^xsd:double ;
+        props:batid_attribute_simple    "490934" ;
+        rdf:type                        beo:Stair-HALF_TURN_STAIR ;
+        props:nosingLength_simple       "0."^^xsd:double ;
+        props:treadLength_simple        "28."^^xsd:double ;
+        props:numberOfRiser_simple      "24."^^xsd:double ;
+        rdf:type                        beo:Stair ;
+        props:treadLengthAtOffset_simple  "28."^^xsd:double ;
+        rdf:type                        bot:Element ;
+        props:isExternal_simple         false ;
+        props:globalIdIfcRoot_attribute_simple  "1fqPkPSbXDQOhmnvGYjKmL" ;
+        props:reference_simple          "YA 05DE05D305E805D205D505EA 05D105D805D505DF 05DE05D705D505E405D505EA 05D005D105DF" .
+
+inst:site_99d77533-88b7-477d-a021-163c2f84e75a
+        bot:hasBuilding         inst:building_99d77533-88b7-477d-a021-163c2f84e759 ;
+        props:reference_simple  "Project Information" ;
+        rdf:type                bot:Site ;
+        props:globalIdIfcRoot_attribute_simple  "2PrtKpYBT7VQ0X5ZmlXETQ" ;
+        props:nameIfcRoot_attribute_simple  "Default" ;
+        props:refElevationIfcSite_attribute_simple  "0."^^xsd:double .
+
+inst:window_69d19b99-7258-4d69-8af0-c79422b54106
+        props:frameDepth_simple       "10."^^xsd:double ;
+        rdf:type                      beo:Window ;
+        rdf:type                      beo:Window-WINDOW ;
+        props:batid_attribute_simple  "487589" ;
+        props:nameIfcRoot_attribute_simple  "Window_Louvers+Frame:80x35:487589" ;
+        props:globalIdIfcRoot_attribute_simple  "1fqPkPSbXDQOhmnvGYjK46" ;
+        props:isExternal_simple       false ;
+        props:reference_simple        "80x35" ;
+        props:overallHeightIfcWindow_attribute_simple  "45.000000000000057"^^xsd:double ;
+        rdf:type                      bot:Element ;
+        props:objectTypeIfcObject_attribute_simple  "Window_Louvers+Frame:80x35" ;
+        props:overallWidthIfcWindow_attribute_simple  "90.000000000000114"^^xsd:double .
+
+inst:wall_5cdebead-fad4-43ab-a7bb-45ba5e612ba8
+        props:loadBearing_simple        false ;
+        rdf:type                        bot:Element ;
+        props:batid_attribute_simple    "502246" ;
+        props:extendToStructure_simple  false ;
+        rdf:type                        beo:Wall-NOTDEFINED ;
+        rdf:type                        beo:Wall ;
+        props:globalIdIfcRoot_attribute_simple  "1Sthwj_jH3gwUxHRfUOIke" ;
+        props:nameIfcRoot_attribute_simple  "Basic Wall:05D105D805D505DF 40:502246" ;
+        props:isExternal_simple         true ;
+        props:objectTypeIfcObject_attribute_simple  "Basic Wall:05D105D805D505DF 40" ;
+        props:reference_simple          "05D105D805D505DF 40" .
+
+inst:wall_4d99d014-285e-49e0-99bd-fabe9b164603
+        props:loadBearing_simple        false ;
+        rdf:type                        beo:Wall ;
+        props:nameIfcRoot_attribute_simple  "Basic Wall:05D105D805D505DF 40:494114" ;
+        props:isExternal_simple         true ;
+        props:objectTypeIfcObject_attribute_simple  "Basic Wall:05D105D805D505DF 40" ;
+        props:extendToStructure_simple  false ;
+        rdf:type                        beo:Wall-NOTDEFINED ;
+        props:batid_attribute_simple    "494114" ;
+        props:reference_simple          "05D105D805D505DF 40" ;
+        rdf:type                        bot:Element ;
+        props:globalIdIfcRoot_attribute_simple  "1DcT0KA5v9u9cz_hwR5aO3" .
+
+inst:window_69d19b99-7258-4d69-8af0-c79422b77bb9
+        props:reference_simple        "80x35" ;
+        props:overallHeightIfcWindow_attribute_simple  "45.000000000000057"^^xsd:double ;
+        props:frameDepth_simple       "10."^^xsd:double ;
+        props:objectTypeIfcObject_attribute_simple  "Window_Louvers+Frame:80x35" ;
+        props:overallWidthIfcWindow_attribute_simple  "90.000000000000114"^^xsd:double ;
+        props:isExternal_simple       false ;
+        props:nameIfcRoot_attribute_simple  "Window_Louvers+Frame:80x35:346650" ;
+        rdf:type                      beo:Window-WINDOW ;
+        props:globalIdIfcRoot_attribute_simple  "1fqPkPSbXDQOhmnvGYjtkv" ;
+        props:batid_attribute_simple  "346650" ;
+        rdf:type                      bot:Element ;
+        rdf:type                      beo:Window .
+
+inst:door_69d19b99-7258-4d69-8af0-c79422b7787d
+        rdf:type                      beo:Door-DOOR ;
+        props:manufacturer_simple     "05E805D905E005D205DC 05D005D5 05E905D5\"05E2" ;
+        props:batid_attribute_simple  "346590" ;
+        rdf:type                      beo:Door ;
+        props:overallWidthIfcDoor_attribute_simple  "89.999999999999901"^^xsd:double ;
+        props:objectTypeIfcObject_attribute_simple  "YA_Masgerut Door Single Wing (Ver2):F.D.H-30/30 -110*210" ;
+        props:globalIdIfcRoot_attribute_simple  "1fqPkPSbXDQOhmnvGYjtXz" ;
+        props:overallHeightIfcDoor_attribute_simple  "224.99999999999983"^^xsd:double ;
+        props:isExternal_simple       false ;
+        props:frameDepth_simple       "40."^^xsd:double ;
+        props:fireRating_simple       "F 30/30" ;
+        props:thermalTransmittance_simple  "3.7021000000000002"^^xsd:double ;
+        props:nameIfcRoot_attribute_simple  "YA_Masgerut Door Single Wing (Ver2):F.D.H-30/30 -110*210:346590" ;
+        rdf:type                      bot:Element ;
+        props:reference_simple        "F.D.H-30/30 -110*210" .
+
+inst:wall_fbb9641b-1d0a-4990-8e00-3611062163f6
+        props:objectTypeIfcObject_attribute_simple  "Basic Wall:05D105D805D505DF 40" ;
+        rdf:type                        bot:Element ;
+        props:nameIfcRoot_attribute_simple  "Basic Wall:05D105D805D505DF 40:503170" ;
+        rdf:type                        beo:Wall ;
+        rdf:type                        beo:Wall-NOTDEFINED ;
+        props:batid_attribute_simple    "503170" ;
+        props:globalIdIfcRoot_attribute_simple  "3xkMGR7Gf9a8u0DX468MFs" ;
+        props:extendToStructure_simple  false ;
+        props:loadBearing_simple        false ;
+        props:isExternal_simple         true ;
+        props:reference_simple          "05D105D805D505DF 40" .
+
+inst:slab_69d19b99-7258-4d69-8af0-c79422b54192
+        props:batid_attribute_simple  "487473" ;
+        props:pitchAngle_simple       "0."^^xsd:double ;
+        props:nameIfcRoot_attribute_simple  "Floor:200mm-Concrete:487473" ;
+        props:thermalTransmittance_simple  "6.5"^^xsd:double ;
+        rdf:type                      beo:Slab-FLOOR ;
+        props:isExternal_simple       false ;
+        rdf:type                      beo:Slab ;
+        props:objectTypeIfcObject_attribute_simple  "Floor:200mm-Concrete" ;
+        props:reference_simple        "200mm-Concrete" ;
+        rdf:type                      bot:Element ;
+        props:loadBearing_simple      false ;
+        props:globalIdIfcRoot_attribute_simple  "1fqPkPSbXDQOhmnvGYjK6I" .
+
+inst:wall_e9b9157d-8429-40fc-a08b-4e510e1f7db1
+        rdf:type                        beo:Wall ;
+        props:isExternal_simple         true ;
+        props:extendToStructure_simple  false ;
+        rdf:type                        bot:Element ;
+        props:objectTypeIfcObject_attribute_simple  "Basic Wall:05D105D805D505DF 40" ;
+        props:loadBearing_simple        false ;
+        props:reference_simple          "05D105D805D505DF 40" ;
+        rdf:type                        beo:Wall-NOTDEFINED ;
+        props:nameIfcRoot_attribute_simple  "Basic Wall:05D105D805D505DF 40:502918" ;
+        props:globalIdIfcRoot_attribute_simple  "3fkHLzX2b0$A2BJb4E7tsn" ;
+        props:batid_attribute_simple    "502918" .
+
+inst:building_99d77533-88b7-477d-a021-163c2f84e759
+        bot:hasStorey                 inst:storey_99d77533-88b7-477d-a021-163cd07b199f ;
+        bot:hasStorey                 inst:storey_99d77533-88b7-477d-a021-163cd07b1a1e ;
+        props:numberOfStoreys_simple  2 ;
+        props:isLandmarked_simple     <https://w3id.org/express#UNKNOWN> ;
+        props:isExternal_simple       false ;
+        props:aboveGround_simple      <https://w3id.org/express#UNKNOWN> ;
+        props:reference_simple        "Project Information" ;
+        rdf:type                      bot:Building ;
+        props:globalIdIfcRoot_attribute_simple  "2PrtKpYBT7VQ0X5ZmlXETP" .
+
+inst:wall_c010b479-3cd5-43bc-89fa-0451c1f9bb3f
+        props:objectTypeIfcObject_attribute_simple  "Basic Wall:05E405E005D905DD 05D105DC05D505E7 10" ;
+        props:description_simple        "05E705D905E8 05D105DC05D505E705D905DD 10" ;
+        props:batid_attribute_simple    "503856" ;
+        props:loadBearing_simple        false ;
+        rdf:type                        beo:Wall-NOTDEFINED ;
+        props:globalIdIfcRoot_attribute_simple  "304BHvFDL3l8dw1571_Ri$" ;
+        rdf:type                        beo:Wall ;
+        props:extendToStructure_simple  false ;
+        props:reference_simple          "05E405E005D905DD 05D105DC05D505E7 10" ;
+        bot:hasSubElement               inst:window_69d19b99-7258-4d69-8af0-c79422b54106 ;
+        rdf:type                        bot:Element ;
+        props:isExternal_simple         false ;
+        props:nameIfcRoot_attribute_simple  "Basic Wall:05E405E005D905DD 05D105DC05D505E7 10:503856" .

@@ -1,0 +1,2878 @@
+@prefix arc: <https://example.org/ms_arc#> .
+@prefix beo: <https://pi.pauwel.be/voc/buildingelement#> .
+@prefix bot: <https://w3id.org/bot#> .
+@prefix domain: <https://example.org/domains#> .
+@prefix ifc: <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#> .
+@prefix ns1: <https://w3id.org/list#> .
+@prefix ns2: <https://w3id.org/express#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix plum: <https://example.org/ms_plum#> .
+@prefix props: <http://lbd.arch.rwth-aachen.de/props#> .
+@prefix str: <https://example.org/ms_str#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+domain:plumbing {
+    plum:site_8f31bec7-ddeb-47ae-8d68-9236ae5db7be a bot:Site ;
+        props:globalIdIfcRoot_attribute_simple "2FCRx7tUj7hereaZQkNRU_" ;
+        props:nameIfcRoot_attribute_simple "Default" ;
+        props:refElevationIfcSite_attribute_simple 0e+00 ;
+        props:reference_simple "Project Information" ;
+        bot:hasBuilding plum:building_8f31bec7-ddeb-47ae-8d68-9236ae5db7bd .
+
+    plum:building_8f31bec7-ddeb-47ae-8d68-9236ae5db7bd a bot:Building ;
+        props:aboveGround_simple ns2:UNKNOWN ;
+        props:globalIdIfcRoot_attribute_simple "2FCRx7tUj7hereaZQkNRUz" ;
+        props:isExternal_simple false ;
+        props:isLandmarked_simple ns2:UNKNOWN ;
+        props:numberOfStoreys_simple 2 ;
+        props:reference_simple "Project Information" ;
+        bot:hasStorey plum:storey_8f31bec7-ddeb-47ae-8d68-923651a2497b,
+            plum:storey_8f31bec7-ddeb-47ae-8d68-923651a24afa .
+
+    plum:buildingelement_c762f2b8-16ac-409f-bef0-2a08c5f1a4dd a beo:BuildingElement,
+            beo:BuildingElement-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "819597" ;
+        props:globalIdIfcRoot_attribute_simple "37OlAu5gn0dxxmAWZ5yQJT" ;
+        props:isExternal_simple false ;
+        props:nameIfcRoot_attribute_simple "fam_planting:fam_planting:819597" ;
+        props:objectTypeIfcObject_attribute_simple "fam_planting:fam_planting" ;
+        props:reference_simple "fam_planting" ;
+        bot:has3DModel "ms_plum/c762f2b8-16ac-409f-bef0-2a08c5f1a4dd.ply" ;
+        bot:hasSimple3DModel "13449.0, -10505.0, 7208.0, 53.0, 110.0, 62.0" .
+
+    plum:firesuppressionterminal_397b69ac-dd77-4b16-9979-28af0722ccc5 a <https://pi.pauwel.be/voc/distributionelement#FireSuppressionTerminal>,
+            <https://pi.pauwel.be/voc/distributionelement#FireSuppressionTerminal-NOTDEFINED>,
+            bot:Element ;
+        props:batid_attribute_simple "761951" ;
+        props:globalIdIfcRoot_attribute_simple "0vUscitNTB5fbvAAy78ip5" ;
+        props:nameIfcRoot_attribute_simple "SG_SPK_Horizontal_Sidewall:D25_E.C:761951" ;
+        props:objectTypeIfcObject_attribute_simple "SG_SPK_Horizontal_Sidewall:D25_E.C" ;
+        props:reference_simple "D25_E.C" ;
+        bot:has3DModel "ms_plum/397b69ac-dd77-4b16-9979-28af0722ccc5.ply" ;
+        bot:hasSimple3DModel "13450.0, -10506.0, 3215.0, 50.0, 100.0, 50.0" .
+
+    plum:pipefitting_3dbaf968-1b47-4184-a73a-00a3bebcdca5 a <https://pi.pauwel.be/voc/distributionelement#PipeFitting>,
+            <https://pi.pauwel.be/voc/distributionelement#PipeFitting-NOTDEFINED>,
+            bot:Element ;
+        props:batid_attribute_simple "817270" ;
+        props:globalIdIfcRoot_attribute_simple "0zklbe6qT1XASw0AE_lDob" ;
+        props:nameIfcRoot_attribute_simple "Tee Stainless Steel Press:Standard:817270" ;
+        props:objectTypeIfcObject_attribute_simple "Tee Stainless Steel Press:Standard" ;
+        props:reference_simple "Standard" ;
+        bot:has3DModel "ms_plum/3dbaf968-1b47-4184-a73a-00a3bebcdca5.ply" ;
+        bot:hasSimple3DModel "14720.0, -11090.0, 7207.0, 111.0, 158.0, 65.0" .
+
+    plum:pipefitting_3dbaf968-1b47-4184-a73a-00a3bebcdce2 a <https://pi.pauwel.be/voc/distributionelement#PipeFitting>,
+            <https://pi.pauwel.be/voc/distributionelement#PipeFitting-NOTDEFINED>,
+            bot:Element ;
+        props:batid_attribute_simple "817201" ;
+        props:globalIdIfcRoot_attribute_simple "0zklbe6qT1XASw0AE_lDpY" ;
+        props:nameIfcRoot_attribute_simple "Cross Steel:Standard:817201" ;
+        props:objectTypeIfcObject_attribute_simple "Cross Steel:Standard" ;
+        props:reference_simple "Standard" ;
+        bot:has3DModel "ms_plum/3dbaf968-1b47-4184-a73a-00a3bebcdce2.ply" ;
+        bot:hasSimple3DModel "14751.0, -9267.0, 7151.0, 94.0, 133.0, 177.0" .
+
+    plum:pipefitting_3dbaf968-1b47-4184-a73a-00a3bebcde1f a <https://pi.pauwel.be/voc/distributionelement#PipeFitting>,
+            <https://pi.pauwel.be/voc/distributionelement#PipeFitting-NOTDEFINED>,
+            bot:Element ;
+        props:batid_attribute_simple "817868" ;
+        props:globalIdIfcRoot_attribute_simple "0zklbe6qT1XASw0AE_lDuV" ;
+        props:nameIfcRoot_attribute_simple "M_Elbow - Welded - Generic:Standard:817868" ;
+        props:objectTypeIfcObject_attribute_simple "M_Elbow - Welded - Generic:Standard" ;
+        props:reference_simple "Standard" ;
+        bot:has3DModel "ms_plum/3dbaf968-1b47-4184-a73a-00a3bebcde1f.ply" ;
+        bot:hasSimple3DModel "13475.0, -11011.0, 3240.0, 60.0, 60.0, 60.0" .
+
+    plum:pipefitting_3dbaf968-1b47-4184-a73a-00a3bebcde85 a <https://pi.pauwel.be/voc/distributionelement#PipeFitting>,
+            <https://pi.pauwel.be/voc/distributionelement#PipeFitting-NOTDEFINED>,
+            bot:Element ;
+        props:batid_attribute_simple "817750" ;
+        props:globalIdIfcRoot_attribute_simple "0zklbe6qT1XASw0AE_lDw5" ;
+        props:nameIfcRoot_attribute_simple "Tee Stainless Steel Press:Standard:817750" ;
+        props:objectTypeIfcObject_attribute_simple "Tee Stainless Steel Press:Standard" ;
+        props:reference_simple "Standard" ;
+        bot:has3DModel "ms_plum/3dbaf968-1b47-4184-a73a-00a3bebcde85.ply" ;
+        bot:hasSimple3DModel "14720.0, -11090.0, 3207.0, 111.0, 158.0, 65.0" .
+
+    plum:pipefitting_3dbaf968-1b47-4184-a73a-00a3bebcde98 a <https://pi.pauwel.be/voc/distributionelement#PipeFitting>,
+            <https://pi.pauwel.be/voc/distributionelement#PipeFitting-NOTDEFINED>,
+            bot:Element ;
+        props:batid_attribute_simple "817739" ;
+        props:globalIdIfcRoot_attribute_simple "0zklbe6qT1XASw0AE_lDwO" ;
+        props:nameIfcRoot_attribute_simple "Cross Steel:Standard:817739" ;
+        props:objectTypeIfcObject_attribute_simple "Cross Steel:Standard" ;
+        props:reference_simple "Standard" ;
+        bot:has3DModel "ms_plum/3dbaf968-1b47-4184-a73a-00a3bebcde98.ply" ;
+        bot:hasSimple3DModel "14751.0, -9267.0, 3151.0, 94.0, 133.0, 177.0" .
+
+    plum:pipefitting_c762f2b8-16ac-409f-bef0-2a08c5f15ed6 a <https://pi.pauwel.be/voc/distributionelement#PipeFitting>,
+            <https://pi.pauwel.be/voc/distributionelement#PipeFitting-NOTDEFINED>,
+            bot:Element ;
+        props:batid_attribute_simple "818054" ;
+        props:globalIdIfcRoot_attribute_simple "37OlAu5gn0dxxmAWZ5yLxM" ;
+        props:nameIfcRoot_attribute_simple "Elbow Stainless Steel Press:Standard:818054" ;
+        props:objectTypeIfcObject_attribute_simple "Elbow Stainless Steel Press:Standard" ;
+        props:reference_simple "Standard" ;
+        bot:has3DModel "ms_plum/c762f2b8-16ac-409f-bef0-2a08c5f15ed6.ply" ;
+        bot:hasSimple3DModel "13442.0, -11044.0, 7207.0, 137.0, 137.0, 65.0" .
+
+    plum:pipesegment_397b69ac-dd77-4b16-9979-28af0722ccfa a <https://pi.pauwel.be/voc/distributionelement#PipeSegment>,
+            <https://pi.pauwel.be/voc/distributionelement#PipeSegment-NOTDEFINED>,
+            bot:Element ;
+        props:batid_attribute_simple "761952" ;
+        props:globalIdIfcRoot_attribute_simple "0vUscitNTB5fbvAAy78ipw" ;
+        props:invertElevation_simple 3.216e+02 ;
+        props:nameIfcRoot_attribute_simple "Pipe Types:SPR:761952" ;
+        props:objectTypeIfcObject_attribute_simple "Pipe Types:SPR" ;
+        props:reference_simple "SPR" ;
+        bot:has3DModel "ms_plum/397b69ac-dd77-4b16-9979-28af0722ccfa.ply" ;
+        bot:hasSimple3DModel "13450.0, -10960.0, 3215.0, 50.0, 454.0, 50.0" .
+
+    plum:pipesegment_397b69ac-dd77-4b16-9979-28af0722d114 a <https://pi.pauwel.be/voc/distributionelement#PipeSegment>,
+            <https://pi.pauwel.be/voc/distributionelement#PipeSegment-NOTDEFINED>,
+            bot:Element ;
+        props:batid_attribute_simple "769422" ;
+        props:globalIdIfcRoot_attribute_simple "0vUscitNTB5fbvAAy78j4K" ;
+        props:invertElevation_simple 3.216e+02 ;
+        props:nameIfcRoot_attribute_simple "Pipe Types:SPR:769422" ;
+        props:objectTypeIfcObject_attribute_simple "Pipe Types:SPR" ;
+        props:reference_simple "SPR" ;
+        bot:has3DModel "ms_plum/397b69ac-dd77-4b16-9979-28af0722d114.ply" ;
+        bot:hasSimple3DModel "13526.0, -11036.0, 3215.0, 1194.0, 50.0, 50.0" .
+
+    plum:pipesegment_3dbaf968-1b47-4184-a73a-00a3bebcdca4 a <https://pi.pauwel.be/voc/distributionelement#PipeSegment>,
+            <https://pi.pauwel.be/voc/distributionelement#PipeSegment-NOTDEFINED>,
+            bot:Element ;
+        props:batid_attribute_simple "817271" ;
+        props:globalIdIfcRoot_attribute_simple "0zklbe6qT1XASw0AE_lDoa" ;
+        props:invertElevation_simple 7.216e+02 ;
+        props:nameIfcRoot_attribute_simple "Pipe Types:SPR:817271" ;
+        props:objectTypeIfcObject_attribute_simple "Pipe Types:SPR" ;
+        props:reference_simple "SPR" ;
+        bot:has3DModel "ms_plum/3dbaf968-1b47-4184-a73a-00a3bebcdca4.ply" ;
+        bot:hasSimple3DModel "14774.0, -17867.0, 7215.0, 50.0, 8600.0, 50.0" .
+
+    plum:pipesegment_3dbaf968-1b47-4184-a73a-00a3bebcdcd9 a <https://pi.pauwel.be/voc/distributionelement#PipeSegment>,
+            <https://pi.pauwel.be/voc/distributionelement#PipeSegment-NOTDEFINED>,
+            bot:Element ;
+        props:batid_attribute_simple "817162" ;
+        props:globalIdIfcRoot_attribute_simple "0zklbe6qT1XASw0AE_lDpP" ;
+        props:invertElevation_simple 7.216e+02 ;
+        props:nameIfcRoot_attribute_simple "Pipe Types:SPR:817162" ;
+        props:objectTypeIfcObject_attribute_simple "Pipe Types:SPR" ;
+        props:reference_simple "SPR" ;
+        bot:has3DModel "ms_plum/3dbaf968-1b47-4184-a73a-00a3bebcdcd9.ply" ;
+        bot:hasSimple3DModel "14774.0, -9131.0, 7215.0, 50.0, 8600.0, 50.0" .
+
+    plum:pipesegment_3dbaf968-1b47-4184-a73a-00a3bebcdda7 a <https://pi.pauwel.be/voc/distributionelement#PipeSegment>,
+            <https://pi.pauwel.be/voc/distributionelement#PipeSegment-NOTDEFINED>,
+            bot:Element ;
+        props:batid_attribute_simple "817524" ;
+        props:globalIdIfcRoot_attribute_simple "0zklbe6qT1XASw0AE_lDsd" ;
+        props:invertElevation_simple 3.216e+02 ;
+        props:nameIfcRoot_attribute_simple "Pipe Types:SPR:817524" ;
+        props:objectTypeIfcObject_attribute_simple "Pipe Types:SPR" ;
+        props:reference_simple "SPR" ;
+        bot:has3DModel "ms_plum/3dbaf968-1b47-4184-a73a-00a3bebcdda7.ply" ;
+        bot:hasSimple3DModel "14774.0, -17867.0, 3215.0, 50.0, 6777.0, 50.0" .
+
+    plum:pipesegment_3dbaf968-1b47-4184-a73a-00a3bebcde84 a <https://pi.pauwel.be/voc/distributionelement#PipeSegment>,
+            <https://pi.pauwel.be/voc/distributionelement#PipeSegment-NOTDEFINED>,
+            bot:Element ;
+        props:batid_attribute_simple "817751" ;
+        props:globalIdIfcRoot_attribute_simple "0zklbe6qT1XASw0AE_lDw4" ;
+        props:invertElevation_simple 3.216e+02 ;
+        props:nameIfcRoot_attribute_simple "Pipe Types:SPR:817751" ;
+        props:objectTypeIfcObject_attribute_simple "Pipe Types:SPR" ;
+        props:reference_simple "SPR" ;
+        bot:has3DModel "ms_plum/3dbaf968-1b47-4184-a73a-00a3bebcde84.ply" ;
+        bot:hasSimple3DModel "14774.0, -10932.0, 3215.0, 50.0, 1665.0, 50.0" .
+
+    plum:pipesegment_3dbaf968-1b47-4184-a73a-00a3bebcde94 a <https://pi.pauwel.be/voc/distributionelement#PipeSegment>,
+            <https://pi.pauwel.be/voc/distributionelement#PipeSegment-NOTDEFINED>,
+            bot:Element ;
+        props:batid_attribute_simple "817735" ;
+        props:globalIdIfcRoot_attribute_simple "0zklbe6qT1XASw0AE_lDwK" ;
+        props:invertElevation_simple 3.32858e+02 ;
+        props:nameIfcRoot_attribute_simple "Pipe Types:SPR:817735" ;
+        props:objectTypeIfcObject_attribute_simple "Pipe Types:SPR" ;
+        props:reference_simple "SPR" ;
+        bot:has3DModel "ms_plum/3dbaf968-1b47-4184-a73a-00a3bebcde94.ply" ;
+        bot:hasSimple3DModel "14758.0, -9241.0, 3329.0, 82.0, 81.0, 3823.0" .
+
+    plum:pipesegment_3dbaf968-1b47-4184-a73a-00a3bebcde9a a <https://pi.pauwel.be/voc/distributionelement#PipeSegment>,
+            <https://pi.pauwel.be/voc/distributionelement#PipeSegment-NOTDEFINED>,
+            bot:Element ;
+        props:batid_attribute_simple "817737" ;
+        props:globalIdIfcRoot_attribute_simple "0zklbe6qT1XASw0AE_lDwQ" ;
+        props:invertElevation_simple 3.216e+02 ;
+        props:nameIfcRoot_attribute_simple "Pipe Types:SPR:817737" ;
+        props:objectTypeIfcObject_attribute_simple "Pipe Types:SPR" ;
+        props:reference_simple "SPR" ;
+        bot:has3DModel "ms_plum/3dbaf968-1b47-4184-a73a-00a3bebcde9a.ply" ;
+        bot:hasSimple3DModel "14774.0, -9134.0, 3215.0, 50.0, 8603.0, 50.0" .
+
+    plum:pipesegment_3dbaf968-1b47-4184-a73a-00a3bebcded3 a <https://pi.pauwel.be/voc/distributionelement#PipeSegment>,
+            <https://pi.pauwel.be/voc/distributionelement#PipeSegment-NOTDEFINED>,
+            bot:Element ;
+        props:batid_attribute_simple "817664" ;
+        props:globalIdIfcRoot_attribute_simple "0zklbe6qT1XASw0AE_lDxJ" ;
+        props:invertElevation_simple 0e+00 ;
+        props:nameIfcRoot_attribute_simple "Pipe Types:SPR:817664" ;
+        props:objectTypeIfcObject_attribute_simple "Pipe Types:SPR" ;
+        props:reference_simple "SPR" ;
+        bot:has3DModel "ms_plum/3dbaf968-1b47-4184-a73a-00a3bebcded3.ply" ;
+        bot:hasSimple3DModel "14758.0, -9241.0, 0.0, 82.0, 81.0, 3151.0" .
+
+    plum:pipesegment_6704a581-5533-4ab5-aa6a-5067cf62b87b a <https://pi.pauwel.be/voc/distributionelement#PipeSegment>,
+            <https://pi.pauwel.be/voc/distributionelement#PipeSegment-NOTDEFINED>,
+            bot:Element ;
+        props:batid_attribute_simple "770852" ;
+        props:globalIdIfcRoot_attribute_simple "1d1AM1LJDAjQfgK6VFOhXx" ;
+        props:invertElevation_simple 7.32858e+02 ;
+        props:nameIfcRoot_attribute_simple "Pipe Types:SPR:770852" ;
+        props:objectTypeIfcObject_attribute_simple "Pipe Types:SPR" ;
+        props:reference_simple "SPR" ;
+        bot:has3DModel "ms_plum/6704a581-5533-4ab5-aa6a-5067cf62b87b.ply" ;
+        bot:hasSimple3DModel "14758.0, -9241.0, 7329.0, 82.0, 81.0, 681.0" .
+
+    plum:pipesegment_910a2281-c242-48ea-ba92-2bd2066705e1 a <https://pi.pauwel.be/voc/distributionelement#PipeSegment>,
+            <https://pi.pauwel.be/voc/distributionelement#PipeSegment-NOTDEFINED>,
+            bot:Element ;
+        props:batid_attribute_simple "770572" ;
+        props:globalIdIfcRoot_attribute_simple "2H2YA1ma98whgIAz86PmNX" ;
+        props:invertElevation_simple 7.216e+02 ;
+        props:nameIfcRoot_attribute_simple "Pipe Types:SPR:770572" ;
+        props:objectTypeIfcObject_attribute_simple "Pipe Types:SPR" ;
+        props:reference_simple "SPR" ;
+        bot:has3DModel "ms_plum/910a2281-c242-48ea-ba92-2bd2066705e1.ply" ;
+        bot:hasSimple3DModel "13450.0, -10906.0, 7215.0, 50.0, 400.0, 50.0" .
+
+    plum:pipesegment_910a2281-c242-48ea-ba92-2bd2066705e3 a <https://pi.pauwel.be/voc/distributionelement#PipeSegment>,
+            <https://pi.pauwel.be/voc/distributionelement#PipeSegment-NOTDEFINED>,
+            bot:Element ;
+        props:batid_attribute_simple "770574" ;
+        props:globalIdIfcRoot_attribute_simple "2H2YA1ma98whgIAz86PmNZ" ;
+        props:invertElevation_simple 7.216e+02 ;
+        props:nameIfcRoot_attribute_simple "Pipe Types:SPR:770574" ;
+        props:objectTypeIfcObject_attribute_simple "Pipe Types:SPR" ;
+        props:reference_simple "SPR" ;
+        bot:has3DModel "ms_plum/910a2281-c242-48ea-ba92-2bd2066705e3.ply" ;
+        bot:hasSimple3DModel "13579.0, -11036.0, 7215.0, 1141.0, 50.0, 50.0" .
+
+    plum:storey_8f31bec7-ddeb-47ae-8d68-923651a2497b a bot:Storey ;
+        props:aboveGround_simple ns2:UNKNOWN ;
+        props:elevationIfcBuildingStorey_attribute_simple 0e+00 ;
+        props:globalIdIfcRoot_attribute_simple "2FCRx7tUj7hereaZPHeabx" ;
+        props:longNameIfcSpatialElement_attribute_simple "Level 1" ;
+        props:nameIfcRoot_attribute_simple "Level 1" ;
+        props:objectTypeIfcObject_attribute_simple "Level:8mm Head" ;
+        props:reference_simple "8mm Head" ;
+        bot:containsElement plum:firesuppressionterminal_397b69ac-dd77-4b16-9979-28af0722ccc5,
+            plum:pipefitting_3dbaf968-1b47-4184-a73a-00a3bebcdce2,
+            plum:pipefitting_3dbaf968-1b47-4184-a73a-00a3bebcde1f,
+            plum:pipefitting_3dbaf968-1b47-4184-a73a-00a3bebcde85,
+            plum:pipefitting_3dbaf968-1b47-4184-a73a-00a3bebcde98,
+            plum:pipesegment_397b69ac-dd77-4b16-9979-28af0722ccfa,
+            plum:pipesegment_397b69ac-dd77-4b16-9979-28af0722d114,
+            plum:pipesegment_3dbaf968-1b47-4184-a73a-00a3bebcdca4,
+            plum:pipesegment_3dbaf968-1b47-4184-a73a-00a3bebcdcd9,
+            plum:pipesegment_3dbaf968-1b47-4184-a73a-00a3bebcdda7,
+            plum:pipesegment_3dbaf968-1b47-4184-a73a-00a3bebcde84,
+            plum:pipesegment_3dbaf968-1b47-4184-a73a-00a3bebcde94,
+            plum:pipesegment_3dbaf968-1b47-4184-a73a-00a3bebcde9a,
+            plum:pipesegment_3dbaf968-1b47-4184-a73a-00a3bebcded3,
+            plum:pipesegment_6704a581-5533-4ab5-aa6a-5067cf62b87b .
+
+    plum:storey_8f31bec7-ddeb-47ae-8d68-923651a24afa a bot:Storey ;
+        props:aboveGround_simple ns2:UNKNOWN ;
+        props:elevationIfcBuildingStorey_attribute_simple 4e+02 ;
+        props:globalIdIfcRoot_attribute_simple "2FCRx7tUj7hereaZPHeahw" ;
+        props:longNameIfcSpatialElement_attribute_simple "Level 2" ;
+        props:nameIfcRoot_attribute_simple "Level 2" ;
+        props:objectTypeIfcObject_attribute_simple "Level:8mm Head" ;
+        props:reference_simple "8mm Head" ;
+        bot:containsElement plum:buildingelement_c762f2b8-16ac-409f-bef0-2a08c5f1a4dd,
+            plum:pipefitting_3dbaf968-1b47-4184-a73a-00a3bebcdca5,
+            plum:pipefitting_c762f2b8-16ac-409f-bef0-2a08c5f15ed6,
+            plum:pipesegment_910a2281-c242-48ea-ba92-2bd2066705e1,
+            plum:pipesegment_910a2281-c242-48ea-ba92-2bd2066705e3 .
+}
+
+domain:architecture {
+    arc:site_99d77533-88b7-477d-a021-163c2f84e75a a bot:Site ;
+        props:globalIdIfcRoot_attribute_simple "2PrtKpYBT7VQ0X5ZmlXETQ" ;
+        props:nameIfcRoot_attribute_simple "Default" ;
+        props:refElevationIfcSite_attribute_simple 0e+00 ;
+        props:reference_simple "Project Information" ;
+        bot:hasBuilding arc:building_99d77533-88b7-477d-a021-163c2f84e759 .
+
+    arc:building_99d77533-88b7-477d-a021-163c2f84e759 a bot:Building ;
+        props:aboveGround_simple ns2:UNKNOWN ;
+        props:globalIdIfcRoot_attribute_simple "2PrtKpYBT7VQ0X5ZmlXETP" ;
+        props:isExternal_simple false ;
+        props:isLandmarked_simple ns2:UNKNOWN ;
+        props:numberOfStoreys_simple 2 ;
+        props:reference_simple "Project Information" ;
+        bot:hasStorey arc:storey_99d77533-88b7-477d-a021-163cd07b199f,
+            arc:storey_99d77533-88b7-477d-a021-163cd07b1a1e .
+
+    arc:railing_4c35a2e4-de2e-4015-bf04-beea04d6892e a beo:Railing,
+            beo:Railing-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "504902" ;
+        props:globalIdIfcRoot_attribute_simple "1CDQBatYv05Ry4lke4reak" ;
+        props:height_simple 9e+01 ;
+        props:isExternal_simple false ;
+        props:nameIfcRoot_attribute_simple "Railing:YA - Stair Side Railing - Metal net 2:504902" ;
+        props:objectTypeIfcObject_attribute_simple "Railing:YA - Stair Side Railing - Metal net 2" ;
+        props:reference_simple "YA - Stair Side Railing - Metal net 2" ;
+        bot:has3DModel "ms_arc/4c35a2e4-de2e-4015-bf04-beea04d6892e.ply" ;
+        bot:hasSimple3DModel "12640.0, -10500.0, 3720.0, 120.0, 1330.0, 1180.0" .
+
+    arc:slab_69d19b99-7258-4d69-8af0-c79422b54192 a beo:Slab,
+            beo:Slab-FLOOR,
+            bot:Element ;
+        props:batid_attribute_simple "487473" ;
+        props:globalIdIfcRoot_attribute_simple "1fqPkPSbXDQOhmnvGYjK6I" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "Floor:200mm-Concrete:487473" ;
+        props:objectTypeIfcObject_attribute_simple "Floor:200mm-Concrete" ;
+        props:pitchAngle_simple 0e+00 ;
+        props:reference_simple "200mm-Concrete" ;
+        props:thermalTransmittance_simple 6.5e+00 ;
+        bot:has3DModel "ms_arc/69d19b99-7258-4d69-8af0-c79422b54192.ply" ;
+        bot:hasSimple3DModel "0.0, -18400.0, 3700.0, 22000.0, 18400.0, 300.0" .
+
+    arc:slab_69d19b99-7258-4d69-8af0-c79422b555d3 a beo:Slab,
+            beo:Slab-FLOOR,
+            bot:Element ;
+        props:batid_attribute_simple "484464" ;
+        props:globalIdIfcRoot_attribute_simple "1fqPkPSbXDQOhmnvGYjLNJ" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "Floor:200mm-Concrete:484464" ;
+        props:objectTypeIfcObject_attribute_simple "Floor:200mm-Concrete" ;
+        props:pitchAngle_simple 0e+00 ;
+        props:reference_simple "200mm-Concrete" ;
+        props:thermalTransmittance_simple 6.5e+00 ;
+        bot:has3DModel "ms_arc/69d19b99-7258-4d69-8af0-c79422b555d3.ply" ;
+        bot:hasSimple3DModel "0.0, -18400.0, -300.0, 22000.0, 18400.0, 300.0" .
+
+    arc:space_69d19b99-7258-4d69-8af0-c79422b77847 a bot:Space ;
+        props:globalIdIfcRoot_attribute_simple "1fqPkPSbXDQOhmnvGYjtX7" ;
+        props:isExternal_simple false ;
+        props:longNameIfcSpatialElement_attribute_simple "C5- Distribution Board" ;
+        props:nameIfcRoot_attribute_simple "C5" ;
+        props:name_simple "C5- Distribution Board" ;
+        props:reference_simple "C5- Distribution Board C5" .
+
+    arc:space_69d19b99-7258-4d69-8af0-c79422b77870 a bot:Space ;
+        props:globalIdIfcRoot_attribute_simple "1fqPkPSbXDQOhmnvGYjtXm" ;
+        props:isExternal_simple false ;
+        props:longNameIfcSpatialElement_attribute_simple "C19- Stairwell pressurization" ;
+        props:nameIfcRoot_attribute_simple "C19" ;
+        props:name_simple "C19- Stairwell pressurization" ;
+        props:reference_simple "C19- Stairwell pressurization C19" .
+
+    arc:stair_69d19b99-7258-4d69-8af0-c79422b54c15 a beo:Stair,
+            beo:Stair-HALF_TURN_STAIR,
+            bot:Element ;
+        props:batid_attribute_simple "490934" ;
+        props:globalIdIfcRoot_attribute_simple "1fqPkPSbXDQOhmnvGYjKmL" ;
+        props:isExternal_simple false ;
+        props:nameIfcRoot_attribute_simple "Cast-In-Place Stair:Stair:490934" ;
+        props:nosingLength_simple 0e+00 ;
+        props:numberOfRiser_simple 2.4e+01 ;
+        props:numberOfTreads_simple 2.2e+01 ;
+        props:objectTypeIfcObject_attribute_simple "Cast-In-Place Stair:YA 05DE05D305E805D205D505EA 05D105D805D505DF 05DE05D705D505E405D505EA 05D005D105DF" ;
+        props:reference_simple "YA 05DE05D305E805D205D505EA 05D105D805D505DF 05DE05D705D505E405D505EA 05D005D105DF" ;
+        props:riserHeight_simple 1.666667e+01 ;
+        props:treadLengthAtInnerSide_simple 2.8e+01 ;
+        props:treadLengthAtOffset_simple 2.8e+01 ;
+        props:treadLength_simple 2.8e+01 ;
+        props:walkingLineOffset_simple 1.968504e+00 .
+
+    arc:storey_99d77533-88b7-477d-a021-163cd07b199f a bot:Storey ;
+        props:aboveGround_simple ns2:UNKNOWN ;
+        props:elevationIfcBuildingStorey_attribute_simple 4.094591e-13 ;
+        props:globalIdIfcRoot_attribute_simple "2PrtKpYBT7VQ0X5ZpGUncV" ;
+        props:longNameIfcSpatialElement_attribute_simple "Level 1" ;
+        props:nameIfcRoot_attribute_simple "Level 1" ;
+        props:objectTypeIfcObject_attribute_simple "Level:8mm Head" ;
+        props:reference_simple "8mm Head" ;
+        bot:containsElement arc:door_69d19b99-7258-4d69-8af0-c79422b77843,
+            arc:door_69d19b99-7258-4d69-8af0-c79422b7787d,
+            arc:slab_69d19b99-7258-4d69-8af0-c79422b555d3,
+            arc:stair_69d19b99-7258-4d69-8af0-c79422b54c15,
+            arc:wall_4d99d014-285e-49e0-99bd-fabe9b164603,
+            arc:wall_5cdebead-fad4-43ab-a7bb-45ba5e612ba8,
+            arc:wall_63fce307-79e4-4db6-a098-ecb90d2207f0,
+            arc:wall_69d19b99-7258-4d69-8af0-c79422b5580b,
+            arc:wall_69d19b99-7258-4d69-8af0-c79422b55b21,
+            arc:wall_69d19b99-7258-4d69-8af0-c79422b55ba1,
+            arc:wall_69d19b99-7258-4d69-8af0-c79422b77868,
+            arc:wall_69d19b99-7258-4d69-8af0-c79422b7786c,
+            arc:wall_69d19b99-7258-4d69-8af0-c79422b77871,
+            arc:wall_69d19b99-7258-4d69-8af0-c79422b77872,
+            arc:wall_69d19b99-7258-4d69-8af0-c79422b77877,
+            arc:wall_c010b479-3cd5-43bc-89fa-0451c1f9bb3f,
+            arc:wall_e9b9157d-8429-40fc-a08b-4e510e1f7db1,
+            arc:wall_fbb9641b-1d0a-4990-8e00-3611062163f6,
+            arc:window_69d19b99-7258-4d69-8af0-c79422b77bb9 ;
+        bot:hasSpace arc:space_69d19b99-7258-4d69-8af0-c79422b77847,
+            arc:space_69d19b99-7258-4d69-8af0-c79422b77870 .
+
+    arc:storey_99d77533-88b7-477d-a021-163cd07b1a1e a bot:Storey ;
+        props:aboveGround_simple ns2:UNKNOWN ;
+        props:elevationIfcBuildingStorey_attribute_simple 4e+02 ;
+        props:globalIdIfcRoot_attribute_simple "2PrtKpYBT7VQ0X5ZpGUneU" ;
+        props:longNameIfcSpatialElement_attribute_simple "Level 2" ;
+        props:nameIfcRoot_attribute_simple "Level 2" ;
+        props:objectTypeIfcObject_attribute_simple "Level:8mm Head" ;
+        props:reference_simple "8mm Head" ;
+        bot:containsElement arc:door_69d19b99-7258-4d69-8af0-c79422b5404b,
+            arc:door_69d19b99-7258-4d69-8af0-c79422b543fe,
+            arc:railing_4c35a2e4-de2e-4015-bf04-beea04d6892e,
+            arc:slab_69d19b99-7258-4d69-8af0-c79422b54192,
+            arc:window_69d19b99-7258-4d69-8af0-c79422b54106 .
+
+    arc:wall_4d99d014-285e-49e0-99bd-fabe9b164603 a beo:Wall,
+            beo:Wall-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "494114" ;
+        props:extendToStructure_simple false ;
+        props:globalIdIfcRoot_attribute_simple "1DcT0KA5v9u9cz_hwR5aO3" ;
+        props:isExternal_simple true ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "Basic Wall:05D105D805D505DF 40:494114" ;
+        props:objectTypeIfcObject_attribute_simple "Basic Wall:05D105D805D505DF 40" ;
+        props:reference_simple "05D105D805D505DF 40" ;
+        bot:has3DModel "ms_arc/4d99d014-285e-49e0-99bd-fabe9b164603.ply" ;
+        bot:hasSimple3DModel "14200.0, -10500.0, 0.0, 400.0, 2600.0, 4000.0" .
+
+    arc:wall_5cdebead-fad4-43ab-a7bb-45ba5e612ba8 a beo:Wall,
+            beo:Wall-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "502246" ;
+        props:extendToStructure_simple false ;
+        props:globalIdIfcRoot_attribute_simple "1Sthwj_jH3gwUxHRfUOIke" ;
+        props:isExternal_simple true ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "Basic Wall:05D105D805D505DF 40:502246" ;
+        props:objectTypeIfcObject_attribute_simple "Basic Wall:05D105D805D505DF 40" ;
+        props:reference_simple "05D105D805D505DF 40" ;
+        bot:has3DModel "ms_arc/5cdebead-fad4-43ab-a7bb-45ba5e612ba8.ply" ;
+        bot:hasSimple3DModel "7800.0, -10900.0, 4000.0, 6800.0, 400.0, 4000.0" .
+
+    arc:wall_63fce307-79e4-4db6-a098-ecb90d2207f0 a beo:Wall,
+            beo:Wall-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "503460" ;
+        props:extendToStructure_simple false ;
+        props:globalIdIfcRoot_attribute_simple "1Z$EC7UUHDjg2OxBaD8WVm" ;
+        props:isExternal_simple true ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "Basic Wall:05D105D805D505DF 40:503460" ;
+        props:objectTypeIfcObject_attribute_simple "Basic Wall:05D105D805D505DF 40" ;
+        props:reference_simple "05D105D805D505DF 40" ;
+        bot:has3DModel "ms_arc/63fce307-79e4-4db6-a098-ecb90d2207f0.ply" ;
+        bot:hasSimple3DModel "7400.0, -10900.0, 4000.0, 400.0, 3400.0, 4000.0" .
+
+    arc:wall_69d19b99-7258-4d69-8af0-c79422b5580b a beo:Wall,
+            beo:Wall-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "485800" ;
+        props:extendToStructure_simple false ;
+        props:globalIdIfcRoot_attribute_simple "1fqPkPSbXDQOhmnvGYjLWB" ;
+        props:isExternal_simple true ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "Basic Wall:05D105D805D505DF 40:485800" ;
+        props:objectTypeIfcObject_attribute_simple "Basic Wall:05D105D805D505DF 40" ;
+        props:reference_simple "05D105D805D505DF 40" ;
+        bot:has3DModel "ms_arc/69d19b99-7258-4d69-8af0-c79422b5580b.ply" ;
+        bot:hasSimple3DModel "0.0, -18400.0, 0.0, 21600.0, 400.0, 8000.0" .
+
+    arc:wall_69d19b99-7258-4d69-8af0-c79422b55b21 a beo:Wall,
+            beo:Wall-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "486018" ;
+        props:extendToStructure_simple false ;
+        props:globalIdIfcRoot_attribute_simple "1fqPkPSbXDQOhmnvGYjLiX" ;
+        props:isExternal_simple true ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "Basic Wall:05D105D805D505DF 40:486018" ;
+        props:objectTypeIfcObject_attribute_simple "Basic Wall:05D105D805D505DF 40" ;
+        props:reference_simple "05D105D805D505DF 40" ;
+        bot:has3DModel "ms_arc/69d19b99-7258-4d69-8af0-c79422b55b21.ply" ;
+        bot:hasSimple3DModel "400.0, -400.0, 0.0, 21200.0, 400.0, 8000.0" .
+
+    arc:wall_69d19b99-7258-4d69-8af0-c79422b55ba1 a beo:Wall,
+            beo:Wall-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "485890" ;
+        props:extendToStructure_simple false ;
+        props:globalIdIfcRoot_attribute_simple "1fqPkPSbXDQOhmnvGYjLkX" ;
+        props:isExternal_simple true ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "Basic Wall:05D105D805D505DF 40:485890" ;
+        props:objectTypeIfcObject_attribute_simple "Basic Wall:05D105D805D505DF 40" ;
+        props:reference_simple "05D105D805D505DF 40" ;
+        bot:has3DModel "ms_arc/69d19b99-7258-4d69-8af0-c79422b55ba1.ply" ;
+        bot:hasSimple3DModel "0.0, -18000.0, 0.0, 400.0, 18000.0, 8000.0" .
+
+    arc:wall_69d19b99-7258-4d69-8af0-c79422b77868 a beo:Wall,
+            beo:Wall-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "346571" ;
+        props:extendToStructure_simple false ;
+        props:globalIdIfcRoot_attribute_simple "1fqPkPSbXDQOhmnvGYjtXe" ;
+        props:isExternal_simple true ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "Basic Wall:05D105D805D505DF 40:346571" ;
+        props:objectTypeIfcObject_attribute_simple "Basic Wall:05D105D805D505DF 40" ;
+        props:reference_simple "05D105D805D505DF 40" ;
+        bot:has3DModel "ms_arc/69d19b99-7258-4d69-8af0-c79422b77868.ply" ;
+        bot:hasSimple3DModel "7800.0, -10900.0, 0.0, 6800.0, 400.0, 4000.0" ;
+        bot:hasSubElement arc:door_69d19b99-7258-4d69-8af0-c79422b543fe,
+            arc:door_69d19b99-7258-4d69-8af0-c79422b77843 .
+
+    arc:wall_69d19b99-7258-4d69-8af0-c79422b7786c a beo:Wall,
+            beo:Wall-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "346575" ;
+        props:extendToStructure_simple false ;
+        props:globalIdIfcRoot_attribute_simple "1fqPkPSbXDQOhmnvGYjtXi" ;
+        props:isExternal_simple true ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "Basic Wall:05D105D805D505DF 40:346575" ;
+        props:objectTypeIfcObject_attribute_simple "Basic Wall:05D105D805D505DF 40" ;
+        props:reference_simple "05D105D805D505DF 40" ;
+        bot:has3DModel "ms_arc/69d19b99-7258-4d69-8af0-c79422b7786c.ply" ;
+        bot:hasSimple3DModel "7400.0, -10900.0, 0.0, 400.0, 3400.0, 4000.0" .
+
+    arc:wall_69d19b99-7258-4d69-8af0-c79422b77871 a beo:Wall,
+            beo:Wall-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "346578" ;
+        props:extendToStructure_simple false ;
+        props:globalIdIfcRoot_attribute_simple "1fqPkPSbXDQOhmnvGYjtXn" ;
+        props:isExternal_simple true ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "Basic Wall:05D105D805D505DF 40:346578" ;
+        props:objectTypeIfcObject_attribute_simple "Basic Wall:05D105D805D505DF 40" ;
+        props:reference_simple "05D105D805D505DF 40" ;
+        bot:has3DModel "ms_arc/69d19b99-7258-4d69-8af0-c79422b77871.ply" ;
+        bot:hasSimple3DModel "21600.0, -18400.0, 0.0, 400.0, 18400.0, 8000.0" .
+
+    arc:wall_69d19b99-7258-4d69-8af0-c79422b77872 a beo:Wall,
+            beo:Wall-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "346577" ;
+        props:extendToStructure_simple false ;
+        props:globalIdIfcRoot_attribute_simple "1fqPkPSbXDQOhmnvGYjtXo" ;
+        props:isExternal_simple true ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "Basic Wall:05D105D805D505DF 40:346577" ;
+        props:objectTypeIfcObject_attribute_simple "Basic Wall:05D105D805D505DF 40" ;
+        props:reference_simple "05D105D805D505DF 40" ;
+        bot:has3DModel "ms_arc/69d19b99-7258-4d69-8af0-c79422b77872.ply" ;
+        bot:hasSimple3DModel "7800.0, -7900.0, 0.0, 6800.0, 400.0, 4000.0" ;
+        bot:hasSubElement arc:door_69d19b99-7258-4d69-8af0-c79422b5404b,
+            arc:door_69d19b99-7258-4d69-8af0-c79422b7787d .
+
+    arc:wall_69d19b99-7258-4d69-8af0-c79422b77877 a beo:Wall,
+            beo:Wall-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "346580" ;
+        props:description_simple "05E705D905E8 05D105DC05D505E705D905DD 10" ;
+        props:extendToStructure_simple false ;
+        props:globalIdIfcRoot_attribute_simple "1fqPkPSbXDQOhmnvGYjtXt" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "Basic Wall:05E405E005D905DD 05D105DC05D505E7 10:346580" ;
+        props:objectTypeIfcObject_attribute_simple "Basic Wall:05E405E005D905DD 05D105DC05D505E7 10" ;
+        props:reference_simple "05E405E005D905DD 05D105DC05D505E7 10" ;
+        bot:has3DModel "ms_arc/69d19b99-7258-4d69-8af0-c79422b77877.ply" ;
+        bot:hasSimple3DModel "8400.0, -10500.0, 0.0, 100.0, 2600.0, 4000.0" ;
+        bot:hasSubElement arc:window_69d19b99-7258-4d69-8af0-c79422b77bb9 .
+
+    arc:wall_c010b479-3cd5-43bc-89fa-0451c1f9bb3f a beo:Wall,
+            beo:Wall-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "503856" ;
+        props:description_simple "05E705D905E8 05D105DC05D505E705D905DD 10" ;
+        props:extendToStructure_simple false ;
+        props:globalIdIfcRoot_attribute_simple "304BHvFDL3l8dw1571_Ri$" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "Basic Wall:05E405E005D905DD 05D105DC05D505E7 10:503856" ;
+        props:objectTypeIfcObject_attribute_simple "Basic Wall:05E405E005D905DD 05D105DC05D505E7 10" ;
+        props:reference_simple "05E405E005D905DD 05D105DC05D505E7 10" ;
+        bot:has3DModel "ms_arc/c010b479-3cd5-43bc-89fa-0451c1f9bb3f.ply" ;
+        bot:hasSimple3DModel "8400.0, -10500.0, 4000.0, 100.0, 2600.0, 4000.0" ;
+        bot:hasSubElement arc:window_69d19b99-7258-4d69-8af0-c79422b54106 .
+
+    arc:wall_e9b9157d-8429-40fc-a08b-4e510e1f7db1 a beo:Wall,
+            beo:Wall-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "502918" ;
+        props:extendToStructure_simple false ;
+        props:globalIdIfcRoot_attribute_simple "3fkHLzX2b0$A2BJb4E7tsn" ;
+        props:isExternal_simple true ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "Basic Wall:05D105D805D505DF 40:502918" ;
+        props:objectTypeIfcObject_attribute_simple "Basic Wall:05D105D805D505DF 40" ;
+        props:reference_simple "05D105D805D505DF 40" ;
+        bot:has3DModel "ms_arc/e9b9157d-8429-40fc-a08b-4e510e1f7db1.ply" ;
+        bot:hasSimple3DModel "14200.0, -10500.0, 4000.0, 400.0, 2600.0, 4000.0" .
+
+    arc:wall_fbb9641b-1d0a-4990-8e00-3611062163f6 a beo:Wall,
+            beo:Wall-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "503170" ;
+        props:extendToStructure_simple false ;
+        props:globalIdIfcRoot_attribute_simple "3xkMGR7Gf9a8u0DX468MFs" ;
+        props:isExternal_simple true ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "Basic Wall:05D105D805D505DF 40:503170" ;
+        props:objectTypeIfcObject_attribute_simple "Basic Wall:05D105D805D505DF 40" ;
+        props:reference_simple "05D105D805D505DF 40" ;
+        bot:has3DModel "ms_arc/fbb9641b-1d0a-4990-8e00-3611062163f6.ply" ;
+        bot:hasSimple3DModel "7800.0, -7900.0, 4000.0, 6800.0, 400.0, 4000.0" .
+
+    arc:door_69d19b99-7258-4d69-8af0-c79422b5404b a beo:Door,
+            beo:Door-DOOR,
+            bot:Element ;
+        props:batid_attribute_simple "487912" ;
+        props:fireRating_simple "F 30/30" ;
+        props:frameDepth_simple 4e+01 ;
+        props:globalIdIfcRoot_attribute_simple "1fqPkPSbXDQOhmnvGYjK1B" ;
+        props:isExternal_simple false ;
+        props:manufacturer_simple "05E805D905E005D205DC 05D005D5 05E905D5\"05E2" ;
+        props:nameIfcRoot_attribute_simple "YA_Masgerut Door Single Wing (Ver2):F.D.H-30/30 -110*210:487912" ;
+        props:objectTypeIfcObject_attribute_simple "YA_Masgerut Door Single Wing (Ver2):F.D.H-30/30 -110*210" ;
+        props:overallHeightIfcDoor_attribute_simple 2.25e+02 ;
+        props:overallWidthIfcDoor_attribute_simple 9e+01 ;
+        props:reference_simple "F.D.H-30/30 -110*210" ;
+        props:thermalTransmittance_simple 3.7021e+00 ;
+        bot:has3DModel "ms_arc/69d19b99-7258-4d69-8af0-c79422b5404b.ply" ;
+        bot:hasSimple3DModel "13025.0, -8700.0, 4000.0, 900.0, 1200.0, 2250.0" .
+
+    arc:door_69d19b99-7258-4d69-8af0-c79422b543fe a beo:Door,
+            beo:Door-DOOR,
+            bot:Element ;
+        props:batid_attribute_simple "488029" ;
+        props:fireRating_simple "F 30/30" ;
+        props:frameDepth_simple 4e+01 ;
+        props:globalIdIfcRoot_attribute_simple "1fqPkPSbXDQOhmnvGYjKF_" ;
+        props:isExternal_simple false ;
+        props:manufacturer_simple "05E805D905E005D205DC 05D005D5 05E905D5\"05E2" ;
+        props:nameIfcRoot_attribute_simple "YA_Masgerut Door Single Wing (Ver2):F.D.H-30/30 -90*210:488029" ;
+        props:objectTypeIfcObject_attribute_simple "YA_Masgerut Door Single Wing (Ver2):F.D.H-30/30 -90*210" ;
+        props:overallHeightIfcDoor_attribute_simple 2.25e+02 ;
+        props:overallWidthIfcDoor_attribute_simple 9e+01 ;
+        props:reference_simple "F.D.H-30/30 -90*210" ;
+        props:thermalTransmittance_simple 3.7021e+00 ;
+        bot:has3DModel "ms_arc/69d19b99-7258-4d69-8af0-c79422b543fe.ply" ;
+        bot:hasSimple3DModel "13025.0, -10900.0, 4000.0, 900.0, 1200.0, 2250.0" .
+
+    arc:door_69d19b99-7258-4d69-8af0-c79422b77843 a beo:Door,
+            beo:Door-DOOR,
+            bot:Element ;
+        props:batid_attribute_simple "346592" ;
+        props:fireRating_simple "F 30/30" ;
+        props:frameDepth_simple 4e+01 ;
+        props:globalIdIfcRoot_attribute_simple "1fqPkPSbXDQOhmnvGYjtX3" ;
+        props:isExternal_simple false ;
+        props:manufacturer_simple "05E805D905E005D205DC 05D005D5 05E905D5\"05E2" ;
+        props:nameIfcRoot_attribute_simple "YA_Masgerut Door Single Wing (Ver2):F.D.H-30/30 -90*210:346592" ;
+        props:objectTypeIfcObject_attribute_simple "YA_Masgerut Door Single Wing (Ver2):F.D.H-30/30 -90*210" ;
+        props:overallHeightIfcDoor_attribute_simple 2.25e+02 ;
+        props:overallWidthIfcDoor_attribute_simple 9e+01 ;
+        props:reference_simple "F.D.H-30/30 -90*210" ;
+        props:thermalTransmittance_simple 3.7021e+00 ;
+        bot:has3DModel "ms_arc/69d19b99-7258-4d69-8af0-c79422b77843.ply" ;
+        bot:hasSimple3DModel "13025.0, -10900.0, 0.0, 900.0, 1200.0, 2250.0" .
+
+    arc:door_69d19b99-7258-4d69-8af0-c79422b7787d a beo:Door,
+            beo:Door-DOOR,
+            bot:Element ;
+        props:batid_attribute_simple "346590" ;
+        props:fireRating_simple "F 30/30" ;
+        props:frameDepth_simple 4e+01 ;
+        props:globalIdIfcRoot_attribute_simple "1fqPkPSbXDQOhmnvGYjtXz" ;
+        props:isExternal_simple false ;
+        props:manufacturer_simple "05E805D905E005D205DC 05D005D5 05E905D5\"05E2" ;
+        props:nameIfcRoot_attribute_simple "YA_Masgerut Door Single Wing (Ver2):F.D.H-30/30 -110*210:346590" ;
+        props:objectTypeIfcObject_attribute_simple "YA_Masgerut Door Single Wing (Ver2):F.D.H-30/30 -110*210" ;
+        props:overallHeightIfcDoor_attribute_simple 2.25e+02 ;
+        props:overallWidthIfcDoor_attribute_simple 9e+01 ;
+        props:reference_simple "F.D.H-30/30 -110*210" ;
+        props:thermalTransmittance_simple 3.7021e+00 ;
+        bot:has3DModel "ms_arc/69d19b99-7258-4d69-8af0-c79422b7787d.ply" ;
+        bot:hasSimple3DModel "13025.0, -8700.0, 0.0, 900.0, 1200.0, 2250.0" .
+
+    arc:window_69d19b99-7258-4d69-8af0-c79422b54106 a beo:Window,
+            beo:Window-WINDOW,
+            bot:Element ;
+        props:batid_attribute_simple "487589" ;
+        props:frameDepth_simple 1e+01 ;
+        props:globalIdIfcRoot_attribute_simple "1fqPkPSbXDQOhmnvGYjK46" ;
+        props:isExternal_simple false ;
+        props:nameIfcRoot_attribute_simple "Window_Louvers+Frame:80x35:487589" ;
+        props:objectTypeIfcObject_attribute_simple "Window_Louvers+Frame:80x35" ;
+        props:overallHeightIfcWindow_attribute_simple 4.5e+01 ;
+        props:overallWidthIfcWindow_attribute_simple 9e+01 ;
+        props:reference_simple "80x35" ;
+        bot:has3DModel "ms_arc/69d19b99-7258-4d69-8af0-c79422b54106.ply" ;
+        bot:hasSimple3DModel "8400.0, -9650.0, 5230.0, 100.0, 900.0, 450.0" .
+
+    arc:window_69d19b99-7258-4d69-8af0-c79422b77bb9 a beo:Window,
+            beo:Window-WINDOW,
+            bot:Element ;
+        props:batid_attribute_simple "346650" ;
+        props:frameDepth_simple 1e+01 ;
+        props:globalIdIfcRoot_attribute_simple "1fqPkPSbXDQOhmnvGYjtkv" ;
+        props:isExternal_simple false ;
+        props:nameIfcRoot_attribute_simple "Window_Louvers+Frame:80x35:346650" ;
+        props:objectTypeIfcObject_attribute_simple "Window_Louvers+Frame:80x35" ;
+        props:overallHeightIfcWindow_attribute_simple 4.5e+01 ;
+        props:overallWidthIfcWindow_attribute_simple 9e+01 ;
+        props:reference_simple "80x35" ;
+        bot:has3DModel "ms_arc/69d19b99-7258-4d69-8af0-c79422b77bb9.ply" ;
+        bot:hasSimple3DModel "8400.0, -9650.0, 1230.0, 100.0, 900.0, 450.0" .
+}
+
+domain:structure {
+    str:IfcPropertyEnumeratedValue_1029 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4154 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1064 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4178 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1098 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4200 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1133 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4221 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1168 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4242 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1202 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4262 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1236 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4282 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1271 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4303 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1305 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4323 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1340 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4344 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1375 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4365 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1409 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4385 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1443 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4405 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1477 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4425 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_150 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_3583 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1511 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4445 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1545 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4465 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1579 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4485 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1613 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4505 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_163 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_3598 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1647 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4525 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1681 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4545 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1715 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4565 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1749 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4585 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1783 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4605 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1817 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4625 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1851 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4645 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1885 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4665 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1919 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4685 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1953 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4705 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1987 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4725 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_2021 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4745 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_2055 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4765 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_2089 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4785 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_2123 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4805 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_2157 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4825 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_338 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_3630 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_375 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_3662 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_426 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_3701 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_434 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_3708 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_468 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_3736 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_550 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_3800 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_558 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_3807 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_737 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_3960 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_772 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_3983 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_821 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4021 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_856 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4042 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_890 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4062 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_925 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4083 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_960 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4107 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_994 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4130 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:site_1009addc-9146-44a0-a7f3-5b42152a3885 a bot:Site ;
+        props:globalIdIfcRoot_attribute_simple "0G2QtSaKP4eAVpMq8LAZY5" ;
+        props:nameIfcRoot_attribute_simple "Default" ;
+        props:refElevationIfcSite_attribute_simple 0e+00 ;
+        props:reference_simple "Project Information" ;
+        bot:hasBuilding str:building_47b2bd2a-cc51-4be0-9b90-9f55318e2f81 .
+
+    str:IfcPropertyEnumeratedValue_1020 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4145 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1055 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4169 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1089 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4192 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1124 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4214 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1159 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4235 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1193 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4255 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1227 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4275 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1262 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4296 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1296 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4316 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1331 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4337 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1366 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4358 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1400 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4378 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1434 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4398 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1468 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4418 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1502 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4438 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1536 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4458 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1570 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4478 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_160 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_3595 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1604 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4498 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1638 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4518 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1672 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4538 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1706 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4558 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1740 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4578 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1774 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4598 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1808 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4618 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1842 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4638 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1876 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4658 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1910 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4678 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1944 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4698 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_1978 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4718 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_2012 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4738 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_2046 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4758 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_2080 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4778 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_2114 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4798 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_2148 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4818 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_2213 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4859 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_2275 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4895 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_2336 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4926 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_2397 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4957 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_2458 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4989 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_2519 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_5020 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_2580 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_5051 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_2641 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_5082 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_2702 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_5113 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_2763 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_5144 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_2824 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_5175 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_2885 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_5206 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_2926 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_5226 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_2967 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_5245 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_3008 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_5264 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_3049 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_5283 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_3090 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_5302 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_3131 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_5321 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_3172 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_5340 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_3213 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_5359 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_3254 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_5378 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_3295 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_5397 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_3336 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_5416 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_3377 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_5435 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_343 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_3634 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_380 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_3666 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_431 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_3705 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_473 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_3740 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_555 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_3804 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_742 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_3964 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_777 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_3987 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_812 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4009 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_847 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4035 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_881 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4055 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_916 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4076 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_951 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4098 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcPropertyEnumeratedValue_985 a ifc:IfcPropertyEnumeratedValue ;
+        ifc:enumerationValues_IfcPropertyEnumeratedValue str:IfcValue_List_4121 ;
+        ifc:name_IfcProperty str:IfcIdentifier_3582 .
+
+    str:IfcValue_List_3583 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_3595 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_3598 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_3630 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_3634 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_3662 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_3666 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_3701 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_3705 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_3708 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_3736 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_3740 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_3800 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_3804 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_3807 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_3960 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_3964 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_3983 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_3987 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4009 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4021 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4035 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4042 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4055 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4062 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4076 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4083 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4098 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4107 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4121 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4130 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4145 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4154 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4169 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4178 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4192 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4200 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4214 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4221 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4235 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4242 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4255 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4262 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4275 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4282 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4296 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4303 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4316 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4323 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4337 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4344 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4358 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4365 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4378 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4385 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4398 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4405 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4418 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4425 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4438 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4445 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4458 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4465 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4478 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4485 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4498 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4505 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4518 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4525 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4538 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4545 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4558 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4565 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4578 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4585 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4598 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4605 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4618 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4625 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4638 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4645 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4658 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4665 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4678 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4685 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4698 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4705 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4718 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4725 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4738 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4745 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4758 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4765 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4778 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4785 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4798 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4805 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4818 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4825 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4859 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4895 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4926 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4957 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_4989 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_5020 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_5051 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_5082 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_5113 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_5144 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_5175 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_5206 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_5226 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_5245 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_5264 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_5283 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_5302 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_5321 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_5340 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_5359 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_5378 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_5397 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_5416 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:IfcValue_List_5435 a ifc:IfcValue_List ;
+        ns1:hasContents str:IfcLabel_3584 .
+
+    str:building_47b2bd2a-cc51-4be0-9b90-9f55318e2f81 a bot:Building ;
+        props:aboveGround_simple ns2:FALSE ;
+        props:globalIdIfcRoot_attribute_simple "17ihqgp55Bu9kGdrKnZY_1" ;
+        props:isExternal_simple false ;
+        props:isLandmarked_simple ns2:FALSE ;
+        props:numberOfStoreys_simple 2 ;
+        props:reference_simple "Project Information" ;
+        bot:hasStorey str:storey_945a0d30-2bd1-4a59-9df7-0f3fc4b05959 .
+
+    str:buildingelement_01da38ab-845f-419c-b22f-722d02fbe61a a beo:BuildingElement,
+            beo:BuildingElement-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285607" ;
+        props:globalIdIfcRoot_attribute_simple "01sZYhX5z1dB8lSYq2__OQ" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "BEAM 8679:BEAM 8679:285607" ;
+        props:objectTypeIfcObject_attribute_simple "BEAM 8679:BEAM 8679" ;
+        props:reference_simple "B-1 771" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_1638 ;
+        bot:has3DModel "ms_str/01da38ab-845f-419c-b22f-722d02fbe61a.ply" ;
+        bot:hasSimple3DModel "14600.0, -400.0, 6900.0, 7000.0, 400.0, 800.0" .
+
+    str:buildingelement_086a6152-2d84-4ea2-b3ca-b3c16df84bed a beo:BuildingElement,
+            beo:BuildingElement-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285671" ;
+        props:globalIdIfcRoot_attribute_simple "08Qc5IBOHEehFAiy5j_4lj" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "BEAM 8935:BEAM 8935:285671" ;
+        props:objectTypeIfcObject_attribute_simple "BEAM 8935:BEAM 8935" ;
+        props:reference_simple "B-1 905" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_1774 ;
+        bot:has3DModel "ms_str/086a6152-2d84-4ea2-b3ca-b3c16df84bed.ply" ;
+        bot:hasSimple3DModel "7400.0, -7500.0, 6900.0, 400.0, 7100.0, 800.0" .
+
+    str:buildingelement_08cbb709-163c-4fed-9b28-c5c3919ff6e3 a beo:BuildingElement,
+            beo:BuildingElement-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285751" ;
+        props:globalIdIfcRoot_attribute_simple "08oxS95ZnFxPienSEHd$RZ" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "BEAM 9255:BEAM 9255:285751" ;
+        props:objectTypeIfcObject_attribute_simple "BEAM 9255:BEAM 9255" ;
+        props:reference_simple "B-1 856" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_1944 ;
+        bot:has3DModel "ms_str/08cbb709-163c-4fed-9b28-c5c3919ff6e3.ply" ;
+        bot:hasSimple3DModel "21600.0, -7500.0, 6900.0, 400.0, 7100.0, 800.0" .
+
+    str:buildingelement_20235db3-c25e-4208-9628-93a27f3d25f0 a beo:BuildingElement,
+            beo:BuildingElement-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285719" ;
+        props:globalIdIfcRoot_attribute_simple "0W8rspmbv229Oeaw9$FINm" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "BEAM 9127:BEAM 9127:285719" ;
+        props:objectTypeIfcObject_attribute_simple "BEAM 9127:BEAM 9127" ;
+        props:reference_simple "B-1 905" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_1876 ;
+        bot:has3DModel "ms_str/20235db3-c25e-4208-9628-93a27f3d25f0.ply" ;
+        bot:hasSimple3DModel "14200.0, -7500.0, 6900.0, 400.0, 7100.0, 800.0" .
+
+    str:buildingelement_2e89d853-04df-4cbd-b4ef-350b4af59dd2 a beo:BuildingElement,
+            beo:BuildingElement-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285527" ;
+        props:globalIdIfcRoot_attribute_simple "0kYTXJ1DzClRJlDGjAzPtI" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "BEAM 8359:BEAM 8359:285527" ;
+        props:objectTypeIfcObject_attribute_simple "BEAM 8359:BEAM 8359" ;
+        props:reference_simple "B-1 771" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_1468 ;
+        bot:has3DModel "ms_str/2e89d853-04df-4cbd-b4ef-350b4af59dd2.ply" ;
+        bot:hasSimple3DModel "400.0, -18400.0, 6900.0, 7000.0, 400.0, 800.0" .
+
+    str:buildingelement_3271351a-ae10-45c6-97b5-105262c31f15 a beo:BuildingElement,
+            beo:BuildingElement-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285591" ;
+        props:globalIdIfcRoot_attribute_simple "0oSJKQhX15nfUr459YmnyL" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "BEAM 8615:BEAM 8615:285591" ;
+        props:objectTypeIfcObject_attribute_simple "BEAM 8615:BEAM 8615" ;
+        props:reference_simple "B-1" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_1604 ;
+        bot:has3DModel "ms_str/3271351a-ae10-45c6-97b5-105262c31f15.ply" ;
+        bot:hasSimple3DModel "7800.0, -18400.0, 6900.0, 6400.0, 400.0, 800.0" .
+
+    str:buildingelement_3338f5cb-0e8f-4fd0-bd42-99428c302460 a beo:BuildingElement,
+            beo:BuildingElement-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285303" ;
+        props:globalIdIfcRoot_attribute_simple "0pEFNB3ezFqBr2cKACC2HW" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "BEAM 7127:BEAM 7127:285303" ;
+        props:objectTypeIfcObject_attribute_simple "BEAM 7127:BEAM 7127" ;
+        props:reference_simple "B-1 1481" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_985 ;
+        bot:has3DModel "ms_str/3338f5cb-0e8f-4fd0-bd42-99428c302460.ply" ;
+        bot:hasSimple3DModel "14600.0, -400.0, 2900.0, 7000.0, 400.0, 800.0" .
+
+    str:buildingelement_3436125d-3041-4732-bd3e-c8d1b3cea2e7 a beo:BuildingElement,
+            beo:BuildingElement-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285495" ;
+        props:globalIdIfcRoot_attribute_simple "0qDX9TC457Chq_oD6ppgBd" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "BEAM 8231:BEAM 8231:285495" ;
+        props:objectTypeIfcObject_attribute_simple "BEAM 8231:BEAM 8231" ;
+        props:reference_simple "B-1 797" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_1400 ;
+        bot:has3DModel "ms_str/3436125d-3041-4732-bd3e-c8d1b3cea2e7.ply" ;
+        bot:hasSimple3DModel "14600.0, -10900.0, 2900.0, 7000.0, 400.0, 800.0" .
+
+    str:buildingelement_387eafd6-0250-4392-a1bc-5fdf94c543ce a beo:BuildingElement,
+            beo:BuildingElement-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285735" ;
+        props:globalIdIfcRoot_attribute_simple "0uVg$M0b13ag6yNz_KnKFE" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "BEAM 9191:BEAM 9191:285735" ;
+        props:objectTypeIfcObject_attribute_simple "BEAM 9191:BEAM 9191" ;
+        props:reference_simple "B-1 892" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_1910 ;
+        bot:has3DModel "ms_str/387eafd6-0250-4392-a1bc-5fdf94c543ce.ply" ;
+        bot:hasSimple3DModel "14200.0, -18000.0, 6900.0, 400.0, 7100.0, 800.0" .
+
+    str:buildingelement_3fba2524-c842-4d26-b073-f1e61cc9b682 a beo:BuildingElement,
+            beo:BuildingElement-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285463" ;
+        props:globalIdIfcRoot_attribute_simple "0$kYKao49D9h1pyUOSoRQ2" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "BEAM 8025:BEAM 8025:285463" ;
+        props:objectTypeIfcObject_attribute_simple "BEAM 8025:BEAM 8025" ;
+        props:reference_simple "B-1 826" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_1331 ;
+        bot:has3DModel "ms_str/3fba2524-c842-4d26-b073-f1e61cc9b682.ply" ;
+        bot:hasSimple3DModel "21600.0, -10500.0, 2900.0, 400.0, 2600.0, 800.0" .
+
+    str:buildingelement_48355c81-2be3-4e03-9cce-247ddc4876ec a beo:BuildingElement,
+            beo:BuildingElement-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285431" ;
+        props:globalIdIfcRoot_attribute_simple "18DLo1A_DE0vpE97tSI7Ri" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "BEAM 7849:BEAM 7849:285431" ;
+        props:objectTypeIfcObject_attribute_simple "BEAM 7849:BEAM 7849" ;
+        props:reference_simple "B-1 856" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_1262 ;
+        bot:has3DModel "ms_str/48355c81-2be3-4e03-9cce-247ddc4876ec.ply" ;
+        bot:hasSimple3DModel "21600.0, -7500.0, 2900.0, 400.0, 7100.0, 800.0" .
+
+    str:buildingelement_4c3b70e0-f413-44df-a229-1187cb9817c0 a beo:BuildingElement,
+            beo:BuildingElement-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285479" ;
+        props:globalIdIfcRoot_attribute_simple "1CEt3Wz1D4tw8f4OVBc1V0" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "BEAM 8137:BEAM 8137:285479" ;
+        props:objectTypeIfcObject_attribute_simple "BEAM 8137:BEAM 8137" ;
+        props:reference_simple "B-1 797" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_1366 ;
+        bot:has3DModel "ms_str/4c3b70e0-f413-44df-a229-1187cb9817c0.ply" ;
+        bot:hasSimple3DModel "14600.0, -7900.0, 2900.0, 7000.0, 400.0, 800.0" .
+
+    str:buildingelement_4e5a90ec-9172-4932-94c6-101dc9890c88 a beo:BuildingElement,
+            beo:BuildingElement-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285511" ;
+        props:globalIdIfcRoot_attribute_simple "1EMf3iaN99CfJ641t9YGo8" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "BEAM 8295:BEAM 8295:285511" ;
+        props:objectTypeIfcObject_attribute_simple "BEAM 8295:BEAM 8295" ;
+        props:reference_simple "B-1 771" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_1434 ;
+        bot:has3DModel "ms_str/4e5a90ec-9172-4932-94c6-101dc9890c88.ply" ;
+        bot:hasSimple3DModel "14600.0, -18400.0, 2900.0, 7000.0, 400.0, 800.0" .
+
+    str:buildingelement_5e65b4f4-1ede-43f4-941c-8248b48a83f7 a beo:BuildingElement,
+            beo:BuildingElement-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285767" ;
+        props:globalIdIfcRoot_attribute_simple "1UPRJq7jv3z9GSWaYqYeFt" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "BEAM 9319:BEAM 9319:285767" ;
+        props:objectTypeIfcObject_attribute_simple "BEAM 9319:BEAM 9319" ;
+        props:reference_simple "B-1 856" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_1978 ;
+        bot:has3DModel "ms_str/5e65b4f4-1ede-43f4-941c-8248b48a83f7.ply" ;
+        bot:hasSimple3DModel "21600.0, -18000.0, 6900.0, 400.0, 7100.0, 800.0" .
+
+    str:buildingelement_6d2657ee-57f1-4127-be00-80dc50ffcae1 a beo:BuildingElement,
+            beo:BuildingElement-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285831" ;
+        props:globalIdIfcRoot_attribute_simple "1j9bVkL$519xu0WDnG$yhX" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "BEAM 9575:BEAM 9575:285831" ;
+        props:objectTypeIfcObject_attribute_simple "BEAM 9575:BEAM 9575" ;
+        props:reference_simple "B-1 771" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_2114 ;
+        bot:has3DModel "ms_str/6d2657ee-57f1-4127-be00-80dc50ffcae1.ply" ;
+        bot:hasSimple3DModel "14600.0, -18400.0, 6900.0, 7000.0, 400.0, 800.0" .
+
+    str:buildingelement_83eba30d-abdc-4d33-bf6a-96b8ac73b831 a beo:BuildingElement,
+            beo:BuildingElement-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285220" ;
+        props:globalIdIfcRoot_attribute_simple "23wwCDgznDCxzgbhYiSxWn" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "BEAM:BEAM:285220" ;
+        props:objectTypeIfcObject_attribute_simple "BEAM:BEAM" ;
+        props:reference_simple "B-1 1481" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_812 ;
+        bot:has3DModel "ms_str/83eba30d-abdc-4d33-bf6a-96b8ac73b831.ply" ;
+        bot:hasSimple3DModel "400.0, -18400.0, 2900.0, 7000.0, 400.0, 800.0" .
+
+    str:buildingelement_87bfb082-c79a-468d-a310-4a1b70023d89 a beo:BuildingElement,
+            beo:BuildingElement-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285783" ;
+        props:globalIdIfcRoot_attribute_simple "27lx22nvf6ZQCGIXjm0Zs9" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "BEAM 9383:BEAM 9383:285783" ;
+        props:objectTypeIfcObject_attribute_simple "BEAM 9383:BEAM 9383" ;
+        props:reference_simple "B-1 826" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_2012 ;
+        bot:has3DModel "ms_str/87bfb082-c79a-468d-a310-4a1b70023d89.ply" ;
+        bot:hasSimple3DModel "21600.0, -10500.0, 6900.0, 400.0, 2600.0, 800.0" .
+
+    str:buildingelement_8fc2cf68-e571-430b-ae47-8d6ed41fa360 a beo:BuildingElement,
+            beo:BuildingElement-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285623" ;
+        props:globalIdIfcRoot_attribute_simple "2FmizevN532wv7ZMxK7wDW" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "BEAM 8743:BEAM 8743:285623" ;
+        props:objectTypeIfcObject_attribute_simple "BEAM 8743:BEAM 8743" ;
+        props:reference_simple "B-1 856" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_1672 ;
+        bot:has3DModel "ms_str/8fc2cf68-e571-430b-ae47-8d6ed41fa360.ply" ;
+        bot:hasSimple3DModel "0.0, -7500.0, 6900.0, 400.0, 7100.0, 800.0" .
+
+    str:buildingelement_93c60e20-0773-435d-b70a-bbdd488633d7 a beo:BuildingElement,
+            beo:BuildingElement-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285255" ;
+        props:globalIdIfcRoot_attribute_simple "2JnWuW1tD3NRSAkzr8XZFN" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "BEAM 6839:BEAM 6839:285255" ;
+        props:objectTypeIfcObject_attribute_simple "BEAM 6839:BEAM 6839" ;
+        props:reference_simple "B-1 1017" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_881 ;
+        bot:has3DModel "ms_str/93c60e20-0773-435d-b70a-bbdd488633d7.ply" ;
+        bot:hasSimple3DModel "400.0, -7900.0, 2900.0, 7000.0, 400.0, 800.0" .
+
+    str:buildingelement_93fac6cf-f763-4c89-bf65-7cf5973f850d a beo:BuildingElement,
+            beo:BuildingElement-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285367" ;
+        props:globalIdIfcRoot_attribute_simple "2J_iRFzsDCYRzbVFMNFuKD" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "BEAM 7497:BEAM 7497:285367" ;
+        props:objectTypeIfcObject_attribute_simple "BEAM 7497:BEAM 7497" ;
+        props:reference_simple "B-1 905" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_1124 ;
+        bot:has3DModel "ms_str/93fac6cf-f763-4c89-bf65-7cf5973f850d.ply" ;
+        bot:hasSimple3DModel "7400.0, -7500.0, 2900.0, 400.0, 7100.0, 800.0" .
+
+    str:buildingelement_94e055f8-4e27-45e6-9dea-6e37216753b5 a beo:BuildingElement,
+            beo:BuildingElement-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285399" ;
+        props:globalIdIfcRoot_attribute_simple "2Ku5NuJYT5vftgRZSXPrEr" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "BEAM 7703:BEAM 7703:285399" ;
+        props:objectTypeIfcObject_attribute_simple "BEAM 7703:BEAM 7703" ;
+        props:reference_simple "B-1 905" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_1193 ;
+        bot:has3DModel "ms_str/94e055f8-4e27-45e6-9dea-6e37216753b5.ply" ;
+        bot:hasSimple3DModel "14200.0, -7500.0, 2900.0, 400.0, 7100.0, 800.0" .
+
+    str:buildingelement_983278e6-b726-448a-8213-437e183b9c57 a beo:BuildingElement,
+            beo:BuildingElement-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285271" ;
+        props:globalIdIfcRoot_attribute_simple "2OCdZcjoP4Ye8JGtuOEvnN" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "BEAM 6921:BEAM 6921:285271" ;
+        props:objectTypeIfcObject_attribute_simple "BEAM 6921:BEAM 6921" ;
+        props:reference_simple "B-1 771" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_916 ;
+        bot:has3DModel "ms_str/983278e6-b726-448a-8213-437e183b9c57.ply" ;
+        bot:hasSimple3DModel "400.0, -400.0, 2900.0, 7000.0, 400.0, 800.0" .
+
+    str:buildingelement_9c094d06-93ba-408c-943c-3a235b7e5c38 a beo:BuildingElement,
+            beo:BuildingElement-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285815" ;
+        props:globalIdIfcRoot_attribute_simple "2S2Kq6axf0Z9GyEYDRVbmu" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "BEAM 9511:BEAM 9511:285815" ;
+        props:objectTypeIfcObject_attribute_simple "BEAM 9511:BEAM 9511" ;
+        props:reference_simple "B-1 797" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_2080 ;
+        bot:has3DModel "ms_str/9c094d06-93ba-408c-943c-3a235b7e5c38.ply" ;
+        bot:hasSimple3DModel "14600.0, -10900.0, 6900.0, 7000.0, 400.0, 800.0" .
+
+    str:buildingelement_a4542748-b35e-4617-bb72-9e12aeb6c445 a beo:BuildingElement,
+            beo:BuildingElement-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285319" ;
+        props:globalIdIfcRoot_attribute_simple "2aL2T8irv65xjodXAkjiH5" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "BEAM 7209:BEAM 7209:285319" ;
+        props:objectTypeIfcObject_attribute_simple "BEAM 7209:BEAM 7209" ;
+        props:reference_simple "B-1 1444" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_1020 ;
+        bot:has3DModel "ms_str/a4542748-b35e-4617-bb72-9e12aeb6c445.ply" ;
+        bot:hasSimple3DModel "0.0, -7500.0, 2900.0, 400.0, 7100.0, 800.0" .
+
+    str:buildingelement_a5258efb-e9ae-4571-9b1a-e460b8a964a3 a beo:BuildingElement,
+            beo:BuildingElement-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285639" ;
+        props:globalIdIfcRoot_attribute_simple "2b9OxxwQv5SPiQv62ugMIZ" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "BEAM 8807:BEAM 8807:285639" ;
+        props:objectTypeIfcObject_attribute_simple "BEAM 8807:BEAM 8807" ;
+        props:reference_simple "B-1 826" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_1706 ;
+        bot:has3DModel "ms_str/a5258efb-e9ae-4571-9b1a-e460b8a964a3.ply" ;
+        bot:hasSimple3DModel "0.0, -10500.0, 6900.0, 400.0, 2600.0, 800.0" .
+
+    str:buildingelement_b26cbc0c-9f17-4287-8467-409fbeaeaf5c a beo:BuildingElement,
+            beo:BuildingElement-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285239" ;
+        props:globalIdIfcRoot_attribute_simple "2oRBmCdnT2XuHdG9__hgzS" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "BEAM 6745:BEAM 6745:285239" ;
+        props:objectTypeIfcObject_attribute_simple "BEAM 6745:BEAM 6745" ;
+        props:reference_simple "B-1 1017" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_847 ;
+        bot:has3DModel "ms_str/b26cbc0c-9f17-4287-8467-409fbeaeaf5c.ply" ;
+        bot:hasSimple3DModel "400.0, -10900.0, 2900.0, 7000.0, 400.0, 800.0" .
+
+    str:buildingelement_b4dcc12f-e17a-4658-bb8d-e2fa31adb98f a beo:BuildingElement,
+            beo:BuildingElement-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285799" ;
+        props:globalIdIfcRoot_attribute_simple "2qtC4luNf6MBkDulenhRcF" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "BEAM 9447:BEAM 9447:285799" ;
+        props:objectTypeIfcObject_attribute_simple "BEAM 9447:BEAM 9447" ;
+        props:reference_simple "B-1 797" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_2046 ;
+        bot:has3DModel "ms_str/b4dcc12f-e17a-4658-bb8d-e2fa31adb98f.ply" ;
+        bot:hasSimple3DModel "14600.0, -7900.0, 6900.0, 7000.0, 400.0, 800.0" .
+
+    str:buildingelement_c88ce72c-75e4-4abb-ac69-3fdef9b42f1d a beo:BuildingElement,
+            beo:BuildingElement-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285847" ;
+        props:globalIdIfcRoot_attribute_simple "38ZESiTUHAkwnfFzxvj2yT" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "BEAM 9639:BEAM 9639:285847" ;
+        props:objectTypeIfcObject_attribute_simple "BEAM 9639:BEAM 9639" ;
+        props:reference_simple "B-1" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_2148 ;
+        bot:has3DModel "ms_str/c88ce72c-75e4-4abb-ac69-3fdef9b42f1d.ply" ;
+        bot:hasSimple3DModel "7800.0, -400.0, 6900.0, 6400.0, 400.0, 800.0" .
+
+    str:buildingelement_c9365e2c-3446-4c67-8b5f-355a2b775e21 a beo:BuildingElement,
+            beo:BuildingElement-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285335" ;
+        props:globalIdIfcRoot_attribute_simple "39DbuiD4PCPujVDLehTruX" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "BEAM 7321:BEAM 7321:285335" ;
+        props:objectTypeIfcObject_attribute_simple "BEAM 7321:BEAM 7321" ;
+        props:reference_simple "B-1 1457" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_1055 ;
+        bot:has3DModel "ms_str/c9365e2c-3446-4c67-8b5f-355a2b775e21.ply" ;
+        bot:hasSimple3DModel "0.0, -10500.0, 2900.0, 400.0, 2600.0, 800.0" .
+
+    str:buildingelement_d1b516a6-5837-42f0-8da7-a917a5e523dd a beo:BuildingElement,
+            beo:BuildingElement-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285351" ;
+        props:globalIdIfcRoot_attribute_simple "3HjHQcM3T2y8sdgHUbvIFT" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "BEAM 7415:BEAM 7415:285351" ;
+        props:objectTypeIfcObject_attribute_simple "BEAM 7415:BEAM 7415" ;
+        props:reference_simple "B-1 1444" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_1089 ;
+        bot:has3DModel "ms_str/d1b516a6-5837-42f0-8da7-a917a5e523dd.ply" ;
+        bot:hasSimple3DModel "0.0, -18000.0, 2900.0, 400.0, 7100.0, 800.0" .
+
+    str:buildingelement_d3484dae-ca48-4de5-aeb2-df2be6d9135d a beo:BuildingElement,
+            beo:BuildingElement-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285559" ;
+        props:globalIdIfcRoot_attribute_simple "3JI4skoaXDvQwotolcsHDT" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "BEAM 8487:BEAM 8487:285559" ;
+        props:objectTypeIfcObject_attribute_simple "BEAM 8487:BEAM 8487" ;
+        props:reference_simple "B-1 1017" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_1536 ;
+        bot:has3DModel "ms_str/d3484dae-ca48-4de5-aeb2-df2be6d9135d.ply" ;
+        bot:hasSimple3DModel "400.0, -7900.0, 6900.0, 7000.0, 400.0, 800.0" .
+
+    str:buildingelement_dc134b3e-7ad9-4097-bcb6-bb05de889881 a beo:BuildingElement,
+            beo:BuildingElement-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285703" ;
+        props:globalIdIfcRoot_attribute_simple "3S4qi_Ujb0bxoskmNUY9Y1" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "BEAM 9063:BEAM 9063:285703" ;
+        props:objectTypeIfcObject_attribute_simple "BEAM 9063:BEAM 9063" ;
+        props:reference_simple "B-1" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_1842 ;
+        bot:has3DModel "ms_str/dc134b3e-7ad9-4097-bcb6-bb05de889881.ply" ;
+        bot:hasSimple3DModel "7800.0, -400.0, 2900.0, 6400.0, 400.0, 800.0" .
+
+    str:buildingelement_e0cfb2e3-5c0a-4f60-b0b6-5c4c970e9650 a beo:BuildingElement,
+            beo:BuildingElement-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285655" ;
+        props:globalIdIfcRoot_attribute_simple "3WpxBZN0fFOB2sN4oN3fPG" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "BEAM 8871:BEAM 8871:285655" ;
+        props:objectTypeIfcObject_attribute_simple "BEAM 8871:BEAM 8871" ;
+        props:reference_simple "B-1 856" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_1740 ;
+        bot:has3DModel "ms_str/e0cfb2e3-5c0a-4f60-b0b6-5c4c970e9650.ply" ;
+        bot:hasSimple3DModel "0.0, -18000.0, 6900.0, 400.0, 7100.0, 800.0" .
+
+    str:buildingelement_e1f6f5d4-5c9f-45a8-b04a-3d0126e8221d a beo:BuildingElement,
+            beo:BuildingElement-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285543" ;
+        props:globalIdIfcRoot_attribute_simple "3XzlNKN9z5gB1AFG4cw28T" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "BEAM 8423:BEAM 8423:285543" ;
+        props:objectTypeIfcObject_attribute_simple "BEAM 8423:BEAM 8423" ;
+        props:reference_simple "B-1 1017" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_1502 ;
+        bot:has3DModel "ms_str/e1f6f5d4-5c9f-45a8-b04a-3d0126e8221d.ply" ;
+        bot:hasSimple3DModel "400.0, -10900.0, 6900.0, 7000.0, 400.0, 800.0" .
+
+    str:buildingelement_ea9d675d-9218-4407-a311-6fea3bdba573 a beo:BuildingElement,
+            beo:BuildingElement-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285687" ;
+        props:globalIdIfcRoot_attribute_simple "3gdMTTaXX41wCHR_exswLp" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "BEAM 8999:BEAM 8999:285687" ;
+        props:objectTypeIfcObject_attribute_simple "BEAM 8999:BEAM 8999" ;
+        props:reference_simple "B-1 892" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_1808 ;
+        bot:has3DModel "ms_str/ea9d675d-9218-4407-a311-6fea3bdba573.ply" ;
+        bot:hasSimple3DModel "7400.0, -18000.0, 6900.0, 400.0, 7100.0, 800.0" .
+
+    str:buildingelement_f0000bba-78d4-4c66-8e20-c51cf99467cb a beo:BuildingElement,
+            beo:BuildingElement-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285575" ;
+        props:globalIdIfcRoot_attribute_simple "3m00kwUDHCPeuWnHpvb6VB" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "BEAM 8551:BEAM 8551:285575" ;
+        props:objectTypeIfcObject_attribute_simple "BEAM 8551:BEAM 8551" ;
+        props:reference_simple "B-1 771" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_1570 ;
+        bot:has3DModel "ms_str/f0000bba-78d4-4c66-8e20-c51cf99467cb.ply" ;
+        bot:hasSimple3DModel "400.0, -400.0, 6900.0, 7000.0, 400.0, 800.0" .
+
+    str:buildingelement_f4b71da7-fbd2-4944-aa6e-f2927994b9e2 a beo:BuildingElement,
+            beo:BuildingElement-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285447" ;
+        props:globalIdIfcRoot_attribute_simple "3qjnsd_z99HAfkyf9vbBdY" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "BEAM 7943:BEAM 7943:285447" ;
+        props:objectTypeIfcObject_attribute_simple "BEAM 7943:BEAM 7943" ;
+        props:reference_simple "B-1 856" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_1296 ;
+        bot:has3DModel "ms_str/f4b71da7-fbd2-4944-aa6e-f2927994b9e2.ply" ;
+        bot:hasSimple3DModel "21600.0, -18000.0, 2900.0, 400.0, 7100.0, 800.0" .
+
+    str:buildingelement_f8595068-b8b3-416b-9f14-53c014766b77 a beo:BuildingElement,
+            beo:BuildingElement-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285383" ;
+        props:globalIdIfcRoot_attribute_simple "3uML1ekBD1QvyKKy0KTcjt" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "BEAM 7609:BEAM 7609:285383" ;
+        props:objectTypeIfcObject_attribute_simple "BEAM 7609:BEAM 7609" ;
+        props:reference_simple "B-1 892" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_1159 ;
+        bot:has3DModel "ms_str/f8595068-b8b3-416b-9f14-53c014766b77.ply" ;
+        bot:hasSimple3DModel "7400.0, -18000.0, 2900.0, 400.0, 7100.0, 800.0" .
+
+    str:buildingelement_fca5d8df-990c-4f44-9a78-0f8abd804dd8 a beo:BuildingElement,
+            beo:BuildingElement-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285287" ;
+        props:globalIdIfcRoot_attribute_simple "3yfTZVcGnFH9fu3ugzW4tO" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "BEAM 7033:BEAM 7033:285287" ;
+        props:objectTypeIfcObject_attribute_simple "BEAM 7033:BEAM 7033" ;
+        props:reference_simple "B-1" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_951 ;
+        bot:has3DModel "ms_str/fca5d8df-990c-4f44-9a78-0f8abd804dd8.ply" ;
+        bot:hasSimple3DModel "7800.0, -18400.0, 2900.0, 6400.0, 400.0, 800.0" .
+
+    str:buildingelement_fd0da2a8-d924-4861-9d61-541b57eb8db6 a beo:BuildingElement,
+            beo:BuildingElement-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285415" ;
+        props:globalIdIfcRoot_attribute_simple "3z3QAesIH8OPrXL1jNwuss" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "BEAM 7767:BEAM 7767:285415" ;
+        props:objectTypeIfcObject_attribute_simple "BEAM 7767:BEAM 7767" ;
+        props:reference_simple "B-1 892" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_1227 ;
+        bot:has3DModel "ms_str/fd0da2a8-d924-4861-9d61-541b57eb8db6.ply" ;
+        bot:hasSimple3DModel "14200.0, -18000.0, 2900.0, 400.0, 7100.0, 800.0" .
+
+    str:column_00b706d9-9ae1-490b-aa50-a63b3aafa079 a beo:Column,
+            beo:Column-COLUMN,
+            bot:Element ;
+        props:batid_attribute_simple "289209" ;
+        props:globalIdIfcRoot_attribute_simple "00jmRPck592wfGfZiwhw1v" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "COLUMN 1314:COLUMN 1314:317883" ;
+        props:objectTypeIfcObject_attribute_simple "COLUMN 1314:COLUMN 1314" ;
+        props:reference_simple "COLUMN 1314" ;
+        props:roll_simple 0e+00 ;
+        props:slope_simple 1.5708e+00 ;
+        props:status_simple str:IfcPropertyEnumeratedValue_3090 ;
+        bot:has3DModel "ms_str/00b706d9-9ae1-490b-aa50-a63b3aafa079.ply" ;
+        bot:hasSimple3DModel "7400.0, -400.0, -100.0, 400.0, 400.0, 3800.0" .
+
+    str:column_109e85f3-5e85-440b-bfae-70a97d54e356 a beo:Column,
+            beo:Column-COLUMN,
+            bot:Element ;
+        props:batid_attribute_simple "289197" ;
+        props:globalIdIfcRoot_attribute_simple "0GdeNpNeL42x_kSAbzLEDM" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "COLUMN 1650:COLUMN 1650:318186" ;
+        props:objectTypeIfcObject_attribute_simple "COLUMN 1650:COLUMN 1650" ;
+        props:reference_simple "COLUMN 1650" ;
+        props:roll_simple 0e+00 ;
+        props:slope_simple 1.5708e+00 ;
+        props:status_simple str:IfcPropertyEnumeratedValue_2458 ;
+        bot:has3DModel "ms_str/109e85f3-5e85-440b-bfae-70a97d54e356.ply" ;
+        bot:hasSimple3DModel "14200.0, -18400.0, 3900.0, 400.0, 400.0, 3800.0" .
+
+    str:column_115e9958-beac-45f1-b975-83609735d328 a beo:Column,
+            beo:Column-COLUMN,
+            bot:Element ;
+        props:batid_attribute_simple "289215" ;
+        props:globalIdIfcRoot_attribute_simple "0HNfbOlgn5yRbrWs2NDTCe" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "COLUMN 1248:COLUMN 1248:317775" ;
+        props:objectTypeIfcObject_attribute_simple "COLUMN 1248:COLUMN 1248" ;
+        props:reference_simple "COLUMN 1248" ;
+        props:roll_simple 0e+00 ;
+        props:slope_simple 1.5708e+00 ;
+        props:status_simple str:IfcPropertyEnumeratedValue_3336 ;
+        bot:has3DModel "ms_str/115e9958-beac-45f1-b975-83609735d328.ply" ;
+        bot:hasSimple3DModel "21600.0, -10900.0, -100.0, 400.0, 400.0, 3800.0" .
+
+    str:column_11951891-53d3-4c6b-983e-94c2a686ab3a a beo:Column,
+            beo:Column-COLUMN,
+            bot:Element ;
+        props:batid_attribute_simple "289196" ;
+        props:globalIdIfcRoot_attribute_simple "0HbHYHKzDCQvW_bCAcXgiw" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "COLUMN 1661:COLUMN 1661:318204" ;
+        props:objectTypeIfcObject_attribute_simple "COLUMN 1661:COLUMN 1661" ;
+        props:reference_simple "COLUMN 1661" ;
+        props:roll_simple 0e+00 ;
+        props:slope_simple 1.5708e+00 ;
+        props:status_simple str:IfcPropertyEnumeratedValue_2397 ;
+        bot:has3DModel "ms_str/11951891-53d3-4c6b-983e-94c2a686ab3a.ply" ;
+        bot:hasSimple3DModel "21600.0, -400.0, 3900.0, 400.0, 400.0, 3800.0" .
+
+    str:column_2ddd8a70-2090-4b43-bd1e-998c73fadb2e a beo:Column,
+            beo:Column-COLUMN,
+            bot:Element ;
+        props:batid_attribute_simple "289212" ;
+        props:globalIdIfcRoot_attribute_simple "0jtOfm891BGxqUcOnp_jik" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "COLUMN 1281:COLUMN 1281:317829" ;
+        props:objectTypeIfcObject_attribute_simple "COLUMN 1281:COLUMN 1281" ;
+        props:reference_simple "COLUMN 1281" ;
+        props:roll_simple 0e+00 ;
+        props:slope_simple 1.5708e+00 ;
+        props:status_simple str:IfcPropertyEnumeratedValue_3213 ;
+        bot:has3DModel "ms_str/2ddd8a70-2090-4b43-bd1e-998c73fadb2e.ply" ;
+        bot:hasSimple3DModel "14200.0, -18400.0, -100.0, 400.0, 400.0, 3800.0" .
+
+    str:column_4d441676-aff7-4405-aefd-f8bc857d17c4 a beo:Column,
+            beo:Column-COLUMN,
+            bot:Element ;
+        props:batid_attribute_simple "289213" ;
+        props:globalIdIfcRoot_attribute_simple "1DH1Psh$T41Qxz_Bo5VHV4" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "COLUMN 1270:COLUMN 1270:317811" ;
+        props:objectTypeIfcObject_attribute_simple "COLUMN 1270:COLUMN 1270" ;
+        props:reference_simple "COLUMN 1270" ;
+        props:roll_simple 0e+00 ;
+        props:slope_simple 1.5708e+00 ;
+        props:status_simple str:IfcPropertyEnumeratedValue_3254 ;
+        bot:has3DModel "ms_str/4d441676-aff7-4405-aefd-f8bc857d17c4.ply" ;
+        bot:hasSimple3DModel "21600.0, -400.0, -100.0, 400.0, 400.0, 3800.0" .
+
+    str:column_581df863-9287-43d6-9651-af2e4421db34 a beo:Column,
+            beo:Column-COLUMN,
+            bot:Element ;
+        props:batid_attribute_simple "289203" ;
+        props:globalIdIfcRoot_attribute_simple "1O7VXZaeT3rfPHhov48Tiq" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "COLUMN 1584:COLUMN 1584:318062" ;
+        props:objectTypeIfcObject_attribute_simple "COLUMN 1584:COLUMN 1584" ;
+        props:reference_simple "COLUMN 1584" ;
+        props:roll_simple 0e+00 ;
+        props:slope_simple 1.5708e+00 ;
+        props:status_simple str:IfcPropertyEnumeratedValue_2824 ;
+        bot:has3DModel "ms_str/581df863-9287-43d6-9651-af2e4421db34.ply" ;
+        bot:hasSimple3DModel "0.0, -7900.0, 3900.0, 400.0, 400.0, 3800.0" .
+
+    str:column_6f575c00-8bdf-422e-b994-eb361797d970 a beo:Column,
+            beo:Column-COLUMN,
+            bot:Element ;
+        props:batid_attribute_simple "289195" ;
+        props:globalIdIfcRoot_attribute_simple "1lLrm0Yzz2BhcKwpONbzbm" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "COLUMN 1672:COLUMN 1672:318222" ;
+        props:objectTypeIfcObject_attribute_simple "COLUMN 1672:COLUMN 1672" ;
+        props:reference_simple "COLUMN 1672" ;
+        props:roll_simple 0e+00 ;
+        props:slope_simple 1.5708e+00 ;
+        props:status_simple str:IfcPropertyEnumeratedValue_2336 ;
+        bot:has3DModel "ms_str/6f575c00-8bdf-422e-b994-eb361797d970.ply" ;
+        bot:hasSimple3DModel "21600.0, -7900.0, 3900.0, 400.0, 400.0, 3800.0" .
+
+    str:column_741953b5-b2ae-414b-a30b-33a19f4300f7 a beo:Column,
+            beo:Column-COLUMN,
+            bot:Element ;
+        props:batid_attribute_simple "289199" ;
+        props:globalIdIfcRoot_attribute_simple "1q6LErigv1IwCBCw6VGm3t" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "COLUMN 1628:COLUMN 1628:318150" ;
+        props:objectTypeIfcObject_attribute_simple "COLUMN 1628:COLUMN 1628" ;
+        props:reference_simple "COLUMN 1628" ;
+        props:roll_simple 0e+00 ;
+        props:slope_simple 1.5708e+00 ;
+        props:status_simple str:IfcPropertyEnumeratedValue_2580 ;
+        bot:has3DModel "ms_str/741953b5-b2ae-414b-a30b-33a19f4300f7.ply" ;
+        bot:hasSimple3DModel "7400.0, -18400.0, 3900.0, 400.0, 400.0, 3800.0" .
+
+    str:column_a170c840-35cc-4048-b52b-bdc9859c201e a beo:Column,
+            beo:Column-COLUMN,
+            bot:Element ;
+        props:batid_attribute_simple "289205" ;
+        props:globalIdIfcRoot_attribute_simple "2XSCX0DSn0IBKhlSc5d20U" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "COLUMN 1369:COLUMN 1369:317993" ;
+        props:objectTypeIfcObject_attribute_simple "COLUMN 1369:COLUMN 1369" ;
+        props:reference_simple "COLUMN 1369" ;
+        props:roll_simple 0e+00 ;
+        props:slope_simple 1.5708e+00 ;
+        props:status_simple str:IfcPropertyEnumeratedValue_2926 ;
+        bot:has3DModel "ms_str/a170c840-35cc-4048-b52b-bdc9859c201e.ply" ;
+        bot:hasSimple3DModel "0.0, -400.0, -100.0, 400.0, 400.0, 3800.0" .
+
+    str:column_bf0e5309-e3ca-41d4-9b73-d4bd2488cc66 a beo:Column,
+            beo:Column-COLUMN,
+            bot:Element ;
+        props:batid_attribute_simple "289214" ;
+        props:globalIdIfcRoot_attribute_simple "2$3bC9uyf1r9jprBqaYCnc" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "COLUMN 1259:COLUMN 1259:317793" ;
+        props:objectTypeIfcObject_attribute_simple "COLUMN 1259:COLUMN 1259" ;
+        props:reference_simple "COLUMN 1259" ;
+        props:roll_simple 0e+00 ;
+        props:slope_simple 1.5708e+00 ;
+        props:status_simple str:IfcPropertyEnumeratedValue_3295 ;
+        bot:has3DModel "ms_str/bf0e5309-e3ca-41d4-9b73-d4bd2488cc66.ply" ;
+        bot:hasSimple3DModel "21600.0, -7900.0, -100.0, 400.0, 400.0, 3800.0" .
+
+    str:column_bfc59428-b839-45da-bbb3-03a64baea5fc a beo:Column,
+            beo:Column-COLUMN,
+            bot:Element ;
+        props:batid_attribute_simple "289211" ;
+        props:globalIdIfcRoot_attribute_simple "2$nPGek3b5shkp0wPBhgNy" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "COLUMN 1292:COLUMN 1292:317847" ;
+        props:objectTypeIfcObject_attribute_simple "COLUMN 1292:COLUMN 1292" ;
+        props:reference_simple "COLUMN 1292" ;
+        props:roll_simple 0e+00 ;
+        props:slope_simple 1.5708e+00 ;
+        props:status_simple str:IfcPropertyEnumeratedValue_3172 ;
+        bot:has3DModel "ms_str/bfc59428-b839-45da-bbb3-03a64baea5fc.ply" ;
+        bot:hasSimple3DModel "14200.0, -400.0, -100.0, 400.0, 400.0, 3800.0" .
+
+    str:column_c14bede6-b05b-42db-8366-70785c87dbc6 a beo:Column,
+            beo:Column-COLUMN,
+            bot:Element ;
+        props:batid_attribute_simple "289202" ;
+        props:globalIdIfcRoot_attribute_simple "31I_tci5j2suDcS7XSXzl6" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "COLUMN 1595:COLUMN 1595:318080" ;
+        props:objectTypeIfcObject_attribute_simple "COLUMN 1595:COLUMN 1595" ;
+        props:reference_simple "COLUMN 1595" ;
+        props:roll_simple 0e+00 ;
+        props:slope_simple 1.5708e+00 ;
+        props:status_simple str:IfcPropertyEnumeratedValue_2763 ;
+        bot:has3DModel "ms_str/c14bede6-b05b-42db-8366-70785c87dbc6.ply" ;
+        bot:hasSimple3DModel "0.0, -10900.0, 3900.0, 400.0, 400.0, 3800.0" .
+
+    str:column_d16e7258-d5ab-4eb8-adaf-d7bc6d29b6aa a beo:Column,
+            beo:Column-COLUMN,
+            bot:Element ;
+        props:batid_attribute_simple "289204" ;
+        props:globalIdIfcRoot_attribute_simple "3HRd9OrQjEkAslrxnjARQg" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "COLUMN 1573:COLUMN 1573:318044" ;
+        props:objectTypeIfcObject_attribute_simple "COLUMN 1573:COLUMN 1573" ;
+        props:reference_simple "COLUMN 1573" ;
+        props:roll_simple 0e+00 ;
+        props:slope_simple 1.5708e+00 ;
+        props:status_simple str:IfcPropertyEnumeratedValue_2885 ;
+        bot:has3DModel "ms_str/d16e7258-d5ab-4eb8-adaf-d7bc6d29b6aa.ply" ;
+        bot:hasSimple3DModel "0.0, -400.0, 3900.0, 400.0, 400.0, 3800.0" .
+
+    str:column_d6db347f-5bcd-4534-9a6b-32b1f6c3c91a a beo:Column,
+            beo:Column-COLUMN,
+            bot:Element ;
+        props:batid_attribute_simple "289210" ;
+        props:globalIdIfcRoot_attribute_simple "3MspH$Myr5D9fhCh7smyaQ" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "COLUMN 1303:COLUMN 1303:317865" ;
+        props:objectTypeIfcObject_attribute_simple "COLUMN 1303:COLUMN 1303" ;
+        props:reference_simple "COLUMN 1303" ;
+        props:roll_simple 0e+00 ;
+        props:slope_simple 1.5708e+00 ;
+        props:status_simple str:IfcPropertyEnumeratedValue_3131 ;
+        bot:has3DModel "ms_str/d6db347f-5bcd-4534-9a6b-32b1f6c3c91a.ply" ;
+        bot:hasSimple3DModel "7400.0, -18400.0, -100.0, 400.0, 400.0, 3800.0" .
+
+    str:column_e21b628f-0137-4726-9bed-3be48876a82d a beo:Column,
+            beo:Column-COLUMN,
+            bot:Element ;
+        props:batid_attribute_simple "289194" ;
+        props:globalIdIfcRoot_attribute_simple "3Y6sAF0JT79fljE_I8TgWj" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "COLUMN 1683:COLUMN 1683:318240" ;
+        props:objectTypeIfcObject_attribute_simple "COLUMN 1683:COLUMN 1683" ;
+        props:reference_simple "COLUMN 1683" ;
+        props:roll_simple 0e+00 ;
+        props:slope_simple 1.5708e+00 ;
+        props:status_simple str:IfcPropertyEnumeratedValue_2275 ;
+        bot:has3DModel "ms_str/e21b628f-0137-4726-9bed-3be48876a82d.ply" ;
+        bot:hasSimple3DModel "21600.0, -10900.0, 3900.0, 400.0, 400.0, 3800.0" .
+
+    str:column_e2c80d78-e607-4f33-929f-37430b29c705 a beo:Column,
+            beo:Column-COLUMN,
+            bot:Element ;
+        props:batid_attribute_simple "289208" ;
+        props:globalIdIfcRoot_attribute_simple "3Yo0ruvWTFCvAVDqCBASS5" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "COLUMN 1334:COLUMN 1334:317901" ;
+        props:objectTypeIfcObject_attribute_simple "COLUMN 1334:COLUMN 1334" ;
+        props:reference_simple "COLUMN 1334" ;
+        props:roll_simple 0e+00 ;
+        props:slope_simple 1.5708e+00 ;
+        props:status_simple str:IfcPropertyEnumeratedValue_3049 ;
+        bot:has3DModel "ms_str/e2c80d78-e607-4f33-929f-37430b29c705.ply" ;
+        bot:hasSimple3DModel "0.0, -18400.0, -100.0, 400.0, 400.0, 3800.0" .
+
+    str:column_e8422bf1-b420-4276-97e5-bfb6e95ddf85 a beo:Column,
+            beo:Column-COLUMN,
+            bot:Element ;
+        props:batid_attribute_simple "289169" ;
+        props:globalIdIfcRoot_attribute_simple "3eGYlnj212TfVblxRfNT_5" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "COLUMN 1694:COLUMN 1694:318258" ;
+        props:objectTypeIfcObject_attribute_simple "COLUMN 1694:COLUMN 1694" ;
+        props:reference_simple "COLUMN 1694" ;
+        props:roll_simple 0e+00 ;
+        props:slope_simple 1.5708e+00 ;
+        props:status_simple str:IfcPropertyEnumeratedValue_2213 ;
+        bot:has3DModel "ms_str/e8422bf1-b420-4276-97e5-bfb6e95ddf85.ply" ;
+        bot:hasSimple3DModel "21600.0, -18400.0, 3900.0, 400.0, 400.0, 3800.0" .
+
+    str:column_eb778484-f268-4897-89c4-2a8b4cd4af2c a beo:Column,
+            beo:Column-COLUMN,
+            bot:Element ;
+        props:batid_attribute_simple "289207" ;
+        props:globalIdIfcRoot_attribute_simple "3hTuI4ycX8bud4AejCrAyi" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "COLUMN 1345:COLUMN 1345:317934" ;
+        props:objectTypeIfcObject_attribute_simple "COLUMN 1345:COLUMN 1345" ;
+        props:reference_simple "COLUMN 1345" ;
+        props:roll_simple 0e+00 ;
+        props:slope_simple 1.5708e+00 ;
+        props:status_simple str:IfcPropertyEnumeratedValue_3008 ;
+        bot:has3DModel "ms_str/eb778484-f268-4897-89c4-2a8b4cd4af2c.ply" ;
+        bot:hasSimple3DModel "0.0, -10900.0, -100.0, 400.0, 400.0, 3800.0" .
+
+    str:column_ed32d441-cf48-4981-921d-886f536bd490 a beo:Column,
+            beo:Column-COLUMN,
+            bot:Element ;
+        props:batid_attribute_simple "289216" ;
+        props:globalIdIfcRoot_attribute_simple "3jCjH1pqX9WP8TY6zJQzIG" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "COLUMN:COLUMN:317746" ;
+        props:objectTypeIfcObject_attribute_simple "COLUMN:COLUMN" ;
+        props:reference_simple "COLUMN" ;
+        props:roll_simple 0e+00 ;
+        props:slope_simple 1.5708e+00 ;
+        props:status_simple str:IfcPropertyEnumeratedValue_3377 ;
+        bot:has3DModel "ms_str/ed32d441-cf48-4981-921d-886f536bd490.ply" ;
+        bot:hasSimple3DModel "21600.0, -18400.0, -100.0, 400.0, 400.0, 3800.0" .
+
+    str:column_ee87dedd-8546-46ea-9496-c5e42c7212e6 a beo:Column,
+            beo:Column-COLUMN,
+            bot:Element ;
+        props:batid_attribute_simple "289200" ;
+        props:globalIdIfcRoot_attribute_simple "3kXzxTXKP6wfIMnUGiSXBc" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "COLUMN 1617:COLUMN 1617:318132" ;
+        props:objectTypeIfcObject_attribute_simple "COLUMN 1617:COLUMN 1617" ;
+        props:reference_simple "COLUMN 1617" ;
+        props:roll_simple 0e+00 ;
+        props:slope_simple 1.5708e+00 ;
+        props:status_simple str:IfcPropertyEnumeratedValue_2641 ;
+        bot:has3DModel "ms_str/ee87dedd-8546-46ea-9496-c5e42c7212e6.ply" ;
+        bot:hasSimple3DModel "7400.0, -400.0, 3900.0, 400.0, 400.0, 3800.0" .
+
+    str:column_f535e863-c658-48d3-a685-392c5fc0097b a beo:Column,
+            beo:Column-COLUMN,
+            bot:Element ;
+        props:batid_attribute_simple "289201" ;
+        props:globalIdIfcRoot_attribute_simple "3rDUXZnbX8qwQ5EInVm0bx" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "COLUMN 1606:COLUMN 1606:318106" ;
+        props:objectTypeIfcObject_attribute_simple "COLUMN 1606:COLUMN 1606" ;
+        props:reference_simple "COLUMN 1606" ;
+        props:roll_simple 0e+00 ;
+        props:slope_simple 1.5708e+00 ;
+        props:status_simple str:IfcPropertyEnumeratedValue_2702 ;
+        bot:has3DModel "ms_str/f535e863-c658-48d3-a685-392c5fc0097b.ply" ;
+        bot:hasSimple3DModel "0.0, -18400.0, 3900.0, 400.0, 400.0, 3800.0" .
+
+    str:column_fcb1afc5-f58c-4611-a4d6-ade1245c327a a beo:Column,
+            beo:Column-COLUMN,
+            bot:Element ;
+        props:batid_attribute_simple "289198" ;
+        props:globalIdIfcRoot_attribute_simple "3yiQ$5zOn64QJMhU4aN39w" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "COLUMN 1639:COLUMN 1639:318168" ;
+        props:objectTypeIfcObject_attribute_simple "COLUMN 1639:COLUMN 1639" ;
+        props:reference_simple "COLUMN 1639" ;
+        props:roll_simple 0e+00 ;
+        props:slope_simple 1.5708e+00 ;
+        props:status_simple str:IfcPropertyEnumeratedValue_2519 ;
+        bot:has3DModel "ms_str/fcb1afc5-f58c-4611-a4d6-ade1245c327a.ply" ;
+        bot:hasSimple3DModel "14200.0, -400.0, 3900.0, 400.0, 400.0, 3800.0" .
+
+    str:column_ffaf805a-9507-42a0-9573-f0770b8a4c29 a beo:Column,
+            beo:Column-COLUMN,
+            bot:Element ;
+        props:batid_attribute_simple "289206" ;
+        props:globalIdIfcRoot_attribute_simple "3$hu1QbGT2e9Lpy7SBYamf" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "COLUMN 1358:COLUMN 1358:317967" ;
+        props:objectTypeIfcObject_attribute_simple "COLUMN 1358:COLUMN 1358" ;
+        props:reference_simple "COLUMN 1358" ;
+        props:roll_simple 0e+00 ;
+        props:slope_simple 1.5708e+00 ;
+        props:status_simple str:IfcPropertyEnumeratedValue_2967 ;
+        bot:has3DModel "ms_str/ffaf805a-9507-42a0-9573-f0770b8a4c29.ply" ;
+        bot:hasSimple3DModel "0.0, -7900.0, -100.0, 400.0, 400.0, 3800.0" .
+
+    str:slab_a2450c0e-392d-4c89-b2b5-3825392cf526 a beo:Slab,
+            beo:Slab-FLOOR,
+            bot:Element ;
+        props:batid_attribute_simple "285067" ;
+        props:globalIdIfcRoot_attribute_simple "2YHGmEEIrCYRArE2KvBFKc" ;
+        props:isExternal_simple false ;
+        props:nameIfcRoot_attribute_simple "SLAB:SLAB:317664:SLAB:317664 : SLAB:SLAB:317664:285067" ;
+        props:objectTypeIfcObject_attribute_simple "SLAB:SLAB:317664:SLAB:317664 : SLAB:SLAB:317664" ;
+        props:reference_simple "SLAB" ;
+        bot:has3DModel "ms_str/a2450c0e-392d-4c89-b2b5-3825392cf526.ply" ;
+        bot:hasSimple3DModel "0.0, -9200.0, 3700.0, 22000.0, 9200.0, 200.0" .
+
+    str:slab_a7d9c1db-a96d-4ded-9a32-f69dddef99b9 a beo:Slab,
+            beo:Slab-FLOOR,
+            bot:Element ;
+        props:batid_attribute_simple "285101" ;
+        props:globalIdIfcRoot_attribute_simple "2dsS7RgMrDxPeozftTxvcv" ;
+        props:isExternal_simple false ;
+        props:nameIfcRoot_attribute_simple "SLAB 1116:SLAB 1116:317702:SLAB 1116:317702 : SLAB 1116:SLAB 1116:317702:285101" ;
+        props:objectTypeIfcObject_attribute_simple "SLAB 1116:SLAB 1116:317702:SLAB 1116:317702 : SLAB 1116:SLAB 1116:317702" ;
+        props:reference_simple "SLAB 1116" ;
+        bot:has3DModel "ms_str/a7d9c1db-a96d-4ded-9a32-f69dddef99b9.ply" ;
+        bot:hasSimple3DModel "-0.0, -18400.0, 3700.0, 21990.0, 9200.0, 200.0" .
+
+    str:slab_eb8a297e-51db-4bb0-9702-c9b58da3657c a beo:Slab,
+            beo:Slab-FLOOR,
+            bot:Element ;
+        props:batid_attribute_simple "285125" ;
+        props:globalIdIfcRoot_attribute_simple "3hYYb_KTjBi9S2oRMDesLy" ;
+        props:isExternal_simple false ;
+        props:nameIfcRoot_attribute_simple "SLAB 1551:SLAB 1551:318019:SLAB 1551:318019 : SLAB 1551:SLAB 1551:318019:285125" ;
+        props:objectTypeIfcObject_attribute_simple "SLAB 1551:SLAB 1551:318019:SLAB 1551:318019 : SLAB 1551:SLAB 1551:318019" ;
+        props:reference_simple "SLAB 1551" ;
+        bot:has3DModel "ms_str/eb8a297e-51db-4bb0-9702-c9b58da3657c.ply" ;
+        bot:hasSimple3DModel "0.0, -18400.0, -300.0, 22000.0, 18400.0, 200.0" .
+
+    str:storey_945a0d30-2bd1-4a59-9df7-0f3fc4b05959 a bot:Storey ;
+        props:aboveGround_simple ns2:UNKNOWN ;
+        props:elevationIfcBuildingStorey_attribute_simple 0e+00 ;
+        props:globalIdIfcRoot_attribute_simple "2KMWqmAz5AMPtt3p$4i5bP" ;
+        props:longNameIfcSpatialElement_attribute_simple "Default" ;
+        props:nameIfcRoot_attribute_simple "Default" ;
+        props:objectTypeIfcObject_attribute_simple "Level:1/4\" Head" ;
+        props:reference_simple "1/4\" Head" ;
+        bot:containsElement str:buildingelement_01da38ab-845f-419c-b22f-722d02fbe61a,
+            str:buildingelement_086a6152-2d84-4ea2-b3ca-b3c16df84bed,
+            str:buildingelement_08cbb709-163c-4fed-9b28-c5c3919ff6e3,
+            str:buildingelement_20235db3-c25e-4208-9628-93a27f3d25f0,
+            str:buildingelement_2e89d853-04df-4cbd-b4ef-350b4af59dd2,
+            str:buildingelement_3271351a-ae10-45c6-97b5-105262c31f15,
+            str:buildingelement_3338f5cb-0e8f-4fd0-bd42-99428c302460,
+            str:buildingelement_3436125d-3041-4732-bd3e-c8d1b3cea2e7,
+            str:buildingelement_387eafd6-0250-4392-a1bc-5fdf94c543ce,
+            str:buildingelement_3fba2524-c842-4d26-b073-f1e61cc9b682,
+            str:buildingelement_48355c81-2be3-4e03-9cce-247ddc4876ec,
+            str:buildingelement_4c3b70e0-f413-44df-a229-1187cb9817c0,
+            str:buildingelement_4e5a90ec-9172-4932-94c6-101dc9890c88,
+            str:buildingelement_5e65b4f4-1ede-43f4-941c-8248b48a83f7,
+            str:buildingelement_6d2657ee-57f1-4127-be00-80dc50ffcae1,
+            str:buildingelement_83eba30d-abdc-4d33-bf6a-96b8ac73b831,
+            str:buildingelement_87bfb082-c79a-468d-a310-4a1b70023d89,
+            str:buildingelement_8fc2cf68-e571-430b-ae47-8d6ed41fa360,
+            str:buildingelement_93c60e20-0773-435d-b70a-bbdd488633d7,
+            str:buildingelement_93fac6cf-f763-4c89-bf65-7cf5973f850d,
+            str:buildingelement_94e055f8-4e27-45e6-9dea-6e37216753b5,
+            str:buildingelement_983278e6-b726-448a-8213-437e183b9c57,
+            str:buildingelement_9c094d06-93ba-408c-943c-3a235b7e5c38,
+            str:buildingelement_a4542748-b35e-4617-bb72-9e12aeb6c445,
+            str:buildingelement_a5258efb-e9ae-4571-9b1a-e460b8a964a3,
+            str:buildingelement_b26cbc0c-9f17-4287-8467-409fbeaeaf5c,
+            str:buildingelement_b4dcc12f-e17a-4658-bb8d-e2fa31adb98f,
+            str:buildingelement_c88ce72c-75e4-4abb-ac69-3fdef9b42f1d,
+            str:buildingelement_c9365e2c-3446-4c67-8b5f-355a2b775e21,
+            str:buildingelement_d1b516a6-5837-42f0-8da7-a917a5e523dd,
+            str:buildingelement_d3484dae-ca48-4de5-aeb2-df2be6d9135d,
+            str:buildingelement_dc134b3e-7ad9-4097-bcb6-bb05de889881,
+            str:buildingelement_e0cfb2e3-5c0a-4f60-b0b6-5c4c970e9650,
+            str:buildingelement_e1f6f5d4-5c9f-45a8-b04a-3d0126e8221d,
+            str:buildingelement_ea9d675d-9218-4407-a311-6fea3bdba573,
+            str:buildingelement_f0000bba-78d4-4c66-8e20-c51cf99467cb,
+            str:buildingelement_f4b71da7-fbd2-4944-aa6e-f2927994b9e2,
+            str:buildingelement_f8595068-b8b3-416b-9f14-53c014766b77,
+            str:buildingelement_fca5d8df-990c-4f44-9a78-0f8abd804dd8,
+            str:buildingelement_fd0da2a8-d924-4861-9d61-541b57eb8db6,
+            str:column_00b706d9-9ae1-490b-aa50-a63b3aafa079,
+            str:column_109e85f3-5e85-440b-bfae-70a97d54e356,
+            str:column_115e9958-beac-45f1-b975-83609735d328,
+            str:column_11951891-53d3-4c6b-983e-94c2a686ab3a,
+            str:column_2ddd8a70-2090-4b43-bd1e-998c73fadb2e,
+            str:column_4d441676-aff7-4405-aefd-f8bc857d17c4,
+            str:column_581df863-9287-43d6-9651-af2e4421db34,
+            str:column_6f575c00-8bdf-422e-b994-eb361797d970,
+            str:column_741953b5-b2ae-414b-a30b-33a19f4300f7,
+            str:column_a170c840-35cc-4048-b52b-bdc9859c201e,
+            str:column_bf0e5309-e3ca-41d4-9b73-d4bd2488cc66,
+            str:column_bfc59428-b839-45da-bbb3-03a64baea5fc,
+            str:column_c14bede6-b05b-42db-8366-70785c87dbc6,
+            str:column_d16e7258-d5ab-4eb8-adaf-d7bc6d29b6aa,
+            str:column_d6db347f-5bcd-4534-9a6b-32b1f6c3c91a,
+            str:column_e21b628f-0137-4726-9bed-3be48876a82d,
+            str:column_e2c80d78-e607-4f33-929f-37430b29c705,
+            str:column_e8422bf1-b420-4276-97e5-bfb6e95ddf85,
+            str:column_eb778484-f268-4897-89c4-2a8b4cd4af2c,
+            str:column_ed32d441-cf48-4981-921d-886f536bd490,
+            str:column_ee87dedd-8546-46ea-9496-c5e42c7212e6,
+            str:column_f535e863-c658-48d3-a685-392c5fc0097b,
+            str:column_fcb1afc5-f58c-4611-a4d6-ade1245c327a,
+            str:column_ffaf805a-9507-42a0-9573-f0770b8a4c29,
+            str:slab_a2450c0e-392d-4c89-b2b5-3825392cf526,
+            str:slab_a7d9c1db-a96d-4ded-9a32-f69dddef99b9,
+            str:slab_eb8a297e-51db-4bb0-9702-c9b58da3657c,
+            str:wall_099566dd-b175-4f7e-a212-1d5967b84e7c,
+            str:wall_2fcd0ec3-3467-4059-af15-126801a3c442,
+            str:wall_85fc9af8-4669-4d04-89ee-efe91bb93b68,
+            str:wall_950b555f-fff8-4d01-aad9-9b58fb61459d,
+            str:wall_97bfe34b-6deb-45ec-9ddd-fffac56fb1d8,
+            str:wall_97eb3418-4dfc-4398-91ab-0179aef0b7f0,
+            str:wall_a4216b4e-32a7-41a0-8869-27401c3dc198,
+            str:wall_cb6634a7-94fa-485c-a5e1-d80e16be6d5a .
+
+    str:wall_099566dd-b175-4f7e-a212-1d5967b84e7c a beo:Wall,
+            beo:Wall-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "284967" ;
+        props:combustible_simple false ;
+        props:compartmentation_simple false ;
+        props:extendToStructure_simple false ;
+        props:globalIdIfcRoot_attribute_simple "09bMRTiNLFVg8I7Lbdk4vy" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "PANEL 480:PANEL 480:317565:PANEL 480:317565 : PANEL 480:PANEL 480:317565:284967" ;
+        props:objectTypeIfcObject_attribute_simple "PANEL 480:PANEL 480:317565:PANEL 480:317565 : PANEL 480:PANEL 480:317565" ;
+        props:reference_simple "PANEL 480" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_380 ;
+        bot:has3DModel "ms_str/099566dd-b175-4f7e-a212-1d5967b84e7c.ply" ;
+        bot:hasSimple3DModel "7400.0, -10900.0, 3900.0, 400.0, 3400.0, 3800.0" .
+
+    str:wall_2fcd0ec3-3467-4059-af15-126801a3c442 a beo:Wall,
+            beo:Wall-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "284958" ;
+        props:combustible_simple false ;
+        props:compartmentation_simple false ;
+        props:extendToStructure_simple false ;
+        props:globalIdIfcRoot_attribute_simple "0lpGx3D6T0MQyL4cW1eyH2" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "PANEL 417:PANEL 417:317554:PANEL 417:317554 : PANEL 417:PANEL 417:317554:284958" ;
+        props:objectTypeIfcObject_attribute_simple "PANEL 417:PANEL 417:317554:PANEL 417:317554 : PANEL 417:PANEL 417:317554" ;
+        props:reference_simple "PANEL 417" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_343 ;
+        bot:has3DModel "ms_str/2fcd0ec3-3467-4059-af15-126801a3c442.ply" ;
+        bot:hasSimple3DModel "7400.0, -10900.0, 3875.0, 7200.0, 400.0, 3825.0" .
+
+    str:wall_85fc9af8-4669-4d04-89ee-efe91bb93b68 a beo:Wall,
+            beo:Wall-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "284983" ;
+        props:combustible_simple false ;
+        props:compartmentation_simple false ;
+        props:extendToStructure_simple false ;
+        props:globalIdIfcRoot_attribute_simple "25$9huHcbD18dkx_aRkJje" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "PANEL 536:PANEL 536:317581:PANEL 536:317581 : PANEL 536:PANEL 536:317581:284983" ;
+        props:objectTypeIfcObject_attribute_simple "PANEL 536:PANEL 536:317581:PANEL 536:317581 : PANEL 536:PANEL 536:317581" ;
+        props:reference_simple "PANEL 536" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_431 ;
+        bot:has3DModel "ms_str/85fc9af8-4669-4d04-89ee-efe91bb93b68.ply" ;
+        bot:hasSimple3DModel "7400.0, -7900.0, -100.0, 7200.0, 400.0, 3800.0" .
+
+    str:wall_950b555f-fff8-4d01-aad9-9b58fb61459d a beo:Wall,
+            beo:Wall-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285191" ;
+        props:extendToStructure_simple false ;
+        props:globalIdIfcRoot_attribute_simple "2L2rLV$$XD0QhPcrZxOKMT" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "PANEL 6078:PANEL 6078:285191" ;
+        props:objectTypeIfcObject_attribute_simple "PANEL 6078:PANEL 6078" ;
+        props:reference_simple "W" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_777 ;
+        bot:has3DModel "ms_str/950b555f-fff8-4d01-aad9-9b58fb61459d.ply" ;
+        bot:hasSimple3DModel "14200.0, -10900.0, 3900.0, 400.0, 3400.0, 3800.0" .
+
+    str:wall_97bfe34b-6deb-45ec-9ddd-fffac56fb1d8 a beo:Wall,
+            beo:Wall-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285023" ;
+        props:combustible_simple false ;
+        props:compartmentation_simple false ;
+        props:extendToStructure_simple false ;
+        props:globalIdIfcRoot_attribute_simple "2Nl_DBRUj5x9tT$$h5Rx7O" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "PANEL 692:PANEL 692:317621:PANEL 692:317621 : PANEL 692:PANEL 692:317621:285023" ;
+        props:objectTypeIfcObject_attribute_simple "PANEL 692:PANEL 692:317621:PANEL 692:317621 : PANEL 692:PANEL 692:317621" ;
+        props:reference_simple "PANEL 692" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_555 ;
+        bot:has3DModel "ms_str/97bfe34b-6deb-45ec-9ddd-fffac56fb1d8.ply" ;
+        bot:hasSimple3DModel "7400.0, -10900.0, -100.0, 7200.0, 400.0, 3800.0" .
+
+    str:wall_97eb3418-4dfc-4398-91ab-0179aef0b7f0 a beo:Wall,
+            beo:Wall-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "284904" ;
+        props:combustible_simple false ;
+        props:compartmentation_simple false ;
+        props:extendToStructure_simple false ;
+        props:globalIdIfcRoot_attribute_simple "2NwpGOJVn3c96h0NckyBVm" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "PANEL:PANEL:317510:PANEL:317510 : PANEL:PANEL:317510:284904" ;
+        props:objectTypeIfcObject_attribute_simple "PANEL:PANEL:317510:PANEL:317510 : PANEL:PANEL:317510" ;
+        props:reference_simple "PANEL" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_160 ;
+        bot:has3DModel "ms_str/97eb3418-4dfc-4398-91ab-0179aef0b7f0.ply" ;
+        bot:hasSimple3DModel "7400.0, -7900.0, 3900.0, 7200.0, 400.0, 3800.0" .
+
+    str:wall_a4216b4e-32a7-41a0-8869-27401c3dc198 a beo:Wall,
+            beo:Wall-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285145" ;
+        props:extendToStructure_simple false ;
+        props:globalIdIfcRoot_attribute_simple "2a8MjECgT1e8Xf9q0SFS6O" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "PANEL:PANEL:285145" ;
+        props:objectTypeIfcObject_attribute_simple "PANEL:PANEL" ;
+        props:reference_simple "W" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_742 ;
+        bot:has3DModel "ms_str/a4216b4e-32a7-41a0-8869-27401c3dc198.ply" ;
+        bot:hasSimple3DModel "14200.0, -10900.0, -100.0, 400.0, 3400.0, 3800.0" .
+
+    str:wall_cb6634a7-94fa-485c-a5e1-d80e16be6d5a a beo:Wall,
+            beo:Wall-NOTDEFINED,
+            bot:Element ;
+        props:batid_attribute_simple "285007" ;
+        props:combustible_simple false ;
+        props:compartmentation_simple false ;
+        props:extendToStructure_simple false ;
+        props:globalIdIfcRoot_attribute_simple "3BPZIdbFf8NANXs0uMlcrQ" ;
+        props:isExternal_simple false ;
+        props:loadBearing_simple false ;
+        props:nameIfcRoot_attribute_simple "PANEL 569:PANEL 569:317605:PANEL 569:317605 : PANEL 569:PANEL 569:317605:285007" ;
+        props:objectTypeIfcObject_attribute_simple "PANEL 569:PANEL 569:317605:PANEL 569:317605 : PANEL 569:PANEL 569:317605" ;
+        props:reference_simple "PANEL 569" ;
+        props:status_simple str:IfcPropertyEnumeratedValue_473 ;
+        bot:has3DModel "ms_str/cb6634a7-94fa-485c-a5e1-d80e16be6d5a.ply" ;
+        bot:hasSimple3DModel "7400.0, -10900.0, -100.0, 400.0, 3400.0, 3800.0" .
+
+    ifc:IfcIdentifier a owl:Class .
+
+    ifc:IfcLabel a owl:Class .
+
+    ifc:IfcPropertyBoundedValue a owl:Class ;
+        owl:disjointWith ifc:IfcPropertyEnumeratedValue,
+            ifc:IfcPropertyListValue,
+            ifc:IfcPropertyReferenceValue,
+            ifc:IfcPropertySingleValue,
+            ifc:IfcPropertyTableValue .
+
+    ifc:IfcPropertyListValue a owl:Class ;
+        owl:disjointWith ifc:IfcPropertyBoundedValue,
+            ifc:IfcPropertyEnumeratedValue,
+            ifc:IfcPropertyReferenceValue,
+            ifc:IfcPropertySingleValue,
+            ifc:IfcPropertyTableValue .
+
+    ifc:IfcPropertyReferenceValue a owl:Class ;
+        owl:disjointWith ifc:IfcPropertyBoundedValue,
+            ifc:IfcPropertyEnumeratedValue,
+            ifc:IfcPropertyListValue,
+            ifc:IfcPropertySingleValue,
+            ifc:IfcPropertyTableValue .
+
+    ifc:IfcPropertySingleValue a owl:Class ;
+        owl:disjointWith ifc:IfcPropertyBoundedValue,
+            ifc:IfcPropertyEnumeratedValue,
+            ifc:IfcPropertyListValue,
+            ifc:IfcPropertyReferenceValue,
+            ifc:IfcPropertyTableValue .
+
+    ifc:IfcPropertyTableValue a owl:Class ;
+        owl:disjointWith ifc:IfcPropertyBoundedValue,
+            ifc:IfcPropertyEnumeratedValue,
+            ifc:IfcPropertyListValue,
+            ifc:IfcPropertyReferenceValue,
+            ifc:IfcPropertySingleValue .
+
+    str:IfcIdentifier_3582 a ifc:IfcIdentifier ;
+        ns2:hasString "Status" .
+
+    str:IfcLabel_3584 a ifc:IfcLabel ;
+        ns2:hasString "NEW" .
+
+    ifc:IfcValue_List a owl:Class .
+
+    ifc:IfcPropertyEnumeratedValue a owl:Class ;
+        owl:disjointWith ifc:IfcPropertyBoundedValue,
+            ifc:IfcPropertyListValue,
+            ifc:IfcPropertyReferenceValue,
+            ifc:IfcPropertySingleValue,
+            ifc:IfcPropertyTableValue .
+}
+

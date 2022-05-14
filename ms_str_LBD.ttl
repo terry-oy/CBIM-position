@@ -1,0 +1,2324 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix bot: <https://w3id.org/bot#> .
+@prefix ifc: <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix beo: <https://pi.pauwel.be/voc/buildingelement#> .
+@prefix lbd: <https://linkebuildingdata.org/LBD#> .
+@prefix props: <http://lbd.arch.rwth-aachen.de/props#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix unit: <http://qudt.org/vocab/unit/> .
+@prefix IFC4-PSD: <https://www.linkedbuildingdata.net/IFC4-PSD#> .
+@prefix smls: <https://w3id.org/def/smls-owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix inst: <https://example.org/ms_str#> .
+@prefix mep: <http://pi.pauwel.be/voc/distributionelement#> .
+@prefix furn: <http://pi.pauwel.be/voc/furniture#> .
+
+inst:column_e21b628f-0137-4726-9bed-3be48876a82d
+        rdf:type                      beo:Column-COLUMN ;
+        props:nameIfcRoot_attribute_simple  "COLUMN 1683:COLUMN 1683:318240" ;
+        props:isExternal_simple       false ;
+        props:objectTypeIfcObject_attribute_simple  "COLUMN 1683:COLUMN 1683" ;
+        props:slope_simple            "1.5708"^^xsd:double ;
+        rdf:type                      beo:Column ;
+        props:roll_simple             "0."^^xsd:double ;
+        props:batid_attribute_simple  "289194" ;
+        props:loadBearing_simple      false ;
+        props:globalIdIfcRoot_attribute_simple  "3Y6sAF0JT79fljE_I8TgWj" ;
+        props:reference_simple        "COLUMN 1683" ;
+        rdf:type                      bot:Element ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_2275 .
+
+inst:IfcPropertyEnumeratedValue_2763
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_5144 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_4485
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:wall_a4216b4e-32a7-41a0-8869-27401c3dc198
+        rdf:type                        bot:Element ;
+        rdf:type                        beo:Wall ;
+        rdf:type                        beo:Wall-NOTDEFINED ;
+        props:extendToStructure_simple  false ;
+        props:loadBearing_simple        false ;
+        props:batid_attribute_simple    "285145" ;
+        props:globalIdIfcRoot_attribute_simple  "2a8MjECgT1e8Xf9q0SFS6O" ;
+        props:nameIfcRoot_attribute_simple  "PANEL:PANEL:285145" ;
+        props:status_simple             inst:IfcPropertyEnumeratedValue_742 ;
+        props:objectTypeIfcObject_attribute_simple  "PANEL:PANEL" ;
+        props:isExternal_simple         false ;
+        props:reference_simple          "W" .
+
+inst:IfcPropertyEnumeratedValue_1340
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4344 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:column_d6db347f-5bcd-4534-9a6b-32b1f6c3c91a
+        rdf:type                      beo:Column-COLUMN ;
+        props:reference_simple        "COLUMN 1303" ;
+        props:isExternal_simple       false ;
+        props:roll_simple             "0."^^xsd:double ;
+        props:objectTypeIfcObject_attribute_simple  "COLUMN 1303:COLUMN 1303" ;
+        props:nameIfcRoot_attribute_simple  "COLUMN 1303:COLUMN 1303:317865" ;
+        rdf:type                      beo:Column ;
+        rdf:type                      bot:Element ;
+        props:batid_attribute_simple  "289210" ;
+        props:loadBearing_simple      false ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_3131 ;
+        props:slope_simple            "1.5708"^^xsd:double ;
+        props:globalIdIfcRoot_attribute_simple  "3MspH$Myr5D9fhCh7smyaQ" .
+
+inst:IfcPropertyEnumeratedValue_1647
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4525 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcPropertyEnumeratedValue_3131
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_5321 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_5245
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcValue_List_4425
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcValue_List_4214
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:buildingelement_3436125d-3041-4732-bd3e-c8d1b3cea2e7
+        rdf:type                      beo:BuildingElement-NOTDEFINED ;
+        rdf:type                      beo:BuildingElement ;
+        props:loadBearing_simple      false ;
+        props:reference_simple        "B-1 797" ;
+        rdf:type                      bot:Element ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_1400 ;
+        props:objectTypeIfcObject_attribute_simple  "BEAM 8231:BEAM 8231" ;
+        props:batid_attribute_simple  "285495" ;
+        props:isExternal_simple       false ;
+        props:globalIdIfcRoot_attribute_simple  "0qDX9TC457Chq_oD6ppgBd" ;
+        props:nameIfcRoot_attribute_simple  "BEAM 8231:BEAM 8231:285495" .
+
+inst:IfcPropertyEnumeratedValue_1774
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4598 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcPropertyEnumeratedValue_426
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_3701 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:buildingelement_a4542748-b35e-4617-bb72-9e12aeb6c445
+        props:batid_attribute_simple  "285319" ;
+        props:reference_simple        "B-1 1444" ;
+        rdf:type                      beo:BuildingElement ;
+        props:globalIdIfcRoot_attribute_simple  "2aL2T8irv65xjodXAkjiH5" ;
+        props:objectTypeIfcObject_attribute_simple  "BEAM 7209:BEAM 7209" ;
+        props:isExternal_simple       false ;
+        rdf:type                      bot:Element ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_1020 ;
+        props:nameIfcRoot_attribute_simple  "BEAM 7209:BEAM 7209:285319" ;
+        props:loadBearing_simple      false ;
+        rdf:type                      beo:BuildingElement-NOTDEFINED .
+
+inst:IfcValue_List_4678
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcValue_List_4859
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_2926
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_5226 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_4130
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:wall_950b555f-fff8-4d01-aad9-9b58fb61459d
+        props:nameIfcRoot_attribute_simple  "PANEL 6078:PANEL 6078:285191" ;
+        props:loadBearing_simple        false ;
+        props:objectTypeIfcObject_attribute_simple  "PANEL 6078:PANEL 6078" ;
+        props:isExternal_simple         false ;
+        props:extendToStructure_simple  false ;
+        props:globalIdIfcRoot_attribute_simple  "2L2rLV$$XD0QhPcrZxOKMT" ;
+        props:batid_attribute_simple    "285191" ;
+        rdf:type                        beo:Wall-NOTDEFINED ;
+        props:reference_simple          "W" ;
+        rdf:type                        bot:Element ;
+        props:status_simple             inst:IfcPropertyEnumeratedValue_777 ;
+        rdf:type                        beo:Wall .
+
+inst:buildingelement_3271351a-ae10-45c6-97b5-105262c31f15
+        props:reference_simple        "B-1" ;
+        props:batid_attribute_simple  "285591" ;
+        rdf:type                      bot:Element ;
+        props:nameIfcRoot_attribute_simple  "BEAM 8615:BEAM 8615:285591" ;
+        rdf:type                      beo:BuildingElement ;
+        props:loadBearing_simple      false ;
+        rdf:type                      beo:BuildingElement-NOTDEFINED ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_1604 ;
+        props:isExternal_simple       false ;
+        props:globalIdIfcRoot_attribute_simple  "0oSJKQhX15nfUr459YmnyL" ;
+        props:objectTypeIfcObject_attribute_simple  "BEAM 8615:BEAM 8615" .
+
+inst:IfcPropertyEnumeratedValue_468
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_3736 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_4618
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+ifc:IfcPropertyEnumeratedValue
+        owl:disjointWith  ifc:IfcPropertySingleValue ;
+        owl:disjointWith  ifc:IfcPropertyListValue ;
+        owl:disjointWith  ifc:IfcPropertyReferenceValue ;
+        owl:disjointWith  ifc:IfcPropertyTableValue ;
+        rdf:type          owl:Class ;
+        owl:disjointWith  ifc:IfcPropertyBoundedValue .
+
+inst:IfcPropertyEnumeratedValue_1098
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4200 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_4745
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_1545
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4465 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_4926
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_3336
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_5416 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_4323
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:wall_099566dd-b175-4f7e-a212-1d5967b84e7c
+        rdf:type                        beo:Wall-NOTDEFINED ;
+        props:isExternal_simple         false ;
+        rdf:type                        beo:Wall ;
+        props:extendToStructure_simple  false ;
+        props:reference_simple          "PANEL 480" ;
+        props:loadBearing_simple        false ;
+        props:combustible_simple        false ;
+        props:objectTypeIfcObject_attribute_simple  "PANEL 480:PANEL 480:317565:PANEL 480:317565 : PANEL 480:PANEL 480:317565" ;
+        props:globalIdIfcRoot_attribute_simple  "09bMRTiNLFVg8I7Lbdk4vy" ;
+        props:nameIfcRoot_attribute_simple  "PANEL 480:PANEL 480:317565:PANEL 480:317565 : PANEL 480:PANEL 480:317565:284967" ;
+        props:batid_attribute_simple    "284967" ;
+        rdf:type                        bot:Element ;
+        props:status_simple             inst:IfcPropertyEnumeratedValue_380 ;
+        props:compartmentation_simple   false .
+
+inst:IfcValue_List_5113
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:buildingelement_87bfb082-c79a-468d-a310-4a1b70023d89
+        props:isExternal_simple       false ;
+        props:nameIfcRoot_attribute_simple  "BEAM 9383:BEAM 9383:285783" ;
+        props:batid_attribute_simple  "285783" ;
+        props:reference_simple        "B-1 826" ;
+        rdf:type                      bot:Element ;
+        rdf:type                      beo:BuildingElement-NOTDEFINED ;
+        props:objectTypeIfcObject_attribute_simple  "BEAM 9383:BEAM 9383" ;
+        rdf:type                      beo:BuildingElement ;
+        props:globalIdIfcRoot_attribute_simple  "27lx22nvf6ZQCGIXjm0Zs9" ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_2012 ;
+        props:loadBearing_simple      false .
+
+inst:IfcPropertyEnumeratedValue_1672
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4538 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_4365
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcValue_List_3630
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:wall_85fc9af8-4669-4d04-89ee-efe91bb93b68
+        props:reference_simple          "PANEL 536" ;
+        props:nameIfcRoot_attribute_simple  "PANEL 536:PANEL 536:317581:PANEL 536:317581 : PANEL 536:PANEL 536:317581:284983" ;
+        props:objectTypeIfcObject_attribute_simple  "PANEL 536:PANEL 536:317581:PANEL 536:317581 : PANEL 536:PANEL 536:317581" ;
+        rdf:type                        beo:Wall ;
+        props:extendToStructure_simple  false ;
+        props:isExternal_simple         false ;
+        rdf:type                        bot:Element ;
+        props:globalIdIfcRoot_attribute_simple  "25$9huHcbD18dkx_aRkJje" ;
+        props:batid_attribute_simple    "284983" ;
+        props:combustible_simple        false ;
+        rdf:type                        beo:Wall-NOTDEFINED ;
+        props:status_simple             inst:IfcPropertyEnumeratedValue_431 ;
+        props:compartmentation_simple   false ;
+        props:loadBearing_simple        false .
+
+inst:IfcValue_List_4154
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_2824
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_5175 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcPropertyEnumeratedValue_1919
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4685 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:buildingelement_e1f6f5d4-5c9f-45a8-b04a-3d0126e8221d
+        props:nameIfcRoot_attribute_simple  "BEAM 8423:BEAM 8423:285543" ;
+        rdf:type                      beo:BuildingElement-NOTDEFINED ;
+        rdf:type                      beo:BuildingElement ;
+        props:globalIdIfcRoot_attribute_simple  "3XzlNKN9z5gB1AFG4cw28T" ;
+        props:reference_simple        "B-1 1017" ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_1502 ;
+        props:loadBearing_simple      false ;
+        props:batid_attribute_simple  "285543" ;
+        rdf:type                      bot:Element ;
+        props:isExternal_simple       false ;
+        props:objectTypeIfcObject_attribute_simple  "BEAM 8423:BEAM 8423" .
+
+inst:IfcValue_List_4009
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:buildingelement_20235db3-c25e-4208-9628-93a27f3d25f0
+        props:status_simple           inst:IfcPropertyEnumeratedValue_1876 ;
+        rdf:type                      beo:BuildingElement-NOTDEFINED ;
+        props:loadBearing_simple      false ;
+        props:reference_simple        "B-1 905" ;
+        props:isExternal_simple       false ;
+        props:globalIdIfcRoot_attribute_simple  "0W8rspmbv229Oeaw9$FINm" ;
+        props:objectTypeIfcObject_attribute_simple  "BEAM 9127:BEAM 9127" ;
+        rdf:type                      bot:Element ;
+        rdf:type                      beo:BuildingElement ;
+        props:batid_attribute_simple  "285719" ;
+        props:nameIfcRoot_attribute_simple  "BEAM 9127:BEAM 9127:285719" .
+
+inst:IfcPropertyEnumeratedValue_1262
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4296 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_5378
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_1443
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4405 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_4558
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:column_c14bede6-b05b-42db-8366-70785c87dbc6
+        props:slope_simple            "1.5708"^^xsd:double ;
+        props:objectTypeIfcObject_attribute_simple  "COLUMN 1595:COLUMN 1595" ;
+        props:reference_simple        "COLUMN 1595" ;
+        props:roll_simple             "0."^^xsd:double ;
+        props:isExternal_simple       false ;
+        props:loadBearing_simple      false ;
+        props:globalIdIfcRoot_attribute_simple  "31I_tci5j2suDcS7XSXzl6" ;
+        rdf:type                      bot:Element ;
+        props:nameIfcRoot_attribute_simple  "COLUMN 1595:COLUMN 1595:318080" ;
+        rdf:type                      beo:Column ;
+        rdf:type                      beo:Column-COLUMN ;
+        props:batid_attribute_simple  "289202" ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_2763 .
+
+inst:IfcValue_List_4221
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_2148
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4818 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcPropertyEnumeratedValue_1202
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4262 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_3708
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_1570
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4478 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_4685
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_2275
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4895 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_5264
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcValue_List_4178
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:column_ffaf805a-9507-42a0-9573-f0770b8a4c29
+        props:isExternal_simple       false ;
+        rdf:type                      beo:Column ;
+        props:reference_simple        "COLUMN 1358" ;
+        props:loadBearing_simple      false ;
+        rdf:type                      bot:Element ;
+        props:objectTypeIfcObject_attribute_simple  "COLUMN 1358:COLUMN 1358" ;
+        props:roll_simple             "0."^^xsd:double ;
+        props:slope_simple            "1.5708"^^xsd:double ;
+        props:batid_attribute_simple  "289206" ;
+        props:nameIfcRoot_attribute_simple  "COLUMN 1358:COLUMN 1358:317967" ;
+        props:globalIdIfcRoot_attribute_simple  "3$hu1QbGT2e9Lpy7SBYamf" ;
+        rdf:type                      beo:Column-COLUMN ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_2967 .
+
+inst:IfcPropertyEnumeratedValue_1159
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4235 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_4625
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_1817
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4625 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:buildingelement_e0cfb2e3-5c0a-4f60-b0b6-5c4c970e9650
+        props:status_simple           inst:IfcPropertyEnumeratedValue_1740 ;
+        props:objectTypeIfcObject_attribute_simple  "BEAM 8871:BEAM 8871" ;
+        props:batid_attribute_simple  "285655" ;
+        rdf:type                      beo:BuildingElement ;
+        props:globalIdIfcRoot_attribute_simple  "3WpxBZN0fFOB2sN4oN3fPG" ;
+        props:loadBearing_simple      false ;
+        props:nameIfcRoot_attribute_simple  "BEAM 8871:BEAM 8871:285655" ;
+        rdf:type                      beo:BuildingElement-NOTDEFINED ;
+        props:reference_simple        "B-1 856" ;
+        props:isExternal_simple       false ;
+        rdf:type                      bot:Element .
+
+inst:IfcPropertyEnumeratedValue_994
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4130 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcPropertyEnumeratedValue_1944
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4698 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_4275
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcValue_List_3666
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_2046
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4758 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcPropertyEnumeratedValue_150
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_3583 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_4818
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcValue_List_4498
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:column_e8422bf1-b420-4276-97e5-bfb6e95ddf85
+        rdf:type                      beo:Column-COLUMN ;
+        props:globalIdIfcRoot_attribute_simple  "3eGYlnj212TfVblxRfNT_5" ;
+        props:batid_attribute_simple  "289169" ;
+        props:roll_simple             "0."^^xsd:double ;
+        rdf:type                      bot:Element ;
+        props:nameIfcRoot_attribute_simple  "COLUMN 1694:COLUMN 1694:318258" ;
+        props:objectTypeIfcObject_attribute_simple  "COLUMN 1694:COLUMN 1694" ;
+        props:slope_simple            "1.5708"^^xsd:double ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_2213 ;
+        props:isExternal_simple       false ;
+        props:loadBearing_simple      false ;
+        props:reference_simple        "COLUMN 1694" ;
+        rdf:type                      beo:Column .
+
+inst:building_47b2bd2a-cc51-4be0-9b90-9f55318e2f81
+        bot:hasStorey                 inst:storey_945a0d30-2bd1-4a59-9df7-0f3fc4b05959 ;
+        props:numberOfStoreys_simple  2 ;
+        props:isLandmarked_simple     <https://w3id.org/express#FALSE> ;
+        props:isExternal_simple       false ;
+        props:aboveGround_simple      <https://w3id.org/express#FALSE> ;
+        props:reference_simple        "Project Information" ;
+        rdf:type                      bot:Building ;
+        props:globalIdIfcRoot_attribute_simple  "17ihqgp55Bu9kGdrKnZY_1" .
+
+inst:IfcValue_List_4076
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_1715
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4565 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_4438
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcIdentifier_3582
+        <https://w3id.org/express#hasString>  "Status" ;
+        rdf:type  ifc:IfcIdentifier .
+
+inst:IfcPropertyEnumeratedValue_343
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_3634 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcPropertyEnumeratedValue_3090
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_5302 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcPropertyEnumeratedValue_916
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4076 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:column_ee87dedd-8546-46ea-9496-c5e42c7212e6
+        props:globalIdIfcRoot_attribute_simple  "3kXzxTXKP6wfIMnUGiSXBc" ;
+        rdf:type                      beo:Column ;
+        props:objectTypeIfcObject_attribute_simple  "COLUMN 1617:COLUMN 1617" ;
+        props:loadBearing_simple      false ;
+        props:batid_attribute_simple  "289200" ;
+        props:roll_simple             "0."^^xsd:double ;
+        rdf:type                      bot:Element ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_2641 ;
+        props:reference_simple        "COLUMN 1617" ;
+        props:slope_simple            "1.5708"^^xsd:double ;
+        props:isExternal_simple       false ;
+        rdf:type                      beo:Column-COLUMN ;
+        props:nameIfcRoot_attribute_simple  "COLUMN 1617:COLUMN 1617:318132" .
+
+inst:IfcPropertyEnumeratedValue_1842
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4638 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_4565
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcValue_List_4957
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:column_e2c80d78-e607-4f33-929f-37430b29c705
+        rdf:type                      beo:Column ;
+        props:batid_attribute_simple  "289208" ;
+        props:slope_simple            "1.5708"^^xsd:double ;
+        props:nameIfcRoot_attribute_simple  "COLUMN 1334:COLUMN 1334:317901" ;
+        props:loadBearing_simple      false ;
+        rdf:type                      bot:Element ;
+        rdf:type                      beo:Column-COLUMN ;
+        props:reference_simple        "COLUMN 1334" ;
+        props:globalIdIfcRoot_attribute_simple  "3Yo0ruvWTFCvAVDqCBASS5" ;
+        props:isExternal_simple       false ;
+        props:objectTypeIfcObject_attribute_simple  "COLUMN 1334:COLUMN 1334" ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_3049 ;
+        props:roll_simple             "0."^^xsd:double .
+
+inst:IfcPropertyEnumeratedValue_777
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_3987 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_5144
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_2336
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4926 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_3800
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_1124
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4214 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_4505
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_1305
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4323 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcPropertyEnumeratedValue_2885
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_5206 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_5397
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcValue_List_4758
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:column_bf0e5309-e3ca-41d4-9b73-d4bd2488cc66
+        props:objectTypeIfcObject_attribute_simple  "COLUMN 1259:COLUMN 1259" ;
+        rdf:type                      beo:Column ;
+        rdf:type                      bot:Element ;
+        props:batid_attribute_simple  "289214" ;
+        rdf:type                      beo:Column-COLUMN ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_3295 ;
+        props:slope_simple            "1.5708"^^xsd:double ;
+        props:globalIdIfcRoot_attribute_simple  "2$3bC9uyf1r9jprBqaYCnc" ;
+        props:isExternal_simple       false ;
+        props:reference_simple        "COLUMN 1259" ;
+        props:nameIfcRoot_attribute_simple  "COLUMN 1259:COLUMN 1259:317793" ;
+        props:roll_simple             "0."^^xsd:double ;
+        props:loadBearing_simple      false .
+
+inst:IfcPropertyEnumeratedValue_1613
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4505 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:buildingelement_c9365e2c-3446-4c67-8b5f-355a2b775e21
+        props:loadBearing_simple      false ;
+        props:objectTypeIfcObject_attribute_simple  "BEAM 7321:BEAM 7321" ;
+        props:nameIfcRoot_attribute_simple  "BEAM 7321:BEAM 7321:285335" ;
+        props:batid_attribute_simple  "285335" ;
+        rdf:type                      beo:BuildingElement ;
+        rdf:type                      bot:Element ;
+        props:reference_simple        "B-1 1457" ;
+        props:globalIdIfcRoot_attribute_simple  "39DbuiD4PCPujVDLehTruX" ;
+        rdf:type                      beo:BuildingElement-NOTDEFINED ;
+        props:isExternal_simple       false ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_1055 .
+
+inst:IfcPropertyEnumeratedValue_3295
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_5397 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_5283
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcValue_List_4282
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:column_581df863-9287-43d6-9651-af2e4421db34
+        rdf:type                      bot:Element ;
+        props:objectTypeIfcObject_attribute_simple  "COLUMN 1584:COLUMN 1584" ;
+        props:loadBearing_simple      false ;
+        props:isExternal_simple       false ;
+        props:roll_simple             "0."^^xsd:double ;
+        rdf:type                      beo:Column-COLUMN ;
+        props:nameIfcRoot_attribute_simple  "COLUMN 1584:COLUMN 1584:318062" ;
+        rdf:type                      beo:Column ;
+        props:reference_simple        "COLUMN 1584" ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_2824 ;
+        props:slope_simple            "1.5708"^^xsd:double ;
+        props:batid_attribute_simple  "289203" ;
+        props:globalIdIfcRoot_attribute_simple  "1O7VXZaeT3rfPHhov48Tiq" .
+
+inst:IfcPropertyEnumeratedValue_1740
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4578 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+ifc:IfcPropertyTableValue
+        owl:disjointWith  ifc:IfcPropertyEnumeratedValue ;
+        owl:disjointWith  ifc:IfcPropertyReferenceValue ;
+        owl:disjointWith  ifc:IfcPropertyListValue ;
+        rdf:type          owl:Class ;
+        owl:disjointWith  ifc:IfcPropertyBoundedValue ;
+        owl:disjointWith  ifc:IfcPropertySingleValue .
+
+inst:IfcValue_List_4378
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:wall_2fcd0ec3-3467-4059-af15-126801a3c442
+        rdf:type                        beo:Wall ;
+        props:isExternal_simple         false ;
+        props:compartmentation_simple   false ;
+        props:extendToStructure_simple  false ;
+        props:status_simple             inst:IfcPropertyEnumeratedValue_343 ;
+        props:objectTypeIfcObject_attribute_simple  "PANEL 417:PANEL 417:317554:PANEL 417:317554 : PANEL 417:PANEL 417:317554" ;
+        props:globalIdIfcRoot_attribute_simple  "0lpGx3D6T0MQyL4cW1eyH2" ;
+        props:loadBearing_simple        false ;
+        props:nameIfcRoot_attribute_simple  "PANEL 417:PANEL 417:317554:PANEL 417:317554 : PANEL 417:PANEL 417:317554:284958" ;
+        props:batid_attribute_simple    "284958" ;
+        rdf:type                        bot:Element ;
+        props:combustible_simple        false ;
+        props:reference_simple          "PANEL 417" ;
+        rdf:type                        beo:Wall-NOTDEFINED .
+
+ifc:IfcPropertyBoundedValue
+        owl:disjointWith  ifc:IfcPropertySingleValue ;
+        owl:disjointWith  ifc:IfcPropertyReferenceValue ;
+        owl:disjointWith  ifc:IfcPropertyEnumeratedValue ;
+        owl:disjointWith  ifc:IfcPropertyListValue ;
+        owl:disjointWith  ifc:IfcPropertyTableValue ;
+        rdf:type          owl:Class .
+
+ifc:IfcValue_List  rdf:type  owl:Class .
+
+inst:IfcValue_List_4825
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_856
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4042 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:column_11951891-53d3-4c6b-983e-94c2a686ab3a
+        props:loadBearing_simple      false ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_2397 ;
+        props:reference_simple        "COLUMN 1661" ;
+        props:globalIdIfcRoot_attribute_simple  "0HbHYHKzDCQvW_bCAcXgiw" ;
+        rdf:type                      beo:Column-COLUMN ;
+        props:slope_simple            "1.5708"^^xsd:double ;
+        props:nameIfcRoot_attribute_simple  "COLUMN 1661:COLUMN 1661:318204" ;
+        props:roll_simple             "0."^^xsd:double ;
+        props:batid_attribute_simple  "289196" ;
+        props:isExternal_simple       false ;
+        props:objectTypeIfcObject_attribute_simple  "COLUMN 1661:COLUMN 1661" ;
+        rdf:type                      bot:Element ;
+        rdf:type                      beo:Column .
+
+inst:IfcPropertyEnumeratedValue_434
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_3708 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_4107
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:buildingelement_5e65b4f4-1ede-43f4-941c-8248b48a83f7
+        rdf:type                      bot:Element ;
+        props:isExternal_simple       false ;
+        props:reference_simple        "B-1 856" ;
+        rdf:type                      beo:BuildingElement ;
+        props:nameIfcRoot_attribute_simple  "BEAM 9319:BEAM 9319:285767" ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_1978 ;
+        props:objectTypeIfcObject_attribute_simple  "BEAM 9319:BEAM 9319" ;
+        rdf:type                      beo:BuildingElement-NOTDEFINED ;
+        props:batid_attribute_simple  "285767" ;
+        props:globalIdIfcRoot_attribute_simple  "1UPRJq7jv3z9GSWaYqYeFt" ;
+        props:loadBearing_simple      false .
+
+inst:IfcValue_List_4083
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcValue_List_3740
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_772
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_3983 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcPropertyEnumeratedValue_380
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_3666 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:buildingelement_d3484dae-ca48-4de5-aeb2-df2be6d9135d
+        props:batid_attribute_simple  "285559" ;
+        props:loadBearing_simple      false ;
+        props:globalIdIfcRoot_attribute_simple  "3JI4skoaXDvQwotolcsHDT" ;
+        rdf:type                      bot:Element ;
+        rdf:type                      beo:BuildingElement ;
+        props:nameIfcRoot_attribute_simple  "BEAM 8487:BEAM 8487:285559" ;
+        props:objectTypeIfcObject_attribute_simple  "BEAM 8487:BEAM 8487" ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_1536 ;
+        props:isExternal_simple       false ;
+        props:reference_simple        "B-1 1017" ;
+        rdf:type                      beo:BuildingElement-NOTDEFINED .
+
+inst:IfcPropertyEnumeratedValue_1064
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4178 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_4445
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_1511
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4445 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcPropertyEnumeratedValue_742
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_3964 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_5416
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:buildingelement_387eafd6-0250-4392-a1bc-5fdf94c543ce
+        props:status_simple           inst:IfcPropertyEnumeratedValue_1910 ;
+        rdf:type                      beo:BuildingElement-NOTDEFINED ;
+        props:reference_simple        "B-1 892" ;
+        props:isExternal_simple       false ;
+        props:nameIfcRoot_attribute_simple  "BEAM 9191:BEAM 9191:285735" ;
+        props:globalIdIfcRoot_attribute_simple  "0uVg$M0b13ag6yNz_KnKFE" ;
+        rdf:type                      bot:Element ;
+        rdf:type                      beo:BuildingElement ;
+        props:loadBearing_simple      false ;
+        props:objectTypeIfcObject_attribute_simple  "BEAM 9191:BEAM 9191" ;
+        props:batid_attribute_simple  "285735" .
+
+inst:IfcValue_List_4698
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_1468
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4418 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:buildingelement_f4b71da7-fbd2-4944-aa6e-f2927994b9e2
+        props:nameIfcRoot_attribute_simple  "BEAM 7943:BEAM 7943:285447" ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_1296 ;
+        props:globalIdIfcRoot_attribute_simple  "3qjnsd_z99HAfkyf9vbBdY" ;
+        props:batid_attribute_simple  "285447" ;
+        props:reference_simple        "B-1 856" ;
+        props:objectTypeIfcObject_attribute_simple  "BEAM 7943:BEAM 7943" ;
+        rdf:type                      beo:BuildingElement-NOTDEFINED ;
+        props:loadBearing_simple      false ;
+        rdf:type                      bot:Element ;
+        props:isExternal_simple       false ;
+        rdf:type                      beo:BuildingElement .
+
+inst:IfcValue_List_4638
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcValue_List_4035
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_1227
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4275 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:slab_a2450c0e-392d-4c89-b2b5-3825392cf526
+        rdf:type                      beo:Slab-FLOOR ;
+        rdf:type                      beo:Slab ;
+        props:globalIdIfcRoot_attribute_simple  "2YHGmEEIrCYRArE2KvBFKc" ;
+        props:nameIfcRoot_attribute_simple  "SLAB:SLAB:317664:SLAB:317664 : SLAB:SLAB:317664:285067" ;
+        props:objectTypeIfcObject_attribute_simple  "SLAB:SLAB:317664:SLAB:317664 : SLAB:SLAB:317664" ;
+        props:batid_attribute_simple  "285067" ;
+        props:isExternal_simple       false ;
+        props:reference_simple        "SLAB" ;
+        rdf:type                      bot:Element .
+
+inst:IfcValue_List_5302
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_1987
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4725 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_3583
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcValue_List_4192
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcValue_List_4765
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:buildingelement_94e055f8-4e27-45e6-9dea-6e37216753b5
+        props:batid_attribute_simple  "285399" ;
+        rdf:type                      beo:BuildingElement-NOTDEFINED ;
+        props:reference_simple        "B-1 905" ;
+        rdf:type                      beo:BuildingElement ;
+        props:loadBearing_simple      false ;
+        props:objectTypeIfcObject_attribute_simple  "BEAM 7703:BEAM 7703" ;
+        props:globalIdIfcRoot_attribute_simple  "2Ku5NuJYT5vftgRZSXPrEr" ;
+        props:nameIfcRoot_attribute_simple  "BEAM 7703:BEAM 7703:285399" ;
+        props:isExternal_simple       false ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_1193 ;
+        rdf:type                      bot:Element .
+
+inst:IfcPropertyEnumeratedValue_881
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4055 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:column_6f575c00-8bdf-422e-b994-eb361797d970
+        props:status_simple           inst:IfcPropertyEnumeratedValue_2336 ;
+        rdf:type                      bot:Element ;
+        props:batid_attribute_simple  "289195" ;
+        props:slope_simple            "1.5708"^^xsd:double ;
+        rdf:type                      beo:Column-COLUMN ;
+        props:nameIfcRoot_attribute_simple  "COLUMN 1672:COLUMN 1672:318222" ;
+        props:roll_simple             "0."^^xsd:double ;
+        props:loadBearing_simple      false ;
+        rdf:type                      beo:Column ;
+        props:reference_simple        "COLUMN 1672" ;
+        props:objectTypeIfcObject_attribute_simple  "COLUMN 1672:COLUMN 1672" ;
+        props:isExternal_simple       false ;
+        props:globalIdIfcRoot_attribute_simple  "1lLrm0Yzz2BhcKwpONbzbm" .
+
+inst:IfcPropertyEnumeratedValue_2089
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4785 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:column_f535e863-c658-48d3-a685-392c5fc0097b
+        props:status_simple           inst:IfcPropertyEnumeratedValue_2702 ;
+        props:reference_simple        "COLUMN 1606" ;
+        props:nameIfcRoot_attribute_simple  "COLUMN 1606:COLUMN 1606:318106" ;
+        rdf:type                      bot:Element ;
+        props:objectTypeIfcObject_attribute_simple  "COLUMN 1606:COLUMN 1606" ;
+        props:roll_simple             "0."^^xsd:double ;
+        props:slope_simple            "1.5708"^^xsd:double ;
+        props:batid_attribute_simple  "289201" ;
+        rdf:type                      beo:Column-COLUMN ;
+        props:globalIdIfcRoot_attribute_simple  "3rDUXZnbX8qwQ5EInVm0bx" ;
+        props:loadBearing_simple      false ;
+        props:isExternal_simple       false ;
+        rdf:type                      beo:Column .
+
+inst:wall_97eb3418-4dfc-4398-91ab-0179aef0b7f0
+        rdf:type                        beo:Wall ;
+        props:globalIdIfcRoot_attribute_simple  "2NwpGOJVn3c96h0NckyBVm" ;
+        props:combustible_simple        false ;
+        props:extendToStructure_simple  false ;
+        rdf:type                        bot:Element ;
+        props:compartmentation_simple   false ;
+        props:nameIfcRoot_attribute_simple  "PANEL:PANEL:317510:PANEL:317510 : PANEL:PANEL:317510:284904" ;
+        props:batid_attribute_simple    "284904" ;
+        rdf:type                        beo:Wall-NOTDEFINED ;
+        props:objectTypeIfcObject_attribute_simple  "PANEL:PANEL:317510:PANEL:317510 : PANEL:PANEL:317510" ;
+        props:loadBearing_simple        false ;
+        props:reference_simple          "PANEL" ;
+        props:isExternal_simple         false ;
+        props:status_simple             inst:IfcPropertyEnumeratedValue_160 .
+
+inst:IfcPropertyEnumeratedValue_163
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_3598 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcPropertyEnumeratedValue_555
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_3804 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_4705
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_821
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4021 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcPropertyEnumeratedValue_2114
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4798 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+ifc:IfcIdentifier  rdf:type  owl:Class .
+
+inst:IfcValue_List_3595
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcValue_List_3987
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_2397
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4957 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_4385
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:column_741953b5-b2ae-414b-a30b-33a19f4300f7
+        rdf:type                      bot:Element ;
+        props:objectTypeIfcObject_attribute_simple  "COLUMN 1628:COLUMN 1628" ;
+        props:batid_attribute_simple  "289199" ;
+        rdf:type                      beo:Column ;
+        props:loadBearing_simple      false ;
+        props:nameIfcRoot_attribute_simple  "COLUMN 1628:COLUMN 1628:318150" ;
+        props:roll_simple             "0."^^xsd:double ;
+        props:globalIdIfcRoot_attribute_simple  "1q6LErigv1IwCBCw6VGm3t" ;
+        rdf:type                      beo:Column-COLUMN ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_2580 ;
+        props:slope_simple            "1.5708"^^xsd:double ;
+        props:reference_simple        "COLUMN 1628" ;
+        props:isExternal_simple       false .
+
+inst:IfcValue_List_5175
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_1366
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4358 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:slab_a7d9c1db-a96d-4ded-9a32-f69dddef99b9
+        rdf:type                      beo:Slab-FLOOR ;
+        rdf:type                      beo:Slab ;
+        props:globalIdIfcRoot_attribute_simple  "2dsS7RgMrDxPeozftTxvcv" ;
+        props:nameIfcRoot_attribute_simple  "SLAB 1116:SLAB 1116:317702:SLAB 1116:317702 : SLAB 1116:SLAB 1116:317702:285101" ;
+        props:objectTypeIfcObject_attribute_simple  "SLAB 1116:SLAB 1116:317702:SLAB 1116:317702 : SLAB 1116:SLAB 1116:317702" ;
+        props:batid_attribute_simple  "285101" ;
+        props:isExternal_simple       false ;
+        props:reference_simple        "SLAB 1116" ;
+        rdf:type                      bot:Element .
+
+inst:buildingelement_dc134b3e-7ad9-4097-bcb6-bb05de889881
+        props:status_simple           inst:IfcPropertyEnumeratedValue_1842 ;
+        rdf:type                      beo:BuildingElement-NOTDEFINED ;
+        props:isExternal_simple       false ;
+        props:nameIfcRoot_attribute_simple  "BEAM 9063:BEAM 9063:285703" ;
+        props:loadBearing_simple      false ;
+        rdf:type                      bot:Element ;
+        props:batid_attribute_simple  "285703" ;
+        props:reference_simple        "B-1" ;
+        props:globalIdIfcRoot_attribute_simple  "3S4qi_Ujb0bxoskmNUY9Y1" ;
+        props:objectTypeIfcObject_attribute_simple  "BEAM 9063:BEAM 9063" ;
+        rdf:type                      beo:BuildingElement .
+
+inst:IfcPropertyEnumeratedValue_1885
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4665 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_3662
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcValue_List_4578
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:buildingelement_8fc2cf68-e571-430b-ae47-8d6ed41fa360
+        props:globalIdIfcRoot_attribute_simple  "2FmizevN532wv7ZMxK7wDW" ;
+        props:loadBearing_simple      false ;
+        props:reference_simple        "B-1 856" ;
+        rdf:type                      beo:BuildingElement-NOTDEFINED ;
+        props:nameIfcRoot_attribute_simple  "BEAM 8743:BEAM 8743:285623" ;
+        props:batid_attribute_simple  "285623" ;
+        rdf:type                      bot:Element ;
+        props:objectTypeIfcObject_attribute_simple  "BEAM 8743:BEAM 8743" ;
+        props:isExternal_simple       false ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_1672 ;
+        rdf:type                      beo:BuildingElement .
+
+inst:buildingelement_3338f5cb-0e8f-4fd0-bd42-99428c302460
+        props:batid_attribute_simple  "285303" ;
+        rdf:type                      beo:BuildingElement ;
+        rdf:type                      bot:Element ;
+        props:isExternal_simple       false ;
+        props:globalIdIfcRoot_attribute_simple  "0pEFNB3ezFqBr2cKACC2HW" ;
+        props:loadBearing_simple      false ;
+        props:reference_simple        "B-1 1481" ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_985 ;
+        props:objectTypeIfcObject_attribute_simple  "BEAM 7127:BEAM 7127" ;
+        props:nameIfcRoot_attribute_simple  "BEAM 7127:BEAM 7127:285303" ;
+        rdf:type                      beo:BuildingElement-NOTDEFINED .
+
+inst:IfcPropertyEnumeratedValue_960
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4107 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcPropertyEnumeratedValue_3254
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_5378 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcPropertyEnumeratedValue_1910
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4678 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_4337
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:buildingelement_93fac6cf-f763-4c89-bf65-7cf5973f850d
+        rdf:type                      beo:BuildingElement ;
+        props:isExternal_simple       false ;
+        props:batid_attribute_simple  "285367" ;
+        props:objectTypeIfcObject_attribute_simple  "BEAM 7497:BEAM 7497" ;
+        props:nameIfcRoot_attribute_simple  "BEAM 7497:BEAM 7497:285367" ;
+        rdf:type                      beo:BuildingElement-NOTDEFINED ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_1124 ;
+        props:loadBearing_simple      false ;
+        rdf:type                      bot:Element ;
+        props:globalIdIfcRoot_attribute_simple  "2J_iRFzsDCYRzbVFMNFuKD" ;
+        props:reference_simple        "B-1 905" .
+
+inst:IfcPropertyEnumeratedValue_2012
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4738 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_4518
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:buildingelement_086a6152-2d84-4ea2-b3ca-b3c16df84bed
+        props:isExternal_simple       false ;
+        rdf:type                      beo:BuildingElement-NOTDEFINED ;
+        props:loadBearing_simple      false ;
+        props:objectTypeIfcObject_attribute_simple  "BEAM 8935:BEAM 8935" ;
+        rdf:type                      bot:Element ;
+        props:globalIdIfcRoot_attribute_simple  "08Qc5IBOHEehFAiy5j_4lj" ;
+        props:batid_attribute_simple  "285671" ;
+        props:nameIfcRoot_attribute_simple  "BEAM 8935:BEAM 8935:285671" ;
+        rdf:type                      beo:BuildingElement ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_1774 ;
+        props:reference_simple        "B-1 905" .
+
+inst:IfcPropertyEnumeratedValue_338
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_3630 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:column_109e85f3-5e85-440b-bfae-70a97d54e356
+        props:batid_attribute_simple  "289197" ;
+        props:isExternal_simple       false ;
+        rdf:type                      beo:Column ;
+        props:slope_simple            "1.5708"^^xsd:double ;
+        props:loadBearing_simple      false ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_2458 ;
+        props:nameIfcRoot_attribute_simple  "COLUMN 1650:COLUMN 1650:318186" ;
+        rdf:type                      bot:Element ;
+        props:globalIdIfcRoot_attribute_simple  "0GdeNpNeL42x_kSAbzLEDM" ;
+        props:reference_simple        "COLUMN 1650" ;
+        props:objectTypeIfcObject_attribute_simple  "COLUMN 1650:COLUMN 1650" ;
+        rdf:type                      beo:Column-COLUMN ;
+        props:roll_simple             "0."^^xsd:double .
+
+inst:IfcValue_List_4645
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcValue_List_4042
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_550
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_3800 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_5435
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:buildingelement_93c60e20-0773-435d-b70a-bbdd488633d7
+        rdf:type                      beo:BuildingElement-NOTDEFINED ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_881 ;
+        props:globalIdIfcRoot_attribute_simple  "2JnWuW1tD3NRSAkzr8XZFN" ;
+        rdf:type                      beo:BuildingElement ;
+        props:batid_attribute_simple  "285255" ;
+        props:nameIfcRoot_attribute_simple  "BEAM 6839:BEAM 6839:285255" ;
+        rdf:type                      bot:Element ;
+        props:loadBearing_simple      false ;
+        props:isExternal_simple       false ;
+        props:objectTypeIfcObject_attribute_simple  "BEAM 6839:BEAM 6839" ;
+        props:reference_simple        "B-1 1017" .
+
+inst:IfcPropertyEnumeratedValue_1783
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4605 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:wall_cb6634a7-94fa-485c-a5e1-d80e16be6d5a
+        props:batid_attribute_simple    "285007" ;
+        rdf:type                        beo:Wall-NOTDEFINED ;
+        props:combustible_simple        false ;
+        props:nameIfcRoot_attribute_simple  "PANEL 569:PANEL 569:317605:PANEL 569:317605 : PANEL 569:PANEL 569:317605:285007" ;
+        props:reference_simple          "PANEL 569" ;
+        rdf:type                        beo:Wall ;
+        props:objectTypeIfcObject_attribute_simple  "PANEL 569:PANEL 569:317605:PANEL 569:317605 : PANEL 569:PANEL 569:317605" ;
+        props:extendToStructure_simple  false ;
+        props:isExternal_simple         false ;
+        props:status_simple             inst:IfcPropertyEnumeratedValue_473 ;
+        props:globalIdIfcRoot_attribute_simple  "3BPZIdbFf8NANXs0uMlcrQ" ;
+        props:compartmentation_simple   false ;
+        props:loadBearing_simple        false ;
+        rdf:type                        bot:Element .
+
+inst:column_4d441676-aff7-4405-aefd-f8bc857d17c4
+        props:reference_simple        "COLUMN 1270" ;
+        rdf:type                      bot:Element ;
+        props:nameIfcRoot_attribute_simple  "COLUMN 1270:COLUMN 1270:317811" ;
+        rdf:type                      beo:Column ;
+        props:roll_simple             "0."^^xsd:double ;
+        rdf:type                      beo:Column-COLUMN ;
+        props:isExternal_simple       false ;
+        props:objectTypeIfcObject_attribute_simple  "COLUMN 1270:COLUMN 1270" ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_3254 ;
+        props:slope_simple            "1.5708"^^xsd:double ;
+        props:loadBearing_simple      false ;
+        props:globalIdIfcRoot_attribute_simple  "1DH1Psh$T41Qxz_Bo5VHV4" ;
+        props:batid_attribute_simple  "289213" .
+
+inst:IfcPropertyEnumeratedValue_2458
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4989 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcPropertyEnumeratedValue_1331
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4337 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcPropertyEnumeratedValue_1638
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4518 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_5321
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcValue_List_4235
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcValue_List_3807
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcValue_List_5206
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:column_eb778484-f268-4897-89c4-2a8b4cd4af2c
+        props:isExternal_simple       false ;
+        rdf:type                      beo:Column-COLUMN ;
+        props:objectTypeIfcObject_attribute_simple  "COLUMN 1345:COLUMN 1345" ;
+        props:globalIdIfcRoot_attribute_simple  "3hTuI4ycX8bud4AejCrAyi" ;
+        props:nameIfcRoot_attribute_simple  "COLUMN 1345:COLUMN 1345:317934" ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_3008 ;
+        props:batid_attribute_simple  "289207" ;
+        rdf:type                      bot:Element ;
+        props:roll_simple             "0."^^xsd:double ;
+        props:slope_simple            "1.5708"^^xsd:double ;
+        props:loadBearing_simple      false ;
+        rdf:type                      beo:Column ;
+        props:reference_simple        "COLUMN 1345" .
+
+inst:IfcValue_List_3964
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcValue_List_4458
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcValue_List_4121
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_3049
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_5283 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcPropertyEnumeratedValue_1681
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4545 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:buildingelement_3fba2524-c842-4d26-b073-f1e61cc9b682
+        props:reference_simple        "B-1 826" ;
+        props:globalIdIfcRoot_attribute_simple  "0$kYKao49D9h1pyUOSoRQ2" ;
+        props:objectTypeIfcObject_attribute_simple  "BEAM 8025:BEAM 8025" ;
+        props:loadBearing_simple      false ;
+        rdf:type                      beo:BuildingElement ;
+        props:batid_attribute_simple  "285463" ;
+        props:nameIfcRoot_attribute_simple  "BEAM 8025:BEAM 8025:285463" ;
+        rdf:type                      beo:BuildingElement-NOTDEFINED ;
+        rdf:type                      bot:Element ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_1331 ;
+        props:isExternal_simple       false .
+
+inst:IfcPropertyEnumeratedValue_1409
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4385 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_4585
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:column_fcb1afc5-f58c-4611-a4d6-ade1245c327a
+        rdf:type                      beo:Column ;
+        rdf:type                      beo:Column-COLUMN ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_2519 ;
+        props:loadBearing_simple      false ;
+        props:reference_simple        "COLUMN 1639" ;
+        props:isExternal_simple       false ;
+        props:slope_simple            "1.5708"^^xsd:double ;
+        props:objectTypeIfcObject_attribute_simple  "COLUMN 1639:COLUMN 1639" ;
+        rdf:type                      bot:Element ;
+        props:batid_attribute_simple  "289198" ;
+        props:globalIdIfcRoot_attribute_simple  "3yiQ$5zOn64QJMhU4aN39w" ;
+        props:nameIfcRoot_attribute_simple  "COLUMN 1639:COLUMN 1639:318168" ;
+        props:roll_simple             "0."^^xsd:double .
+
+inst:buildingelement_b26cbc0c-9f17-4287-8467-409fbeaeaf5c
+        rdf:type                      beo:BuildingElement ;
+        props:nameIfcRoot_attribute_simple  "BEAM 6745:BEAM 6745:285239" ;
+        props:isExternal_simple       false ;
+        rdf:type                      beo:BuildingElement-NOTDEFINED ;
+        props:loadBearing_simple      false ;
+        props:reference_simple        "B-1 1017" ;
+        props:globalIdIfcRoot_attribute_simple  "2oRBmCdnT2XuHdG9__hgzS" ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_847 ;
+        props:batid_attribute_simple  "285239" ;
+        props:objectTypeIfcObject_attribute_simple  "BEAM 6745:BEAM 6745" ;
+        rdf:type                      bot:Element .
+
+inst:IfcPropertyEnumeratedValue_1089
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4192 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_4344
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_1536
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4458 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcPropertyEnumeratedValue_375
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_3662 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_4525
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcValue_List_3705
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_737
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_3960 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcPropertyEnumeratedValue_1029
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4154 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+ifc:IfcPropertyReferenceValue
+        owl:disjointWith  ifc:IfcPropertySingleValue ;
+        owl:disjointWith  ifc:IfcPropertyBoundedValue ;
+        owl:disjointWith  ifc:IfcPropertyEnumeratedValue ;
+        owl:disjointWith  ifc:IfcPropertyListValue ;
+        owl:disjointWith  ifc:IfcPropertyTableValue ;
+        rdf:type          owl:Class .
+
+inst:column_bfc59428-b839-45da-bbb3-03a64baea5fc
+        props:slope_simple            "1.5708"^^xsd:double ;
+        props:reference_simple        "COLUMN 1292" ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_3172 ;
+        rdf:type                      beo:Column-COLUMN ;
+        rdf:type                      beo:Column ;
+        props:objectTypeIfcObject_attribute_simple  "COLUMN 1292:COLUMN 1292" ;
+        props:isExternal_simple       false ;
+        props:loadBearing_simple      false ;
+        props:globalIdIfcRoot_attribute_simple  "2$nPGek3b5shkp0wPBhgNy" ;
+        rdf:type                      bot:Element ;
+        props:roll_simple             "0."^^xsd:double ;
+        props:batid_attribute_simple  "289211" ;
+        props:nameIfcRoot_attribute_simple  "COLUMN 1292:COLUMN 1292:317847" .
+
+inst:IfcValue_List_4989
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_1271
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4303 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_4778
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_2157
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4825 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_4145
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:buildingelement_4e5a90ec-9172-4932-94c6-101dc9890c88
+        props:isExternal_simple       false ;
+        props:loadBearing_simple      false ;
+        props:globalIdIfcRoot_attribute_simple  "1EMf3iaN99CfJ641t9YGo8" ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_1434 ;
+        rdf:type                      beo:BuildingElement-NOTDEFINED ;
+        props:batid_attribute_simple  "285511" ;
+        props:objectTypeIfcObject_attribute_simple  "BEAM 8295:BEAM 8295" ;
+        rdf:type                      bot:Element ;
+        props:nameIfcRoot_attribute_simple  "BEAM 8295:BEAM 8295:285511" ;
+        props:reference_simple        "B-1 771" ;
+        rdf:type                      beo:BuildingElement .
+
+inst:IfcValue_List_5020
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_3213
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_5359 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_4718
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcValue_List_4200
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_2519
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_5020 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcPropertyEnumeratedValue_2580
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_5051 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:buildingelement_4c3b70e0-f413-44df-a229-1187cb9817c0
+        props:status_simple           inst:IfcPropertyEnumeratedValue_1366 ;
+        props:loadBearing_simple      false ;
+        rdf:type                      beo:BuildingElement ;
+        rdf:type                      beo:BuildingElement-NOTDEFINED ;
+        rdf:type                      bot:Element ;
+        props:globalIdIfcRoot_attribute_simple  "1CEt3Wz1D4tw8f4OVBc1V0" ;
+        props:batid_attribute_simple  "285479" ;
+        props:nameIfcRoot_attribute_simple  "BEAM 8137:BEAM 8137:285479" ;
+        props:isExternal_simple       false ;
+        props:reference_simple        "B-1 797" ;
+        props:objectTypeIfcObject_attribute_simple  "BEAM 8137:BEAM 8137" .
+
+inst:IfcValue_List_4398
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:buildingelement_6d2657ee-57f1-4127-be00-80dc50ffcae1
+        props:isExternal_simple       false ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_2114 ;
+        rdf:type                      bot:Element ;
+        props:loadBearing_simple      false ;
+        rdf:type                      beo:BuildingElement ;
+        props:reference_simple        "B-1 771" ;
+        props:nameIfcRoot_attribute_simple  "BEAM 9575:BEAM 9575:285831" ;
+        props:objectTypeIfcObject_attribute_simple  "BEAM 9575:BEAM 9575" ;
+        props:globalIdIfcRoot_attribute_simple  "1j9bVkL$519xu0WDnG$yhX" ;
+        rdf:type                      beo:BuildingElement-NOTDEFINED ;
+        props:batid_attribute_simple  "285831" .
+
+inst:IfcPropertyEnumeratedValue_1168
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4242 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_4242
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_1434
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4398 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:buildingelement_a5258efb-e9ae-4571-9b1a-e460b8a964a3
+        props:batid_attribute_simple  "285639" ;
+        rdf:type                      bot:Element ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_1706 ;
+        props:loadBearing_simple      false ;
+        props:reference_simple        "B-1 826" ;
+        props:objectTypeIfcObject_attribute_simple  "BEAM 8807:BEAM 8807" ;
+        props:globalIdIfcRoot_attribute_simple  "2b9OxxwQv5SPiQv62ugMIZ" ;
+        props:nameIfcRoot_attribute_simple  "BEAM 8807:BEAM 8807:285639" ;
+        props:isExternal_simple       false ;
+        rdf:type                      beo:BuildingElement ;
+        rdf:type                      beo:BuildingElement-NOTDEFINED .
+
+inst:IfcPropertyEnumeratedValue_1953
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4705 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_4465
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcValue_List_5340
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:buildingelement_983278e6-b726-448a-8213-437e183b9c57
+        props:objectTypeIfcObject_attribute_simple  "BEAM 6921:BEAM 6921" ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_916 ;
+        rdf:type                      beo:BuildingElement ;
+        props:loadBearing_simple      false ;
+        props:reference_simple        "B-1 771" ;
+        rdf:type                      bot:Element ;
+        props:batid_attribute_simple  "285271" ;
+        props:isExternal_simple       false ;
+        props:globalIdIfcRoot_attribute_simple  "2OCdZcjoP4Ye8JGtuOEvnN" ;
+        props:nameIfcRoot_attribute_simple  "BEAM 6921:BEAM 6921:285271" ;
+        rdf:type                      beo:BuildingElement-NOTDEFINED .
+
+inst:IfcPropertyEnumeratedValue_2055
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4765 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_4169
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_1808
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4618 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcLabel_3584  <https://w3id.org/express#hasString>  "NEW" ;
+        rdf:type  ifc:IfcLabel .
+
+inst:IfcValue_List_3983
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+ifc:IfcLabel  rdf:type  owl:Class .
+
+inst:IfcValue_List_4405
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:buildingelement_01da38ab-845f-419c-b22f-722d02fbe61a
+        props:isExternal_simple       false ;
+        props:nameIfcRoot_attribute_simple  "BEAM 8679:BEAM 8679:285607" ;
+        rdf:type                      bot:Element ;
+        rdf:type                      beo:BuildingElement ;
+        props:objectTypeIfcObject_attribute_simple  "BEAM 8679:BEAM 8679" ;
+        props:reference_simple        "B-1 771" ;
+        props:batid_attribute_simple  "285607" ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_1638 ;
+        props:globalIdIfcRoot_attribute_simple  "01sZYhX5z1dB8lSYq2__OQ" ;
+        props:loadBearing_simple      false ;
+        rdf:type                      beo:BuildingElement-NOTDEFINED .
+
+inst:IfcValue_List_4296
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_985
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4121 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_4658
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:buildingelement_48355c81-2be3-4e03-9cce-247ddc4876ec
+        props:globalIdIfcRoot_attribute_simple  "18DLo1A_DE0vpE97tSI7Ri" ;
+        rdf:type                      beo:BuildingElement-NOTDEFINED ;
+        props:nameIfcRoot_attribute_simple  "BEAM 7849:BEAM 7849:285431" ;
+        props:loadBearing_simple      false ;
+        props:objectTypeIfcObject_attribute_simple  "BEAM 7849:BEAM 7849" ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_1262 ;
+        rdf:type                      beo:BuildingElement ;
+        props:reference_simple        "B-1 856" ;
+        rdf:type                      bot:Element ;
+        props:isExternal_simple       false ;
+        props:batid_attribute_simple  "285431" .
+
+inst:IfcValue_List_4055
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:column_a170c840-35cc-4048-b52b-bdc9859c201e
+        rdf:type                      beo:Column ;
+        props:batid_attribute_simple  "289205" ;
+        props:isExternal_simple       false ;
+        props:roll_simple             "0."^^xsd:double ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_2926 ;
+        props:reference_simple        "COLUMN 1369" ;
+        props:objectTypeIfcObject_attribute_simple  "COLUMN 1369:COLUMN 1369" ;
+        props:globalIdIfcRoot_attribute_simple  "2XSCX0DSn0IBKhlSc5d20U" ;
+        rdf:type                      beo:Column-COLUMN ;
+        rdf:type                      bot:Element ;
+        props:loadBearing_simple      false ;
+        props:slope_simple            "1.5708"^^xsd:double ;
+        props:nameIfcRoot_attribute_simple  "COLUMN 1369:COLUMN 1369:317993" .
+
+inst:IfcPropertyEnumeratedValue_925
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4083 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcPropertyEnumeratedValue_1193
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4255 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_4785
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_3008
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_5264 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcPropertyEnumeratedValue_1851
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4645 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcPropertyEnumeratedValue_2641
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_5082 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcPropertyEnumeratedValue_1133
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4221 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_4725
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_1706
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4558 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:column_d16e7258-d5ab-4eb8-adaf-d7bc6d29b6aa
+        props:globalIdIfcRoot_attribute_simple  "3HRd9OrQjEkAslrxnjARQg" ;
+        props:isExternal_simple       false ;
+        props:nameIfcRoot_attribute_simple  "COLUMN 1573:COLUMN 1573:318044" ;
+        props:objectTypeIfcObject_attribute_simple  "COLUMN 1573:COLUMN 1573" ;
+        rdf:type                      beo:Column-COLUMN ;
+        props:slope_simple            "1.5708"^^xsd:double ;
+        props:loadBearing_simple      false ;
+        props:roll_simple             "0."^^xsd:double ;
+        props:batid_attribute_simple  "289204" ;
+        rdf:type                      beo:Column ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_2885 ;
+        props:reference_simple        "COLUMN 1573" ;
+        rdf:type                      bot:Element .
+
+inst:IfcValue_List_4303
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+ifc:IfcPropertyListValue
+        owl:disjointWith  ifc:IfcPropertyBoundedValue ;
+        rdf:type          owl:Class ;
+        owl:disjointWith  ifc:IfcPropertySingleValue ;
+        owl:disjointWith  ifc:IfcPropertyEnumeratedValue ;
+        owl:disjointWith  ifc:IfcPropertyReferenceValue ;
+        owl:disjointWith  ifc:IfcPropertyTableValue .
+
+inst:buildingelement_b4dcc12f-e17a-4658-bb8d-e2fa31adb98f
+        props:reference_simple        "B-1 797" ;
+        props:nameIfcRoot_attribute_simple  "BEAM 9447:BEAM 9447:285799" ;
+        rdf:type                      bot:Element ;
+        props:loadBearing_simple      false ;
+        props:isExternal_simple       false ;
+        rdf:type                      beo:BuildingElement ;
+        props:objectTypeIfcObject_attribute_simple  "BEAM 9447:BEAM 9447" ;
+        props:batid_attribute_simple  "285799" ;
+        props:globalIdIfcRoot_attribute_simple  "2qtC4luNf6MBkDulenhRcF" ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_2046 ;
+        rdf:type                      beo:BuildingElement-NOTDEFINED .
+
+inst:IfcPropertyEnumeratedValue_2080
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4778 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:buildingelement_08cbb709-163c-4fed-9b28-c5c3919ff6e3
+        rdf:type                      beo:BuildingElement-NOTDEFINED ;
+        props:reference_simple        "B-1 856" ;
+        rdf:type                      beo:BuildingElement ;
+        props:globalIdIfcRoot_attribute_simple  "08oxS95ZnFxPienSEHd$RZ" ;
+        props:isExternal_simple       false ;
+        rdf:type                      bot:Element ;
+        props:nameIfcRoot_attribute_simple  "BEAM 9255:BEAM 9255:285751" ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_1944 ;
+        props:objectTypeIfcObject_attribute_simple  "BEAM 9255:BEAM 9255" ;
+        props:loadBearing_simple      false ;
+        props:batid_attribute_simple  "285751" .
+
+inst:IfcValue_List_3736
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:column_115e9958-beac-45f1-b975-83609735d328
+        props:objectTypeIfcObject_attribute_simple  "COLUMN 1248:COLUMN 1248" ;
+        rdf:type                      beo:Column ;
+        rdf:type                      bot:Element ;
+        rdf:type                      beo:Column-COLUMN ;
+        props:globalIdIfcRoot_attribute_simple  "0HNfbOlgn5yRbrWs2NDTCe" ;
+        props:isExternal_simple       false ;
+        props:roll_simple             "0."^^xsd:double ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_3336 ;
+        props:nameIfcRoot_attribute_simple  "COLUMN 1248:COLUMN 1248:317775" ;
+        props:batid_attribute_simple  "289215" ;
+        props:loadBearing_simple      false ;
+        props:slope_simple            "1.5708"^^xsd:double ;
+        props:reference_simple        "COLUMN 1248" .
+
+inst:IfcPropertyEnumeratedValue_431
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_3705 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_4598
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_1579
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4485 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:site_1009addc-9146-44a0-a7f3-5b42152a3885
+        bot:hasBuilding         inst:building_47b2bd2a-cc51-4be0-9b90-9f55318e2f81 ;
+        props:reference_simple  "Project Information" ;
+        rdf:type                bot:Site ;
+        props:globalIdIfcRoot_attribute_simple  "0G2QtSaKP4eAVpMq8LAZY5" ;
+        props:nameIfcRoot_attribute_simple  "Default" ;
+        props:refElevationIfcSite_attribute_simple  "0."^^xsd:double .
+
+inst:IfcValue_List_5051
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_473
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_3740 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_4538
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_1604
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4498 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcPropertyEnumeratedValue_2213
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4859 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:wall_97bfe34b-6deb-45ec-9ddd-fffac56fb1d8
+        props:objectTypeIfcObject_attribute_simple  "PANEL 692:PANEL 692:317621:PANEL 692:317621 : PANEL 692:PANEL 692:317621" ;
+        props:batid_attribute_simple    "285023" ;
+        props:nameIfcRoot_attribute_simple  "PANEL 692:PANEL 692:317621:PANEL 692:317621 : PANEL 692:PANEL 692:317621:285023" ;
+        rdf:type                        beo:Wall-NOTDEFINED ;
+        props:globalIdIfcRoot_attribute_simple  "2Nl_DBRUj5x9tT$$h5Rx7O" ;
+        props:isExternal_simple         false ;
+        props:extendToStructure_simple  false ;
+        rdf:type                        beo:Wall ;
+        props:compartmentation_simple   false ;
+        props:loadBearing_simple        false ;
+        props:reference_simple          "PANEL 692" ;
+        props:combustible_simple        false ;
+        props:status_simple             inst:IfcPropertyEnumeratedValue_555 ;
+        rdf:type                        bot:Element .
+
+inst:buildingelement_9c094d06-93ba-408c-943c-3a235b7e5c38
+        props:nameIfcRoot_attribute_simple  "BEAM 9511:BEAM 9511:285815" ;
+        props:objectTypeIfcObject_attribute_simple  "BEAM 9511:BEAM 9511" ;
+        props:globalIdIfcRoot_attribute_simple  "2S2Kq6axf0Z9GyEYDRVbmu" ;
+        props:isExternal_simple       false ;
+        props:batid_attribute_simple  "285815" ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_2080 ;
+        props:reference_simple        "B-1 797" ;
+        rdf:type                      beo:BuildingElement-NOTDEFINED ;
+        rdf:type                      beo:BuildingElement ;
+        rdf:type                      bot:Element ;
+        props:loadBearing_simple      false .
+
+inst:IfcValue_List_3960
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:buildingelement_83eba30d-abdc-4d33-bf6a-96b8ac73b831
+        props:status_simple           inst:IfcPropertyEnumeratedValue_812 ;
+        props:nameIfcRoot_attribute_simple  "BEAM:BEAM:285220" ;
+        props:batid_attribute_simple  "285220" ;
+        props:isExternal_simple       false ;
+        props:objectTypeIfcObject_attribute_simple  "BEAM:BEAM" ;
+        props:loadBearing_simple      false ;
+        rdf:type                      bot:Element ;
+        rdf:type                      beo:BuildingElement ;
+        rdf:type                      beo:BuildingElement-NOTDEFINED ;
+        props:globalIdIfcRoot_attribute_simple  "23wwCDgznDCxzgbhYiSxWn" ;
+        props:reference_simple        "B-1 1481" .
+
+inst:IfcValue_List_4665
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcValue_List_4062
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:buildingelement_f8595068-b8b3-416b-9f14-53c014766b77
+        rdf:type                      beo:BuildingElement ;
+        props:loadBearing_simple      false ;
+        props:batid_attribute_simple  "285383" ;
+        props:objectTypeIfcObject_attribute_simple  "BEAM 7609:BEAM 7609" ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_1159 ;
+        props:globalIdIfcRoot_attribute_simple  "3uML1ekBD1QvyKKy0KTcjt" ;
+        props:nameIfcRoot_attribute_simple  "BEAM 7609:BEAM 7609:285383" ;
+        props:reference_simple        "B-1 892" ;
+        rdf:type                      beo:BuildingElement-NOTDEFINED ;
+        props:isExternal_simple       false ;
+        rdf:type                      bot:Element .
+
+inst:IfcValue_List_3634
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_2702
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_5113 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:column_00b706d9-9ae1-490b-aa50-a63b3aafa079
+        props:loadBearing_simple      false ;
+        props:roll_simple             "0."^^xsd:double ;
+        props:globalIdIfcRoot_attribute_simple  "00jmRPck592wfGfZiwhw1v" ;
+        props:slope_simple            "1.5708"^^xsd:double ;
+        rdf:type                      beo:Column-COLUMN ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_3090 ;
+        props:reference_simple        "COLUMN 1314" ;
+        props:isExternal_simple       false ;
+        props:objectTypeIfcObject_attribute_simple  "COLUMN 1314:COLUMN 1314" ;
+        props:batid_attribute_simple  "289209" ;
+        rdf:type                      beo:Column ;
+        rdf:type                      bot:Element ;
+        props:nameIfcRoot_attribute_simple  "COLUMN 1314:COLUMN 1314:317883" .
+
+inst:IfcPropertyEnumeratedValue_847
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4035 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_4605
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:slab_eb8a297e-51db-4bb0-9702-c9b58da3657c
+        rdf:type                      beo:Slab-FLOOR ;
+        rdf:type                      beo:Slab ;
+        props:globalIdIfcRoot_attribute_simple  "3hYYb_KTjBi9S2oRMDesLy" ;
+        props:nameIfcRoot_attribute_simple  "SLAB 1551:SLAB 1551:318019:SLAB 1551:318019 : SLAB 1551:SLAB 1551:318019:285125" ;
+        props:objectTypeIfcObject_attribute_simple  "SLAB 1551:SLAB 1551:318019:SLAB 1551:318019 : SLAB 1551:SLAB 1551:318019" ;
+        props:batid_attribute_simple  "285125" ;
+        props:isExternal_simple       false ;
+        props:reference_simple        "SLAB 1551" ;
+        rdf:type                      bot:Element .
+
+inst:IfcPropertyEnumeratedValue_1296
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4316 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcPropertyEnumeratedValue_3172
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_5340 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:buildingelement_c88ce72c-75e4-4abb-ac69-3fdef9b42f1d
+        rdf:type                      bot:Element ;
+        props:globalIdIfcRoot_attribute_simple  "38ZESiTUHAkwnfFzxvj2yT" ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_2148 ;
+        props:reference_simple        "B-1" ;
+        props:loadBearing_simple      false ;
+        rdf:type                      beo:BuildingElement ;
+        props:nameIfcRoot_attribute_simple  "BEAM 9639:BEAM 9639:285847" ;
+        rdf:type                      beo:BuildingElement-NOTDEFINED ;
+        props:isExternal_simple       false ;
+        props:objectTypeIfcObject_attribute_simple  "BEAM 9639:BEAM 9639" ;
+        props:batid_attribute_simple  "285847" .
+
+inst:IfcPropertyEnumeratedValue_1477
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4425 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:buildingelement_2e89d853-04df-4cbd-b4ef-350b4af59dd2
+        props:isExternal_simple       false ;
+        props:loadBearing_simple      false ;
+        props:objectTypeIfcObject_attribute_simple  "BEAM 8359:BEAM 8359" ;
+        props:nameIfcRoot_attribute_simple  "BEAM 8359:BEAM 8359:285527" ;
+        props:batid_attribute_simple  "285527" ;
+        props:reference_simple        "B-1 771" ;
+        rdf:type                      bot:Element ;
+        rdf:type                      beo:BuildingElement ;
+        rdf:type                      beo:BuildingElement-NOTDEFINED ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_1468 ;
+        props:globalIdIfcRoot_attribute_simple  "0kYTXJ1DzClRJlDGjAzPtI" .
+
+ifc:IfcPropertySingleValue
+        owl:disjointWith  ifc:IfcPropertyListValue ;
+        owl:disjointWith  ifc:IfcPropertyTableValue ;
+        owl:disjointWith  ifc:IfcPropertyBoundedValue ;
+        owl:disjointWith  ifc:IfcPropertyEnumeratedValue ;
+        owl:disjointWith  ifc:IfcPropertyReferenceValue ;
+        rdf:type          owl:Class .
+
+inst:IfcValue_List_4255
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_1055
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4169 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:buildingelement_fd0da2a8-d924-4861-9d61-541b57eb8db6
+        props:status_simple           inst:IfcPropertyEnumeratedValue_1227 ;
+        props:objectTypeIfcObject_attribute_simple  "BEAM 7767:BEAM 7767" ;
+        rdf:type                      beo:BuildingElement-NOTDEFINED ;
+        rdf:type                      bot:Element ;
+        props:loadBearing_simple      false ;
+        rdf:type                      beo:BuildingElement ;
+        props:batid_attribute_simple  "285415" ;
+        props:isExternal_simple       false ;
+        props:nameIfcRoot_attribute_simple  "BEAM 7767:BEAM 7767:285415" ;
+        props:globalIdIfcRoot_attribute_simple  "3z3QAesIH8OPrXL1jNwuss" ;
+        props:reference_simple        "B-1 892" .
+
+inst:buildingelement_d1b516a6-5837-42f0-8da7-a917a5e523dd
+        rdf:type                      beo:BuildingElement-NOTDEFINED ;
+        rdf:type                      beo:BuildingElement ;
+        props:batid_attribute_simple  "285351" ;
+        props:nameIfcRoot_attribute_simple  "BEAM 7415:BEAM 7415:285351" ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_1089 ;
+        props:objectTypeIfcObject_attribute_simple  "BEAM 7415:BEAM 7415" ;
+        props:reference_simple        "B-1 1444" ;
+        props:loadBearing_simple      false ;
+        rdf:type                      bot:Element ;
+        props:isExternal_simple       false ;
+        props:globalIdIfcRoot_attribute_simple  "3HjHQcM3T2y8sdgHUbvIFT" .
+
+inst:IfcPropertyEnumeratedValue_160
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_3595 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcPropertyEnumeratedValue_1236
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4282 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_3701
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_1502
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4438 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_5226
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_890
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4062 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcPropertyEnumeratedValue_2967
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_5245 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_4478
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:buildingelement_fca5d8df-990c-4f44-9a78-0f8abd804dd8
+        props:globalIdIfcRoot_attribute_simple  "3yfTZVcGnFH9fu3ugzW4tO" ;
+        props:reference_simple        "B-1" ;
+        props:nameIfcRoot_attribute_simple  "BEAM 7033:BEAM 7033:285287" ;
+        rdf:type                      bot:Element ;
+        props:isExternal_simple       false ;
+        props:batid_attribute_simple  "285287" ;
+        rdf:type                      beo:BuildingElement ;
+        props:loadBearing_simple      false ;
+        rdf:type                      beo:BuildingElement-NOTDEFINED ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_951 ;
+        props:objectTypeIfcObject_attribute_simple  "BEAM 7033:BEAM 7033" .
+
+inst:IfcPropertyEnumeratedValue_2123
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4805 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:column_2ddd8a70-2090-4b43-bd1e-998c73fadb2e
+        props:slope_simple            "1.5708"^^xsd:double ;
+        props:nameIfcRoot_attribute_simple  "COLUMN 1281:COLUMN 1281:317829" ;
+        rdf:type                      beo:Column-COLUMN ;
+        rdf:type                      beo:Column ;
+        props:objectTypeIfcObject_attribute_simple  "COLUMN 1281:COLUMN 1281" ;
+        props:loadBearing_simple      false ;
+        rdf:type                      bot:Element ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_3213 ;
+        props:globalIdIfcRoot_attribute_simple  "0jtOfm891BGxqUcOnp_jik" ;
+        props:reference_simple        "COLUMN 1281" ;
+        props:roll_simple             "0."^^xsd:double ;
+        props:batid_attribute_simple  "289212" ;
+        props:isExternal_simple       false .
+
+inst:IfcValue_List_4418
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_1978
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4718 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcPropertyEnumeratedValue_1375
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4365 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_4098
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_3377
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_5435 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_4545
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_1400
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4378 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcPropertyEnumeratedValue_812
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4009 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_4798
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_1749
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4585 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_4738
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_1020
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4145 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcPropertyEnumeratedValue_2021
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4745 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcPropertyEnumeratedValue_558
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_3807 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_4316
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcValue_List_4895
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:column_ed32d441-cf48-4981-921d-886f536bd490
+        props:roll_simple             "0."^^xsd:double ;
+        props:batid_attribute_simple  "289216" ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_3377 ;
+        rdf:type                      beo:Column ;
+        props:objectTypeIfcObject_attribute_simple  "COLUMN:COLUMN" ;
+        rdf:type                      beo:Column-COLUMN ;
+        props:isExternal_simple       false ;
+        props:nameIfcRoot_attribute_simple  "COLUMN:COLUMN:317746" ;
+        props:globalIdIfcRoot_attribute_simple  "3jCjH1pqX9WP8TY6zJQzIG" ;
+        props:slope_simple            "1.5708"^^xsd:double ;
+        props:loadBearing_simple      false ;
+        rdf:type                      bot:Element ;
+        props:reference_simple        "COLUMN" .
+
+inst:storey_945a0d30-2bd1-4a59-9df7-0f3fc4b05959
+        bot:containsElement       inst:column_ee87dedd-8546-46ea-9496-c5e42c7212e6 ;
+        props:nameIfcRoot_attribute_simple  "Default" ;
+        bot:containsElement       inst:column_ed32d441-cf48-4981-921d-886f536bd490 ;
+        bot:containsElement       inst:buildingelement_8fc2cf68-e571-430b-ae47-8d6ed41fa360 ;
+        bot:containsElement       inst:buildingelement_e1f6f5d4-5c9f-45a8-b04a-3d0126e8221d ;
+        bot:containsElement       inst:buildingelement_3436125d-3041-4732-bd3e-c8d1b3cea2e7 ;
+        props:globalIdIfcRoot_attribute_simple  "2KMWqmAz5AMPtt3p$4i5bP" ;
+        bot:containsElement       inst:buildingelement_d1b516a6-5837-42f0-8da7-a917a5e523dd ;
+        bot:containsElement       inst:slab_eb8a297e-51db-4bb0-9702-c9b58da3657c ;
+        bot:containsElement       inst:column_bfc59428-b839-45da-bbb3-03a64baea5fc ;
+        bot:containsElement       inst:buildingelement_20235db3-c25e-4208-9628-93a27f3d25f0 ;
+        bot:containsElement       inst:buildingelement_ea9d675d-9218-4407-a311-6fea3bdba573 ;
+        bot:containsElement       inst:buildingelement_b4dcc12f-e17a-4658-bb8d-e2fa31adb98f ;
+        bot:containsElement       inst:column_e8422bf1-b420-4276-97e5-bfb6e95ddf85 ;
+        bot:containsElement       inst:buildingelement_93fac6cf-f763-4c89-bf65-7cf5973f850d ;
+        bot:containsElement       inst:wall_2fcd0ec3-3467-4059-af15-126801a3c442 ;
+        bot:containsElement       inst:column_109e85f3-5e85-440b-bfae-70a97d54e356 ;
+        bot:containsElement       inst:wall_97eb3418-4dfc-4398-91ab-0179aef0b7f0 ;
+        bot:containsElement       inst:column_c14bede6-b05b-42db-8366-70785c87dbc6 ;
+        bot:containsElement       inst:column_eb778484-f268-4897-89c4-2a8b4cd4af2c ;
+        bot:containsElement       inst:buildingelement_c9365e2c-3446-4c67-8b5f-355a2b775e21 ;
+        bot:containsElement       inst:buildingelement_387eafd6-0250-4392-a1bc-5fdf94c543ce ;
+        bot:containsElement       inst:column_741953b5-b2ae-414b-a30b-33a19f4300f7 ;
+        bot:containsElement       inst:buildingelement_94e055f8-4e27-45e6-9dea-6e37216753b5 ;
+        bot:containsElement       inst:buildingelement_93c60e20-0773-435d-b70a-bbdd488633d7 ;
+        bot:containsElement       inst:buildingelement_3271351a-ae10-45c6-97b5-105262c31f15 ;
+        bot:containsElement       inst:wall_cb6634a7-94fa-485c-a5e1-d80e16be6d5a ;
+        bot:containsElement       inst:buildingelement_3338f5cb-0e8f-4fd0-bd42-99428c302460 ;
+        bot:containsElement       inst:buildingelement_fd0da2a8-d924-4861-9d61-541b57eb8db6 ;
+        bot:containsElement       inst:buildingelement_d3484dae-ca48-4de5-aeb2-df2be6d9135d ;
+        rdf:type                  bot:Storey ;
+        bot:containsElement       inst:column_581df863-9287-43d6-9651-af2e4421db34 ;
+        bot:containsElement       inst:buildingelement_086a6152-2d84-4ea2-b3ca-b3c16df84bed ;
+        props:longNameIfcSpatialElement_attribute_simple  "Default" ;
+        bot:containsElement       inst:buildingelement_08cbb709-163c-4fed-9b28-c5c3919ff6e3 ;
+        bot:containsElement       inst:buildingelement_f8595068-b8b3-416b-9f14-53c014766b77 ;
+        bot:containsElement       inst:column_4d441676-aff7-4405-aefd-f8bc857d17c4 ;
+        bot:containsElement       inst:column_a170c840-35cc-4048-b52b-bdc9859c201e ;
+        bot:containsElement       inst:column_d16e7258-d5ab-4eb8-adaf-d7bc6d29b6aa ;
+        bot:containsElement       inst:column_f535e863-c658-48d3-a685-392c5fc0097b ;
+        bot:containsElement       inst:column_e21b628f-0137-4726-9bed-3be48876a82d ;
+        bot:containsElement       inst:column_d6db347f-5bcd-4534-9a6b-32b1f6c3c91a ;
+        bot:containsElement       inst:column_ffaf805a-9507-42a0-9573-f0770b8a4c29 ;
+        bot:containsElement       inst:buildingelement_e0cfb2e3-5c0a-4f60-b0b6-5c4c970e9650 ;
+        props:aboveGround_simple  <https://w3id.org/express#UNKNOWN> ;
+        bot:containsElement       inst:buildingelement_c88ce72c-75e4-4abb-ac69-3fdef9b42f1d ;
+        bot:containsElement       inst:buildingelement_2e89d853-04df-4cbd-b4ef-350b4af59dd2 ;
+        props:elevationIfcBuildingStorey_attribute_simple  "0."^^xsd:double ;
+        bot:containsElement       inst:column_115e9958-beac-45f1-b975-83609735d328 ;
+        bot:containsElement       inst:buildingelement_b26cbc0c-9f17-4287-8467-409fbeaeaf5c ;
+        bot:containsElement       inst:buildingelement_a4542748-b35e-4617-bb72-9e12aeb6c445 ;
+        bot:containsElement       inst:buildingelement_3fba2524-c842-4d26-b073-f1e61cc9b682 ;
+        bot:containsElement       inst:column_bf0e5309-e3ca-41d4-9b73-d4bd2488cc66 ;
+        bot:containsElement       inst:column_fcb1afc5-f58c-4611-a4d6-ade1245c327a ;
+        bot:containsElement       inst:column_6f575c00-8bdf-422e-b994-eb361797d970 ;
+        bot:containsElement       inst:buildingelement_fca5d8df-990c-4f44-9a78-0f8abd804dd8 ;
+        bot:containsElement       inst:column_2ddd8a70-2090-4b43-bd1e-998c73fadb2e ;
+        bot:containsElement       inst:buildingelement_87bfb082-c79a-468d-a310-4a1b70023d89 ;
+        bot:containsElement       inst:column_e2c80d78-e607-4f33-929f-37430b29c705 ;
+        bot:containsElement       inst:slab_a7d9c1db-a96d-4ded-9a32-f69dddef99b9 ;
+        bot:containsElement       inst:buildingelement_5e65b4f4-1ede-43f4-941c-8248b48a83f7 ;
+        bot:containsElement       inst:wall_a4216b4e-32a7-41a0-8869-27401c3dc198 ;
+        bot:containsElement       inst:buildingelement_6d2657ee-57f1-4127-be00-80dc50ffcae1 ;
+        bot:containsElement       inst:buildingelement_983278e6-b726-448a-8213-437e183b9c57 ;
+        bot:containsElement       inst:column_11951891-53d3-4c6b-983e-94c2a686ab3a ;
+        bot:containsElement       inst:slab_a2450c0e-392d-4c89-b2b5-3825392cf526 ;
+        bot:containsElement       inst:buildingelement_f0000bba-78d4-4c66-8e20-c51cf99467cb ;
+        bot:containsElement       inst:column_00b706d9-9ae1-490b-aa50-a63b3aafa079 ;
+        bot:containsElement       inst:wall_950b555f-fff8-4d01-aad9-9b58fb61459d ;
+        bot:containsElement       inst:wall_97bfe34b-6deb-45ec-9ddd-fffac56fb1d8 ;
+        bot:containsElement       inst:buildingelement_dc134b3e-7ad9-4097-bcb6-bb05de889881 ;
+        props:reference_simple    "1/4\" Head" ;
+        bot:containsElement       inst:buildingelement_4e5a90ec-9172-4932-94c6-101dc9890c88 ;
+        bot:containsElement       inst:buildingelement_48355c81-2be3-4e03-9cce-247ddc4876ec ;
+        bot:containsElement       inst:buildingelement_01da38ab-845f-419c-b22f-722d02fbe61a ;
+        bot:containsElement       inst:wall_099566dd-b175-4f7e-a212-1d5967b84e7c ;
+        bot:containsElement       inst:buildingelement_9c094d06-93ba-408c-943c-3a235b7e5c38 ;
+        bot:containsElement       inst:buildingelement_4c3b70e0-f413-44df-a229-1187cb9817c0 ;
+        bot:containsElement       inst:buildingelement_a5258efb-e9ae-4571-9b1a-e460b8a964a3 ;
+        bot:containsElement       inst:wall_85fc9af8-4669-4d04-89ee-efe91bb93b68 ;
+        props:objectTypeIfcObject_attribute_simple  "Level:1/4\" Head" ;
+        bot:containsElement       inst:buildingelement_f4b71da7-fbd2-4944-aa6e-f2927994b9e2 ;
+        bot:containsElement       inst:buildingelement_83eba30d-abdc-4d33-bf6a-96b8ac73b831 .
+
+inst:IfcPropertyEnumeratedValue_1876
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4658 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_3598
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcValue_List_5082
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcValue_List_4262
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcPropertyEnumeratedValue_951
+        ifc:enumerationValues_IfcPropertyEnumeratedValue  inst:IfcValue_List_4098 ;
+        ifc:name_IfcProperty  inst:IfcIdentifier_3582 ;
+        rdf:type              ifc:IfcPropertyEnumeratedValue .
+
+inst:IfcValue_List_4358
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcValue_List_5359
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcValue_List_4021
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:buildingelement_f0000bba-78d4-4c66-8e20-c51cf99467cb
+        props:objectTypeIfcObject_attribute_simple  "BEAM 8551:BEAM 8551" ;
+        rdf:type                      beo:BuildingElement-NOTDEFINED ;
+        props:reference_simple        "B-1 771" ;
+        props:isExternal_simple       false ;
+        props:globalIdIfcRoot_attribute_simple  "3m00kwUDHCPeuWnHpvb6VB" ;
+        rdf:type                      beo:BuildingElement ;
+        props:nameIfcRoot_attribute_simple  "BEAM 8551:BEAM 8551:285575" ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_1570 ;
+        rdf:type                      bot:Element ;
+        props:loadBearing_simple      false ;
+        props:batid_attribute_simple  "285575" .
+
+inst:IfcValue_List_3804
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:IfcValue_List_4805
+        <https://w3id.org/list#hasContents>  inst:IfcLabel_3584 ;
+        rdf:type  ifc:IfcValue_List .
+
+inst:buildingelement_ea9d675d-9218-4407-a311-6fea3bdba573
+        props:reference_simple        "B-1 892" ;
+        rdf:type                      beo:BuildingElement ;
+        rdf:type                      bot:Element ;
+        props:loadBearing_simple      false ;
+        props:status_simple           inst:IfcPropertyEnumeratedValue_1808 ;
+        props:nameIfcRoot_attribute_simple  "BEAM 8999:BEAM 8999:285687" ;
+        props:isExternal_simple       false ;
+        props:globalIdIfcRoot_attribute_simple  "3gdMTTaXX41wCHR_exswLp" ;
+        props:batid_attribute_simple  "285687" ;
+        rdf:type                      beo:BuildingElement-NOTDEFINED ;
+        props:objectTypeIfcObject_attribute_simple  "BEAM 8999:BEAM 8999" .
