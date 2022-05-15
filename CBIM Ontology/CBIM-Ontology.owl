@@ -1,0 +1,428 @@
+@prefix : <http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://example.org/CBIM_Ontology#> .
+
+<http://example.org/CBIM_Ontology#> rdf:type owl:Ontology .
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://example.org/CBIM_Ontology#/www.w3.org/2001/XMLSchema#double
+<http://example.org/CBIM_Ontology#/www.w3.org/2001/XMLSchema#double> rdf:type rdfs:Datatype .
+
+
+###  http://example.org/CBIM_Ontology#/www.w3.org/2001/XMLSchema#string
+<http://example.org/CBIM_Ontology#/www.w3.org/2001/XMLSchema#string> rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://example.org/CBIM_Ontology#property
+:property rdf:type owl:ObjectProperty ;
+          rdfs:domain :RelSpatialConstraint ;
+          rdfs:range :SpatialConstraintAttribute .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#correspondsTo
+:correspondsTo rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :function .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#equivalentTo
+:equivalentTo rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf :function .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#fills
+:fills rdf:type owl:ObjectProperty ;
+       rdfs:subPropertyOf :function .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#function
+:function rdf:type owl:ObjectProperty ,
+                   owl:FunctionalProperty ;
+          rdfs:domain :BuildingElement ;
+          rdfs:range :BuildingElement .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#hasConnectionType
+:hasConnectionType rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf :property .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#hasConstraintDescription
+:hasConstraintDescription rdf:type owl:ObjectProperty ;
+                          rdfs:subPropertyOf :property .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#hasDirection
+:hasDirection rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf :property .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#hasObject
+:hasObject rdf:type owl:ObjectProperty ,
+                    owl:FunctionalProperty ;
+           rdfs:domain :Rel ;
+           rdfs:range :BuildingElement .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#hasOperator
+:hasOperator rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :property .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#hasSubject
+:hasSubject rdf:type owl:ObjectProperty ,
+                     owl:FunctionalProperty ;
+            rdfs:domain :Rel ;
+            rdfs:range :BuildingElement .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#hasType
+:hasType rdf:type owl:ObjectProperty ;
+         rdfs:range :ConnectionTypeEnum .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#hasValue
+:hasValue rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf :property .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#hosts
+:hosts rdf:type owl:ObjectProperty ;
+       rdfs:subPropertyOf :function .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#partOf
+:partOf rdf:type owl:ObjectProperty ;
+        rdfs:subPropertyOf :function .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#RelSpatialProperties
+:RelSpatialProperties rdf:type owl:DatatypeProperty ;
+                      rdfs:domain :RelSpatial .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#Xaxis
+:Xaxis rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#Yaxis
+:Yaxis rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#Zaxis
+:Zaxis rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#hasDescription
+:hasDescription rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#hasStatus
+:hasStatus rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#hasValue
+:hasValue rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#inContact
+:inContact rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf :RelSpatialProperties ;
+           rdfs:range xsd:boolean .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#offset
+:offset rdf:type owl:DatatypeProperty ;
+        rdfs:subPropertyOf :RelSpatialProperties ;
+        rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#topology
+:topology rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf :RelSpatialProperties ;
+          rdfs:range xsd:string .
+
+
+###  https://w3id.org/express#hasBoolean
+<https://w3id.org/express#hasBoolean> rdf:type owl:DatatypeProperty ,
+                                               owl:FunctionalProperty .
+
+
+###  https://w3id.org/express#hasDouble
+<https://w3id.org/express#hasDouble> rdf:type owl:DatatypeProperty ,
+                                              owl:FunctionalProperty .
+
+
+###  https://w3id.org/express#hasString
+<https://w3id.org/express#hasString> rdf:type owl:DatatypeProperty ,
+                                              owl:FunctionalProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#Attribute
+:Attribute rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#BuildingElement
+:BuildingElement rdf:type owl:Class ;
+                 rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                   owl:onProperty :correspondsTo ;
+                                   owl:allValuesFrom :BuildingElement
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty :equivalentTo ;
+                                   owl:allValuesFrom :BuildingElement
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty :fills ;
+                                   owl:allValuesFrom :BuildingElement
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty :hosts ;
+                                   owl:allValuesFrom :BuildingElement
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty :partOf ;
+                                   owl:allValuesFrom :BuildingElement
+                                 ] .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#ConnectionTypeEnum
+:ConnectionTypeEnum rdf:type owl:Class ;
+                    rdfs:subClassOf :SpatialConstraintAttribute .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#ConstraintDescription
+:ConstraintDescription rdf:type owl:Class ;
+                       rdfs:subClassOf :SpatialConstraintAttribute ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty :hasDescription ;
+                                         owl:allValuesFrom <http://example.org/CBIM_Ontology#/www.w3.org/2001/XMLSchema#string>
+                                       ] .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#DesignIntentAttribute
+:DesignIntentAttribute rdf:type owl:Class ;
+                       rdfs:subClassOf :Attribute .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#DirectionEnum
+:DirectionEnum rdf:type owl:Class ;
+               rdfs:subClassOf :SpatialConstraintAttribute .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#OperatorEnum
+:OperatorEnum rdf:type owl:Class ;
+              rdfs:subClassOf :SpatialConstraintAttribute .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#Rel
+:Rel rdf:type owl:Class ;
+     rdfs:subClassOf [ rdf:type owl:Restriction ;
+                       owl:onProperty :hasObject ;
+                       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                       owl:onClass :BuildingElement
+                     ] ,
+                     [ rdf:type owl:Restriction ;
+                       owl:onProperty :hasSubject ;
+                       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                       owl:onClass :BuildingElement
+                     ] .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#RelDesignIntent
+:RelDesignIntent rdf:type owl:Class ;
+                 rdfs:subClassOf :Rel .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#RelSpatial
+:RelSpatial rdf:type owl:Class ;
+            rdfs:subClassOf :Rel ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :inContact ;
+                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onDataRange xsd:boolean
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :offset ;
+                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onDataRange xsd:string
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :topology ;
+                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onDataRange xsd:string
+                            ] .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#RelSpatialConstraint
+:RelSpatialConstraint rdf:type owl:Class ;
+                      rdfs:subClassOf :RelDesignIntent ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty :hasConnectionType ;
+                                        owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                        owl:onClass :ConnectionTypeEnum
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty :hasConstraintDescription ;
+                                        owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                        owl:onClass :ConstraintDescription
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty :hasDirection ;
+                                        owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                        owl:onClass :DirectionEnum
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty :hasOperator ;
+                                        owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                        owl:onClass :OperatorEnum
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty :hasValue ;
+                                        owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                        owl:onClass :Value
+                                      ] .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#SpatialConstraintAttribute
+:SpatialConstraintAttribute rdf:type owl:Class ;
+                            rdfs:subClassOf :DesignIntentAttribute .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#Value
+:Value rdf:type owl:Class ;
+       rdfs:subClassOf :SpatialConstraintAttribute ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :hasValue ;
+                         owl:allValuesFrom <http://example.org/CBIM_Ontology#/www.w3.org/2001/XMLSchema#double>
+                       ] ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :hasValue ;
+                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                         owl:onDataRange <http://example.org/CBIM_Ontology#/www.w3.org/2001/XMLSchema#double>
+                       ] .
+
+
+###  https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#IfcElement
+<https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#IfcElement> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf :BuildingElement .
+
+
+###  https://w3id.org/bot#Element
+<https://w3id.org/bot#Element> rdf:type owl:Class ;
+                               rdfs:subClassOf :BuildingElement .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#BOLTED
+:BOLTED rdf:type owl:NamedIndividual ,
+                 :ConnectionTypeEnum .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#BRACKET
+:BRACKET rdf:type owl:NamedIndividual ,
+                  :ConnectionTypeEnum .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#EQUAL_TO
+:EQUAL_TO rdf:type owl:NamedIndividual ,
+                   :OperatorEnum .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#GLUED
+:GLUED rdf:type owl:NamedIndividual ,
+                :ConnectionTypeEnum .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#HOOK
+:HOOK rdf:type owl:NamedIndividual ,
+               :ConnectionTypeEnum .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#LARGER_THAN
+:LARGER_THAN rdf:type owl:NamedIndividual ,
+                      :OperatorEnum .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#LARGER_THAN_OR_EQUAL_TO
+:LARGER_THAN_OR_EQUAL_TO rdf:type owl:NamedIndividual ,
+                                  :OperatorEnum .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#NONE
+:NONE rdf:type owl:NamedIndividual ,
+               :ConnectionTypeEnum .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#REBAR
+:REBAR rdf:type owl:NamedIndividual ,
+                :ConnectionTypeEnum .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#SMALLER_THAN
+:SMALLER_THAN rdf:type owl:NamedIndividual ,
+                       :OperatorEnum .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#SMALLER_THAN_OR_EQUAL_TO
+:SMALLER_THAN_OR_EQUAL_TO rdf:type owl:NamedIndividual ,
+                                   :OperatorEnum .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#WELDED
+:WELDED rdf:type owl:NamedIndividual ,
+                 :ConnectionTypeEnum .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#X
+:X rdf:type owl:NamedIndividual ,
+            :DirectionEnum .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#X_ROTATION
+:X_ROTATION rdf:type owl:NamedIndividual ,
+                     :DirectionEnum .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#Y
+:Y rdf:type owl:NamedIndividual ,
+            :DirectionEnum .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#Y_ROTATION
+:Y_ROTATION rdf:type owl:NamedIndividual ,
+                     :DirectionEnum .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#Z
+:Z rdf:type owl:NamedIndividual ,
+            :DirectionEnum .
+
+
+###  http://www.semanticweb.org/oyter/ontologies/2021/8/untitled-ontology-41#Z_ROTATION
+:Z_ROTATION rdf:type owl:NamedIndividual ,
+                     :DirectionEnum .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
