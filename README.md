@@ -23,5 +23,5 @@ The inputs to the enrichment procedure are:
 2. [ms_str_LBD.ttl](https://github.com/terry-oy/CBIM-position/blob/main/ms_str_LBD.ttl), the raw LBD representation of the structural partial model.
 3. [ms_plum_LBD.ttl](https://github.com/terry-oy/CBIM-position/blob/main/ms_plum_LBD.ttl), the raw LBD representation of the pluming partial model.
 
-The final product of the enrichment procedure is [enriched_ms_conjuction.trig](https://github.com/terry-oy/CBIM-position/blob/main/ms_conjuction_enriched.trig), the combined meta-graph with enriched CBIM relationships established between building objects across domains.
+The final product of the enrichment procedure is [enriched_ms_metagraph.trig](https://github.com/terry-oy/CBIM-position/blob/main/enriched_ms_metagraph.trig), the combined meta-graph with enriched CBIM relationships established between building objects across domains.
 
