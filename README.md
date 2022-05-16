@@ -7,11 +7,11 @@ This is the repository to host the CBIM Ontology and the related enrichment proc
 
 ## CBIM Ontology
 
-Two ontology files can be found under the folder "[CBIM Ontology]("https://github.com/terry-oy/CBIM-position/tree/main/CBIM Ontology")": 
+Two ontology files can be found under the folder "[CBIM Ontology](<https://github.com/terry-oy/CBIM-position/tree/main/CBIM Ontology>)": 
 
-1. [CBIM-Ontology-full.owl]("https://github.com/terry-oy/CBIM-position/blob/main/CBIM Ontology/CBIM-Ontology-full.owl"): the full version of the CBIM Ontology in consistent with the one presented in the paper.
+1. [CBIM-Ontology-full.owl](<https://github.com/terry-oy/CBIM-position/blob/main/CBIM Ontology/CBIM-Ontology-full.owl>): the full version of the CBIM Ontology in consistent with the one presented in the paper.
 
-2. [CBIM-Ontology-simple.owl]("https://github.com/terry-oy/CBIM-position/blob/main/CBIM Ontology/CBIM-Ontology-simple.owl"): a simplified version of the CBIM Ontology evolved from the original full Ontology. 
+2. [CBIM-Ontology-simple.owl](<https://github.com/terry-oy/CBIM-position/blob/main/CBIM Ontology/CBIM-Ontology-simple.owl>): a simplified version of the CBIM Ontology evolved from the original full Ontology. 
 
 ## Enriching multidisciplinary BIM graphs with CBIM relationships
 
